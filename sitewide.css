@@ -1,0 +1,48 @@
+A:hover { 
+	color: #FFFFCC;
+	text-decoration: none;
+	font-weight: bold;
+}
+A:link {
+	color: #FFFFBB;
+	text-decoration: none; 
+	font-weight: bold;
+}
+A:visited {
+	color: #AAAA88;
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+A:active {
+	color: #FFFF33;
+	text-decoration: none; 
+	font-weight: bold;
+}
+BODY {	
+	font-size: 10pt;
+	font-family: Verdana, Geneva, Helvetica, Arial;
+	background: #888888;
+	color: #000000;
+#	margin: 0 0 0 0;
+}
+TABLE {
+	background: #000000;
+	margin: auto auto 5px auto;
+}
+TD {
+	background: #666666;
+}
+TH {
+	background: #666666;
+	text-align: left;
+}
+DIV {
+	background: #666666;
+	border: 1px #000000 solid;
+}
+H1 {
+	font: 24pt Verdana, Geneva, Helvetica, Arial;
+	font-weight: bold;
+	line-height: 5px;
+}

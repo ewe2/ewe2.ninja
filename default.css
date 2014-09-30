@@ -1,0 +1,238 @@
+/* reset first */
+
+
+/* reset browser styles */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* end reset browser styles */
+
+A:hover { 
+	color: #FFFFCC;
+	text-decoration: none;
+	font-weight: bold;
+}
+A:link {
+	color: #FFFFBB;
+	text-decoration: none; 
+	font-weight: bold;
+}
+A:visited {
+	color: #AAAA88;
+	text-decoration: none; 
+	font-weight: bold;
+}
+
+A:active {
+	color: #FFFF33;
+	text-decoration: none; 
+	font-weight: bold;
+}
+BODY {	
+	font-size: 12pt;
+	font-family: Verdana, Geneva, Helvetica, Arial;
+	background: #888888;
+	color: #000000;
+	margin: 0 0 0 0;
+
+}
+
+DIV {
+	background: #666666;
+	border: 1px #000000 solid;
+	margin: auto auto 5px auto;
+}
+
+.quote {
+	background: #999999;
+	border: 1px #000000 solid;
+	padding: 3px;
+}
+
+.story {
+	text-align: left;
+	padding: 2px;
+	margin: 2px 2% 10px 2%;
+	background: #888888;
+	border: 0px;
+}
+SPAN.hide {
+	color: #666666;
+}
+P.msg {
+	text-align: left;
+	font-weight: bold;
+	background: #666666;
+	border: 1px #000000 solid;
+	padding: 5px;
+	margin: auto auto 5px auto;
+	font-size: 12pt;
+}
+
+H1 {
+	font: 24pt Verdana, Geneva, Helvetica, Arial;
+	font-weight: bold;
+	line-height: 5px;
+}
+
+/* uses the new flex css properties. This will look DIFFERENT for different
+ * user agents! this was suggested at http://css-tricks.com/using-flexbox/
+ */
+DIV.hosting {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	flex-direction: row;
+	justify-content: space-between;
+	-webkit-box: 1;
+	-moz-box: 1;
+	width: 100%;
+	-ms-flexbox: 1;
+	-webkit-flex: 1;
+	flex: 1;
+
+	border: 0;
+}
+
+.hosting1 {
+	order: 1;
+}
+
+.hosting2 {
+	order: 2;
+}
+
+.header {
+	text-align: left;
+	padding: 5px;
+	border-top: 0px #000000 solid;
+	border-bottom: 1px #000000 solid;
+	border-left: 0px;
+	border-right: 0px;
+}
+
+.menu {
+	padding: 20px;
+	border: 0px;
+	background: none;
+}
+
+.recent {
+	text-align: right;
+	padding: 4px;
+	font-size: 7pt;
+}
+
+.headline {
+	text-align: left;
+	padding: 2px;
+	padding-left: 4px;
+	margin-bottom: 10px;
+}
+
+.footer {
+	text-align: left;
+	padding: 2px;
+}
+
+.mainicon {
+	font-family:helvetica,arial;
+	text-align:center;
+	vertical-align:middle;
+}
+IMG.icon {
+	float: left;
+	margin-right: 10px;
+}
+SPAN.red {
+	color: #FF0000;
+	font-weight: bold;
+}
+
+strong {
+	color: #FFFFBB;
+}
+
+SPAN.headline {
+	font-weight: bold;
+	font-size: 14pt;
+}
+SPAN.byline {
+	font-size: 9pt;
+}
+SPAN.new {
+	color: #AAAA00;
+	font-weight: bold;
+	font-size: 6pt;
+}
+SPAN.subject {
+	font-weight: bold;
+	font-size: 9pt;
+}
+LI.gaps {
+	margin: auto auto 10px auto;
+}
+
+SPAN.title {
+	font-weight: bold;
+	font-size: 10pt;
+}
+SPAN.controls {
+	font-size: 8pt;
+	text-align: right;
+}
+
+P.username {
+	font-size: 10pt;
+	margin: 0px 0px 0px 0px;
+}
+P.details {
+	font-size: 7pt;
+	margin-top: 5px;
+	margin-bottom: 0px;
+}
+
+DIV.thread {
+	padding: 4px;
+}
+
+A.headline {
+	font-size: 30pt;
+	margin-left: 30px;
+}
