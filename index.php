@@ -31,7 +31,6 @@ document.write(Q[Math.floor(Math.random() * Q.length)]);
 <div class=footer>
 <div class=hosting>
 <span class=hosting1>Hosting by <a href=http://cloudatcost.com>Cloudatcost.com</a></span>
-<span class=hosting2>Discount coupon: <strong>nunEny6AsE</strong> expires 2014-10-03!</span>
 </div>
 <?php
 echo 'Date: '. date('Y-m-d') ."\n";
