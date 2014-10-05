@@ -12,27 +12,34 @@ time, mark, audio, video {
 	font-size: 100%;
 	vertical-align: baseline;
 }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1.2;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
 } 
+
 ol { 
 	padding-left: 1.4em;
 	list-style: decimal;
 }
+
 ul {
 	padding-left: 1.4em;
 	list-style: square;
 }
+
 blockquote, q {
 	quotes: none;
 }
+
 blockquote:before, blockquote:after,
 q:before, q:after {
 	content: '';
@@ -40,6 +47,7 @@ q:before, q:after {
 }
 /* end reset browser styles */
 
+/* mouse dynamics */
 A:hover { 
 	color: #FFFFCC;
 	text-decoration: none;
@@ -61,7 +69,10 @@ A:active {
 	text-decoration: none; 
 	font-weight: bold;
 }
-BODY {	
+
+/* design is a lighter background with darker elements floated over it */
+
+body {	
 	font-size: 12pt;
 	font-family: Verdana, Geneva, Helvetica, Arial;
 	background: #888888;
@@ -70,8 +81,7 @@ BODY {
 
 }
 
-DIV {
-	background: #666666;
+div {
 	border: 1px #000000 solid;
 	margin: auto auto 5px auto;
 }
@@ -89,9 +99,11 @@ DIV {
 	background: #888888;
 	border: 0px;
 }
-SPAN.hide {
+
+span.hide {
 	color: #666666;
 }
+
 P.msg {
 	text-align: left;
 	font-weight: bold;
@@ -102,16 +114,47 @@ P.msg {
 	font-size: 12pt;
 }
 
-H1 {
+h1 {
 	font: 24pt Verdana, Geneva, Helvetica, Arial;
 	font-weight: bold;
 	line-height: 5px;
 }
 
-/* uses the new flex css properties. This will look DIFFERENT for different
- * user agents! this was suggested at http://css-tricks.com/using-flexbox/
- */
-DIV.hosting {
+/* header settings */
+
+header {
+	text-align: left;
+	padding: 5px;
+	border-top: 0px #000000 solid;
+	border-bottom: 1px #000000 solid;
+	border-left: 0px;
+	border-right: 0px;
+    background: #666666;
+}
+
+header .headline {
+	text-align: left;
+	padding: 2px;
+	padding-left: 4px;
+	margin-bottom: 10px;
+}
+
+header a {
+    font-size: 30pt;
+    margin-left: 30px;
+}
+
+/* general footer settings */
+
+footer {
+	text-align: left;
+	padding: 2px;
+    background: #666666;
+}
+
+/* do the flexbox and degrade gracefully */
+
+footer .hosting {
 	display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
@@ -130,27 +173,20 @@ DIV.hosting {
 	border: 0;
 }
 
-.hosting1 {
+/* divs in the footer get specific ordering */
+footer .hosting1 {
 	order: 1;
 }
 
-.hosting2 {
+footer .hosting2 {
 	order: 2;
 }
 
-.header {
-	text-align: left;
-	padding: 5px;
-	border-top: 0px #000000 solid;
-	border-bottom: 1px #000000 solid;
-	border-left: 0px;
-	border-right: 0px;
-}
+/* general elements and frontpage elements */
 
 .menu {
 	padding: 20px;
 	border: 0px;
-	background: none;
 }
 
 .recent {
@@ -159,28 +195,19 @@ DIV.hosting {
 	font-size: 7pt;
 }
 
-.headline {
-	text-align: left;
-	padding: 2px;
-	padding-left: 4px;
-	margin-bottom: 10px;
-}
-
-.footer {
-	text-align: left;
-	padding: 2px;
-}
-
 .mainicon {
 	font-family:helvetica,arial;
 	text-align:center;
 	vertical-align:middle;
+    background: #666666;
 }
-IMG.icon {
+
+img.icon {
 	float: left;
 	margin-right: 10px;
 }
-SPAN.red {
+
+img.red {
 	color: #FF0000;
 	font-weight: bold;
 }
@@ -189,50 +216,52 @@ strong {
 	color: #FFFFBB;
 }
 
-SPAN.headline {
+span.headline {
 	font-weight: bold;
 	font-size: 14pt;
 }
-SPAN.byline {
+
+span.byline {
 	font-size: 9pt;
 }
-SPAN.new {
+
+span.new {
 	color: #AAAA00;
 	font-weight: bold;
 	font-size: 6pt;
 }
-SPAN.subject {
+
+span.subject {
 	font-weight: bold;
 	font-size: 9pt;
 }
-LI.gaps {
+
+li.gaps {
 	margin: auto auto 10px auto;
 }
 
-SPAN.title {
+span.title {
 	font-weight: bold;
 	font-size: 10pt;
 }
-SPAN.controls {
+
+span.controls {
 	font-size: 8pt;
 	text-align: right;
 }
 
-P.username {
+p.username {
 	font-size: 10pt;
 	margin: 0px 0px 0px 0px;
 }
-P.details {
+
+p.details {
 	font-size: 7pt;
 	margin-top: 5px;
 	margin-bottom: 0px;
 }
 
-DIV.thread {
+div.thread {
 	padding: 4px;
 }
 
-A.headline {
-	font-size: 30pt;
-	margin-left: 30px;
-}

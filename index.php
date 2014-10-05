@@ -2,18 +2,19 @@
 <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 <!doctype html>
-<html>
+<html lang="en">
 <head>
 <link rel=icon href="favicon.ico">
 <link rel=stylesheet href="default.css" type=text/css>
 <script src="js/modernizr-latest.js"></script>
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <title>ewe2.ninja</title>
 </head>
 <body>
-<div class=header>
-<a class=headline href="/">ewe2.ninja</a>
-</div>
+<header>
+<a href="/">ewe2.ninja</a>
+</header>
 <div class=menu>
 <div class=mainicon><img alt="ninja penguin" src="ewe2.ninja.png"><br/>
 <script language="JavaScript">
@@ -28,13 +29,11 @@ document.write(Q[Math.floor(Math.random() * Q.length)]);
 </script>
 </div>
 </div>
-<div class=footer>
+<footer>
 <div class=hosting>
 <span class=hosting1>Hosting by <a href=http://cloudatcost.com>Cloudatcost.com</a></span>
-<!-- <span class=hosting2>Discount coupon: <strong>nunEny6AsE</strong> expires 2014-10-03!</span> -->
-</div>
 <?php
 echo 'Date: '. date('Y-m-d') ."\n";
 ?>
-</div>
+</footer>
 </body></html>
