@@ -108,37 +108,7 @@ H1 {
 	line-height: 5px;
 }
 
-/* uses the new flex css properties. This will look DIFFERENT for different
- * user agents! this was suggested at http://css-tricks.com/using-flexbox/
- */
-DIV.hosting {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-	flex-direction: row;
-	justify-content: space-between;
-	-webkit-box: 1;
-	-moz-box: 1;
-	width: 100%;
-	-ms-flexbox: 1;
-	-webkit-flex: 1;
-	flex: 1;
-
-	border: 0;
-}
-
-.hosting1 {
-	order: 1;
-}
-
-.hosting2 {
-	order: 2;
-}
-
-.header {
+header {
 	text-align: left;
 	padding: 5px;
 	border-top: 0px #000000 solid;
@@ -159,16 +129,43 @@ DIV.hosting {
 	font-size: 7pt;
 }
 
-.headline {
+header .headline {
 	text-align: left;
 	padding: 2px;
 	padding-left: 4px;
 	margin-bottom: 10px;
 }
 
-.footer {
+footer {
 	text-align: left;
 	padding: 2px;
+}
+
+footer .hosting {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+
+	flex-direction: row;
+	justify-content: space-between;
+	-webkit-box: 1;
+	-moz-box: 1;
+	width: 100%;
+	-ms-flexbox: 1;
+	-webkit-flex: 1;
+	flex: 1;
+
+	border: 0;
+}
+
+footer .hosting1 {
+	order: 1;
+}
+
+footer .hosting2 {
+	order: 2;
 }
 
 .mainicon {
