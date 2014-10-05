@@ -7,13 +7,13 @@
 <link rel=icon href="favicon.ico">
 <link rel=stylesheet href="default.css" type=text/css>
 <script src="js/modernizr-latest.js"></script>
-<meta character-encoding="utf-8">
+<meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <title>ewe2.ninja</title>
 </head>
 <body>
 <header>
-<a class=headline href="/">ewe2.ninja</a>
+<a href="/">ewe2.ninja</a>
 </header>
 <div class=menu>
 <div class=mainicon><img alt="ninja penguin" src="ewe2.ninja.png"><br/>
