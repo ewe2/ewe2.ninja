@@ -142,6 +142,7 @@ header .headline {
 header a {
     font-size: 30pt;
     margin-left: 30px;
+    color: #ffffbb;
 }
 
 /* general footer settings */
