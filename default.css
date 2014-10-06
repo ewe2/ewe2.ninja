@@ -47,28 +47,15 @@ q:before, q:after {
 }
 /* end reset browser styles */
 
-/* mouse dynamics */
-A:hover { 
-	color: #FFFFCC;
-	text-decoration: none;
-	font-weight: bold;
-}
-A:link {
-	color: #FFFFBB;
-	text-decoration: none; 
-	font-weight: bold;
-}
-A:visited {
-	color: #AAAA88;
-	text-decoration: none; 
-	font-weight: bold;
+/* mouse dynamics deleted, too much misbehaviour forcing ugly fixes, stick
+ * with a simple overall desgin 
+ */
+
+a {
+    text-decoration: none;
+    color: #ffffbb;
 }
 
-A:active {
-	color: #FFFF33;
-	text-decoration: none; 
-	font-weight: bold;
-}
 
 /* design is a lighter background with darker elements floated over it */
 
@@ -140,6 +127,7 @@ header .headline {
 }
 
 header a {
+    font-weight: bold;
     font-size: 30pt;
     margin-left: 30px;
     color: #ffffbb;
