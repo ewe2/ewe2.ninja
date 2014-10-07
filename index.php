@@ -8,10 +8,14 @@
 <html lang="en">
 <head>
 <link rel=icon href="favicon.ico">
-<link rel=stylesheet href="default.css" type=text/css>
+<link rel=stylesheet href="css/bootstrap.min.js">
+<link rel=stylesheet href="css/default.css">
+<script src="js/bootstrap.min.js"></script>
 <script src="js/modernizr-latest.js"></script>
+<script src="js/jquery.min.js"></script>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>ewe2.ninja</title>
 </head>
 <body>
