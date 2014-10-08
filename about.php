@@ -9,7 +9,6 @@
     <link rel="icon" href="favicon.ico">
 
     <title>ewe2.ninja</title>
-    <!-- font links last -->
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -44,20 +43,12 @@
           </div>
 
           <div class="inner cover">
-                <div class=penguinbox>
-                    <div class=mainicon><img alt="ninja penguin" src="ewe2.ninja.png"><br/>
-                    <script>
-                    var Q=new Array();
-                    Q[0] = "eek";
-                    Q[1] = "eek eek";
-                    Q[2] = "EEK eek FISH";
-                    Q[3] = "There is no utopia. There never will be";
-                    Q[4] = "Give a penguin a fish and he'll go away. Give him ten fish and you've got yourself a penguin party!";
-                    Q[5] = "The past is gone and the future is imaginary. Be here now.";
-                    document.write(Q[Math.floor(Math.random() * Q.length)]);
-                    </script>
-                    </div>
-                </div>
+            <h1 class="cover-heading">About ewe2.ninja</h1>
+            <p class="lead">The homesite of Sean Dwyer on the big wide internets.</p>
+            <p class="lead">
+              <a href="#" class="btn btn-lg btn-default">Details</a>
+            </p>
+
           </div>
 
           <div class="mastfoot">
