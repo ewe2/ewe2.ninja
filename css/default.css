@@ -1,255 +1,246 @@
-/* reset first */
+/* Modified from cover template for Bootstrap by @mdo */
 
+/*
+ * Globals
+ */
 
-/* reset browser styles */
-html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	vertical-align: baseline;
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #ffffbb;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-	display: block;
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  background-color: #888888;
 }
 
 body {
-	line-height: 1.2;
+  color: #ffffbb;
+  text-align: center;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5);
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-} 
+/* Extra markup and styles for table-esque vertical and horizontal centering */
+/* remove shadowing, we don't need it */
 
-ol { 
-	padding-left: 1.4em;
-	list-style: decimal;
+.site-wrapper {
+  display: table;
+  width: 100%;
+  height: 100%; /* For at least Firefox */
+  min-height: 100%;
+}
+.site-wrapper-inner {
+  display: table-cell;
+  vertical-align: top;
+}
+.cover-container {
+  margin-right: auto;
+  margin-left: auto;
 }
 
-ul {
-	padding-left: 1.4em;
-	list-style: square;
+/* Padding for spacing */
+.inner {
+  padding: 30px;
 }
 
-blockquote, q {
-	quotes: none;
-}
 
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-/* end reset browser styles */
-
-/* mouse dynamics deleted, too much misbehaviour forcing ugly fixes, stick
- * with a simple overall desgin 
+/*
+ * Header
  */
 
-a {
-    text-decoration: none;
-    color: #ffffbb;
-}
-
-
-/* design is a lighter background with darker elements floated over it */
-
-body {	
-	font-size: 12pt;
-	font-family: Verdana, Geneva, Helvetica, Arial;
-	background: #888888;
-	color: #000000;
-	margin: 0 0 0 0;
-
-}
-
-div {
-	border: 1px #000000 solid;
-	margin: auto auto 5px auto;
-}
-
-.quote {
-	background: #999999;
-	border: 1px #000000 solid;
-	padding: 3px;
-}
-
-.story {
-	text-align: left;
-	padding: 2px;
-	margin: 2px 2% 10px 2%;
-	background: #888888;
-	border: 0px;
-}
-
-span.hide {
-	color: #666666;
-}
-
-P.msg {
-	text-align: left;
-	font-weight: bold;
-	background: #666666;
-	border: 1px #000000 solid;
-	padding: 5px;
-	margin: auto auto 5px auto;
-	font-size: 12pt;
-}
-
-h1 {
-	font: 24pt Verdana, Geneva, Helvetica, Arial;
-	font-weight: bold;
-	line-height: 5px;
-}
-
-/* header settings */
-
-header {
-	text-align: left;
-	padding: 5px;
-	border-top: 0px #000000 solid;
-	border-bottom: 1px #000000 solid;
-	border-left: 0px;
-	border-right: 0px;
+.masthead {
     background: #666666;
+    border-bottom: 1px #000000 solid;
 }
 
-header .headline {
-	text-align: left;
-	padding: 2px;
-	padding-left: 4px;
-	margin-bottom: 10px;
+.masthead-brand {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 20pt;
 }
 
-header a {
-    font-weight: bold;
-    font-size: 30pt;
-    margin-left: 30px;
+.masthead-nav > li {
+  display: inline-block;
+}
+.masthead-nav > li + li {
+  margin-left: 20px;
+}
+.masthead-nav > li > a {
+  padding-right: 0;
+  padding-left: 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff; /* IE8 proofing */
+  color: rgba(255,255,255,.75);
+  border-bottom: 2px solid transparent;
+}
+.masthead-nav > li > a:hover,
+.masthead-nav > li > a:focus {
+  background-color: transparent;
+  border-bottom-color: #a9a9a9;
+  border-bottom-color: rgba(255,255,255,.25);
+}
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+  color: #ffffbb;
+  border-bottom-color: #ffffbb;
 }
 
-/* general footer settings */
-
-footer {
-	text-align: left;
-	padding: 2px;
-    background: #666666;
+@media (min-width: 768px) {
+  .masthead-brand {
+    float: left;
+  }
+  .masthead-nav {
+    float: right;
+  }
 }
 
-/* do the flexbox and degrade gracefully */
+/* inherited but make explicit */
 
-footer .hosting {
-	display: -webkit-box;
-	display: -moz-box;
-	display: -ms-flexbox;
-	display: -webkit-flex;
-	display: flex;
-
-	flex-direction: row;
-	justify-content: space-between;
-	-webkit-box: 1;
-	-moz-box: 1;
-	width: 100%;
-	-ms-flexbox: 1;
-	-webkit-flex: 1;
-	flex: 1;
-
-	border: 0;
+@media (min-width: 992px) {
+    .masthead-brand {
+        float: left;
+    }
+    .masthead-nav {
+        float: right;
+    }
 }
 
-/* divs in the footer get specific ordering */
-footer .hosting1 {
-	order: 1;
+
+/*
+ * Cover
+ */
+
+.cover {
+  padding: 0 20px;
+}
+.cover .btn-lg {
+  padding: 10px 20px;
+  font-weight: bold;
 }
 
-footer .hosting2 {
-	order: 2;
-}
 
-/* general elements and frontpage elements */
-
-.menu {
-	padding: 20px;
-	border: 0px;
-}
-
-.recent {
-	text-align: right;
-	padding: 4px;
-	font-size: 7pt;
+.penguinbox {
+    position: center;
+    vertical-align: middle;
+	padding: 0 20px;
+	border: 1px #000000 solid;
+    margin: 20px 20px 0px 20px;
+    -webkit-box-shadow: inset 0 0 100px rgba(0,0,0,.5);
+    box-shadow: inset 0 0 100px rgba(0,0,0,.5);
 }
 
 .mainicon {
 	font-family:helvetica,arial;
 	text-align:center;
 	vertical-align:middle;
-    background: #666666;
+    background: #55555;
 }
 
-img.icon {
-	float: left;
-	margin-right: 10px;
+/*
+ * Footer
+ */
+
+.mastfoot {
+  border-top: 1px #000000 solid;
+  background: #666666;
+  color: #999; /* IE8 proofing */
+  color: rgba(255,255,255,.5);
+
+  padding: 30px;
 }
 
-img.red {
-	color: #FF0000;
-	font-weight: bold;
+.mastfoot-inner {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-between;
+  -webkit-box: 1;
+  -moz-box: 1;
+  width: 100%;
+  -ms-flexbox: 1;
+  -webkit-flex: 1;
+  flex: 1;
+
 }
 
-strong {
-	color: #FFFFBB;
+/* forces other content to float right */
+.mastfoot-inner .bumf1 {
+    order: 1;
 }
 
-span.headline {
-	font-weight: bold;
-	font-size: 14pt;
+.mastfoot-inner .bumf2 {
+    order: 2;
 }
 
-span.byline {
-	font-size: 9pt;
+.boiler {
+    font-size: 8pt;
+    font-weight: italic;
 }
 
-span.new {
-	color: #AAAA00;
-	font-weight: bold;
-	font-size: 6pt;
+/*
+@media (min-width: 768px) {
+    .mastfoot-inner {
+        float: left;
+    }
+}
+*/
+
+/* Altered to fix the footer for small devices. Limited to 480px. */
+
+@media (min-width: 480px) {
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
 }
 
-span.subject {
-	font-weight: bold;
-	font-size: 9pt;
-}
+/* prevent bunching up in the middle for styling */
 
-li.gaps {
-	margin: auto auto 10px auto;
-}
-
-span.title {
-	font-weight: bold;
-	font-size: 10pt;
-}
-
-span.controls {
-	font-size: 8pt;
-	text-align: right;
-}
-
-p.username {
-	font-size: 10pt;
-	margin: 0px 0px 0px 0px;
-}
-
-p.details {
-	font-size: 7pt;
-	margin-top: 5px;
-	margin-bottom: 0px;
-}
-
-div.thread {
-	padding: 4px;
+@media (min-width: 992px) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%;
+  }
 }
 
