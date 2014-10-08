@@ -1,43 +1,84 @@
-<!--[if lt IE 8]>
-<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
-<![endif]-->
-<!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-<link rel=icon href="favicon.ico">
-<link rel=stylesheet href="default.css" type=text/css>
-<script src="js/modernizr-latest.js"></script>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-<title>ewe2.ninja</title>
-</head>
-<body>
-<header>
-<a href="/">ewe2.ninja</a>
-</header>
-<div class=menu>
-<div class=mainicon><img alt="ninja penguin" src="ewe2.ninja.png"><br/>
-<script language="JavaScript">
-var Q=new Array();
-Q[0] = "eek";
-Q[1] = "eek eek";
-Q[2] = "EEK eek FISH";
-Q[3] = "There is no utopia. There never will be";
-Q[4] = "Give a penguin a fish and he'll go away. Give him ten fish and you've got yourself a penguin party!";
-Q[5] = "The past is gone and the future is imaginary. Be here now.";
-document.write(Q[Math.floor(Math.random() * Q.length)]);
-</script>
-</div>
-</div>
-<footer>
-<div class=hosting>
-<span class=hosting1>Hosting by <a href=http://cloudatcost.com>Cloudatcost.com</a></span>
-</div>
-<?php
-echo 'Date: '. date('Y-m-d') ."\n";
-?>
-</footer>
-</body></html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="penguin home">
+    <meta name="author" content="ewe2">
+    <link rel="icon" href="favicon.ico">
+
+    <title>ewe2.ninja</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/cover.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="site-wrapper">
+
+      <div class="site-wrapper-inner">
+
+        <div class="cover-container">
+
+          <div class="masthead clearfix">
+            <div class="inner">
+              <a link="/" class="masthead-brand">ewe2.ninja</a>
+              <ul class="nav masthead-nav">
+                <li class="active"><a href="#">home</a></li>
+                <li><a href="#">stuff</a></li>
+                <li><a href="#">about</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="inner cover">
+                <div class=penguinbox>
+                    <div class=mainicon><img alt="ninja penguin" src="ewe2.ninja.png"><br/>
+                    <script language="JavaScript">
+                    var Q=new Array();
+                    Q[0] = "eek";
+                    Q[1] = "eek eek";
+                    Q[2] = "EEK eek FISH";
+                    Q[3] = "There is no utopia. There never will be";
+                    Q[4] = "Give a penguin a fish and he'll go away. Give him ten fish and you've got yourself a penguin party!";
+                    Q[5] = "The past is gone and the future is imaginary. Be here now.";
+                    document.write(Q[Math.floor(Math.random() * Q.length)]);
+                    </script>
+                    </div>
+                </div>
+          </div>
+
+          <div class="mastfoot">
+            <div class="mastfoot-inner">
+              <span class="bumf1">Hosting by <a href=http://cloudatcost.com>Cloudatcost.com</a></span>
+              <span class="boiler bumf2"><?php echo 'Modified: '. date('Y-m-d') ."\n"; ?></span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/modernizr-latest.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
