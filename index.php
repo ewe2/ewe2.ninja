@@ -9,6 +9,7 @@
     <link rel="icon" href="favicon.ico">
 
     <title>ewe2.ninja</title>
+    <!-- font links last -->
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -33,11 +34,11 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <a link="/" class="masthead-brand">ewe2.ninja</a>
+              <a href="/" class="masthead-brand">ewe2.ninja</a>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="#">home</a></li>
-                <li><a href="#">stuff</a></li>
-                <li><a href="#">about</a></li>
+                <li class="active"><a href="/">home</a></li>
+                <li><a href="stuff.php">stuff</a></li>
+                <li><a href="about.php">about</a></li>
               </ul>
             </div>
           </div>
@@ -45,7 +46,7 @@
           <div class="inner cover">
                 <div class=penguinbox>
                     <div class=mainicon><img alt="ninja penguin" src="ewe2.ninja.png"><br/>
-                    <script language="JavaScript">
+                    <script>
                     var Q=new Array();
                     Q[0] = "eek";
                     Q[1] = "eek eek";
