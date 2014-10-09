@@ -1,0 +1,180 @@
+/* sassified main css */
+
+// constants
+
+$text-color: #ffffbb;
+$translucent-color: rgba(255,255,255,.25);
+$shadow: rgba(0,0,0,.5);
+$headfoots: #666666;
+$borders: 1px solid;
+
+// media widths
+$swidth: 480px;
+$mwidth: 768px;
+$lwidth: 992px;
+
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic|Roboto:400italic,400);
+
+// mixin for later media queries
+
+@mixin setfor($media) {
+    @if $media == phones {
+        @media only screen and (min-width: $swidth) { @content; }
+
+    }
+    @else if $media == tablets {
+        @media only screen and (min-width: $mwidth) { @content; }
+    }
+    @else if $media == desktops {
+        @media only screen and (min-width: $lwidth) { @content; }
+    }
+}
+
+
+a,a:hover,a:active {
+    color: $text-color;
+}
+
+.btn-default,.btn-default:hover,.btn-default:focus {
+    color: #333;
+    text-shadow: none;
+    background-color: #fff;
+    border: $borders #fff;
+}
+
+html {
+    height: 100%;
+    background-color: #888888;
+}
+
+body {
+    @extend html;
+    color: $text-color;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    text-shadow: 0 1px 3px $shadow;
+}
+
+.site-wrapper {
+    display: table;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+}
+
+.site-wrapper-inner {
+    display: table-cell;
+    vertical-align: top;
+    @include setfor(phones) { vertical-align: middle; }
+}
+            
+.cover-container {
+    margin-right: auto;
+    margin-left: auto;
+    @include setfor(phones) { width: 100%; }
+    @include setfor(desktops) { width: 100%; }
+}
+
+.inner {
+    padding: 20px;
+}
+
+.masthead {
+  background: $headfoots;
+  border-bottom: $borders #000000;
+  @include setfor(phones) { position: fixed; top: 0; width: 100%; }
+  @include setfor(desktops) { width: 100%; }
+}
+
+.masthead-brand {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25pt;
+    @include setfor(tablets) { float: left; }
+    @include setfor(desktops) { float: left; }
+}
+
+
+.penguinbox {
+    position: center;
+    vertical-align: middle;
+    padding: 20px;
+    border: $borders #000000;
+    margin: 20px 20px 0px 20px;
+    -webkit-box-shadow: inset 0 0 150px $shadow;
+    box-shadow: inset 0 0 150px $shadow;
+}
+
+.mainicon {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.masthead-nav {
+    > li {
+        display: inline-block;
+        + li { margin-left: 20px; }
+        > a {
+            padding-right: 0;
+            padding-left: 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            color: rgba(255,255,255,.75);
+            border-bottom: 2px solid transparent;
+            &:hover, &:focus {
+                background-color: transparent;
+                border-bottom-color: #a9a9a9;
+                border-bottom-color: $translucent-color;
+            }
+        }
+    }
+    > .active {
+        > a, &:hover, &:focus {
+            color: $text-color;
+            border-bottom-color: $text-color;
+            }
+    }
+
+   @include setfor(tablets) {float: right;}
+   @include setfor(desktop) {float: right;}
+}
+
+// footer
+
+.mastfoot {
+    border-top: $borders #000000;
+    background: $headfoots;
+    color: #999;
+    color: rgba(255,255,255,.75);
+    padding: 20px;
+    @include setfor(phones) { position: fixed; bottom: 0; width: 100%;  }
+    @include setfor(desktops) { width: 100%; }
+}
+
+.mastfoot-inner {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    -webkit-box: 1;
+    -moz-box: 1;
+    width: 100%;
+    -ms-flexbox: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    @include setfor(tablets) { float: left;}
+    .bumf1 { order: 1; }
+    .bumf2 { order: 2; }
+}
+
+.boiler {
+    font-size: 8pt;
+    font-weight: italic;
+}
+

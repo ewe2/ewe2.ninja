@@ -1,0 +1,15 @@
+sass mostly done, clean up compass method
+implement grunt build
+
+the flow should be:
+devel for work, then merge to master.
+when master done merge COMPLETED FILES ONLY to release!
+
+this means we have to checkout just css/ and any changed php files at this
+stage. do NOT git rm in the working directory from now on!
+
+howto: 
+git co master <files>
+
+fix whatever conflicts then do a release commit and tag with r numbers (devel
+is v numbers).
