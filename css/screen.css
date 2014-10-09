@@ -69,12 +69,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 /* sassified main css */
-/* line 34, ../sass/default.scss */
+/* line 34, ../sass/_default.scss */
 a, a:hover, a:active {
   color: #ffffbb;
 }
 
-/* line 38, ../sass/default.scss */
+/* line 38, ../sass/_default.scss */
 .btn-default, .btn-default:hover, .btn-default:focus {
   color: #333;
   text-shadow: none;
@@ -82,13 +82,13 @@ a, a:hover, a:active {
   border: 1px solid white;
 }
 
-/* line 45, ../sass/default.scss */
+/* line 45, ../sass/_default.scss */
 html, body {
   height: 100%;
   background-color: #888888;
 }
 
-/* line 50, ../sass/default.scss */
+/* line 50, ../sass/_default.scss */
 body {
   color: #ffffbb;
   font-family: 'Roboto',sans-serif;
@@ -96,7 +96,7 @@ body {
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
 }
 
-/* line 58, ../sass/default.scss */
+/* line 58, ../sass/_default.scss */
 .site-wrapper {
   display: table;
   width: 100%;
@@ -104,48 +104,48 @@ body {
   min-height: 100%;
 }
 
-/* line 65, ../sass/default.scss */
+/* line 65, ../sass/_default.scss */
 .site-wrapper-inner {
   display: table-cell;
   vertical-align: top;
 }
 @media only screen and (min-width: 480px) {
-  /* line 65, ../sass/default.scss */
+  /* line 65, ../sass/_default.scss */
   .site-wrapper-inner {
     vertical-align: middle;
   }
 }
 
-/* line 71, ../sass/default.scss */
+/* line 71, ../sass/_default.scss */
 .cover-container {
   margin-right: auto;
   margin-left: auto;
 }
 @media only screen and (min-width: 480px) {
-  /* line 71, ../sass/default.scss */
+  /* line 71, ../sass/_default.scss */
   .cover-container {
     width: 100%;
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 71, ../sass/default.scss */
+  /* line 71, ../sass/_default.scss */
   .cover-container {
     width: 100%;
   }
 }
 
-/* line 78, ../sass/default.scss */
+/* line 78, ../sass/_default.scss */
 .inner {
   padding: 20px;
 }
 
-/* line 82, ../sass/default.scss */
+/* line 82, ../sass/_default.scss */
 .masthead {
   background: #666666;
   border-bottom: 1px solid black;
 }
 @media only screen and (min-width: 480px) {
-  /* line 82, ../sass/default.scss */
+  /* line 82, ../sass/_default.scss */
   .masthead {
     position: fixed;
     top: 0;
@@ -153,13 +153,13 @@ body {
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 82, ../sass/default.scss */
+  /* line 82, ../sass/_default.scss */
   .masthead {
     width: 100%;
   }
 }
 
-/* line 89, ../sass/default.scss */
+/* line 89, ../sass/_default.scss */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -167,19 +167,19 @@ body {
   font-size: 25pt;
 }
 @media only screen and (min-width: 768px) {
-  /* line 89, ../sass/default.scss */
+  /* line 89, ../sass/_default.scss */
   .masthead-brand {
     float: left;
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 89, ../sass/default.scss */
+  /* line 89, ../sass/_default.scss */
   .masthead-brand {
     float: left;
   }
 }
 
-/* line 99, ../sass/default.scss */
+/* line 99, ../sass/_default.scss */
 .penguinbox {
   position: center;
   vertical-align: middle;
@@ -190,22 +190,22 @@ body {
   box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.5);
 }
 
-/* line 109, ../sass/default.scss */
+/* line 109, ../sass/_default.scss */
 .mainicon {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 116, ../sass/default.scss */
+/* line 116, ../sass/_default.scss */
 .masthead-nav > li {
   display: inline-block;
 }
-/* line 118, ../sass/default.scss */
+/* line 118, ../sass/_default.scss */
 .masthead-nav > li + li {
   margin-left: 20px;
 }
-/* line 119, ../sass/default.scss */
+/* line 119, ../sass/_default.scss */
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -215,25 +215,25 @@ body {
   color: rgba(255, 255, 255, 0.75);
   border-bottom: 2px solid transparent;
 }
-/* line 127, ../sass/default.scss */
+/* line 127, ../sass/_default.scss */
 .masthead-nav > li > a:hover, .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
   border-bottom-color: rgba(255, 255, 255, 0.25);
 }
-/* line 135, ../sass/default.scss */
+/* line 135, ../sass/_default.scss */
 .masthead-nav > .active > a, .masthead-nav > .active:hover, .masthead-nav > .active:focus {
   color: #ffffbb;
   border-bottom-color: #ffffbb;
 }
 @media only screen and (min-width: 768px) {
-  /* line 115, ../sass/default.scss */
+  /* line 115, ../sass/_default.scss */
   .masthead-nav {
     float: right;
   }
 }
 
-/* line 147, ../sass/default.scss */
+/* line 147, ../sass/_default.scss */
 .mastfoot {
   border-top: 1px solid black;
   background: #666666;
@@ -242,7 +242,7 @@ body {
   padding: 20px;
 }
 @media only screen and (min-width: 480px) {
-  /* line 147, ../sass/default.scss */
+  /* line 147, ../sass/_default.scss */
   .mastfoot {
     position: fixed;
     bottom: 0;
@@ -250,13 +250,13 @@ body {
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 147, ../sass/default.scss */
+  /* line 147, ../sass/_default.scss */
   .mastfoot {
     width: 100%;
   }
 }
 
-/* line 157, ../sass/default.scss */
+/* line 157, ../sass/_default.scss */
 .mastfoot-inner {
   display: -webkit-box;
   display: -moz-box;
@@ -273,21 +273,21 @@ body {
   flex: 1;
 }
 @media only screen and (min-width: 768px) {
-  /* line 157, ../sass/default.scss */
+  /* line 157, ../sass/_default.scss */
   .mastfoot-inner {
     float: left;
   }
 }
-/* line 172, ../sass/default.scss */
+/* line 172, ../sass/_default.scss */
 .mastfoot-inner .bumf1 {
   order: 1;
 }
-/* line 173, ../sass/default.scss */
+/* line 173, ../sass/_default.scss */
 .mastfoot-inner .bumf2 {
   order: 2;
 }
 
-/* line 176, ../sass/default.scss */
+/* line 176, ../sass/_default.scss */
 .boiler {
   font-size: 8pt;
   font-weight: italic;

@@ -14,7 +14,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/default.css" rel="stylesheet">
+    <link href="css/screen.css" media="screen" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -45,20 +45,16 @@
           <div class="inner cover">
              <h1 class="cover-heading">Placeholder</h1>
             <p class="lead">we'll rewrite this</p>
-            <p class="lead">
               <a href="#" class="btn btn-lg btn-default">Details</a>
-            </p>
+          </div>
           <div class="mastfoot">
             <div class="mastfoot-inner">
               <span class="bumf1">Hosting by <a href=http://cloudatcost.com>Cloudatcost.com</a></span>
               <span class="boiler bumf2"><?php echo 'Modified: '. date('Y-m-d') ."\n"; ?></span>
             </div>
           </div>
-
         </div>
-
       </div>
-
     </div>
 
     <!-- Bootstrap core JavaScript
