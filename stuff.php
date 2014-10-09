@@ -35,8 +35,8 @@
             <div class="inner">
               <a href="/" class="masthead-brand">ewe2.ninja</a>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="/">home</a></li>
-                <li><a href="stuff.php">stuff</a></li>
+                <li><a href="/">home</a></li>
+                <li class="active"><a href="stuff.php">stuff</a></li>
                 <li><a href="about.php">about</a></li>
               </ul>
             </div>
@@ -45,20 +45,16 @@
           <div class="inner cover">
              <h1 class="cover-heading">Placeholder</h1>
             <p class="lead">we'll rewrite this</p>
-            <p class="lead">
               <a href="#" class="btn btn-lg btn-default">Details</a>
-            </p>
+          </div>
           <div class="mastfoot">
             <div class="mastfoot-inner">
               <span class="bumf1">Hosting by <a href=http://cloudatcost.com>Cloudatcost.com</a></span>
               <span class="boiler bumf2"><?php echo 'Modified: '. date('Y-m-d') ."\n"; ?></span>
             </div>
           </div>
-
         </div>
-
       </div>
-
     </div>
 
     <!-- Bootstrap core JavaScript
