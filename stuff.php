@@ -35,8 +35,8 @@
             <div class="inner">
               <a href="/" class="masthead-brand">ewe2.ninja</a>
               <ul class="nav masthead-nav">
-                <li class="active"><a href="/">home</a></li>
-                <li><a href="stuff.php">stuff</a></li>
+                <li><a href="/">home</a></li>
+                <li class="active"><a href="stuff.php">stuff</a></li>
                 <li><a href="about.php">about</a></li>
               </ul>
             </div>
