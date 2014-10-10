@@ -1,6 +1,12 @@
 sass mostly done, clean up compass method
 implement grunt build
 
+compass breakdown
+
+do as much setting in config.rb to stop cluttering things up. either keep
+compass watch running in another terminal (in devel branch!) or just run it
+after editing. try running compass compile --production in master branch.
+
 the flow should be:
 devel for work, then merge to master.
 when master done merge COMPLETED FILES ONLY to release!
