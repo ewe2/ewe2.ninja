@@ -1,5 +1,8 @@
-sass mostly done, clean up compass method
-implement grunt build
+- Sass mostly done, clean up compass method
+  Use compass inclusions to build what we need for the rest of the site unless
+  that becomes unwieldy.
+
+- Implement grunt build
 
 compass breakdown
 
@@ -7,15 +10,20 @@ do as much setting in config.rb to stop cluttering things up. either keep
 compass watch running in another terminal (in devel branch!) or just run it
 after editing. try running compass compile --production in master branch.
 
-the flow should be:
-devel for work, then merge to master.
-when master done merge COMPLETED FILES ONLY to release!
+* devel is ongoing work: it has all the build structure. it is never tagged. its
+commits get pushed to netstor master
 
-this means we have to checkout just css/ and any changed php files at this
-stage. do NOT git rm in the working directory from now on!
+* master is now staging for testing and fixes etc: it merges non-build stuff
+from devel and tags with a v-number. at some point it might have its own
+testing stuff also. its commits get pushed to netstor devel
 
-howto: 
+* release is for deploying. it only merges the final files needed from master
+and tags with an r-number. its commits gets pushed to origin release
+
+Do NOT git rm in the working directory from now on!
+
+howto merge files from a branch: 
 git co master <files>
 
-fix whatever conflicts then do a release commit and tag with r numbers (devel
-is v numbers).
+possibly master/release should have a list of files to update from devel so we can
+automate that (probably a Grunt thing to do).
