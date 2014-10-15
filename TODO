@@ -2,6 +2,9 @@
   Use compass inclusions to build what we need for the rest of the site unless
   that becomes unwieldy.
 
+  compass/css3:
+  can fix up flex and box-shadow stuff!
+
 - Implement grunt build
 
 compass breakdown
