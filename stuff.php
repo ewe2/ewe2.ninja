@@ -33,7 +33,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <a href="/" class="masthead-brand">ewe2.ninja</a>
+              <h1 class="masthead-brand">ewe2.ninja</h1>
               <ul class="nav masthead-nav">
                 <li><a href="/">home</a></li>
                 <li class="active"><a href="stuff.php">stuff</a></li>
@@ -43,9 +43,9 @@
           </div>
 
           <div class="inner cover">
-             <h1 class="cover-heading">Placeholder</h1>
-            <p class="lead">we'll rewrite this</p>
-              <a href="#" class="btn btn-lg btn-default">Details</a>
+             <h2 class="cover-heading">Placeholder</h2>
+            <h3 class="lead">We'll rewrite this</h3>
+              <a href="#" class="btn btn-lg btn-default">Watch this space</a>
           </div>
           <div class="mastfoot">
             <div class="mastfoot-inner">

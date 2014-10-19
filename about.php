@@ -33,7 +33,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <a href="/" class="masthead-brand">ewe2.ninja</a>
+              <h1 class="masthead-brand">ewe2.ninja</h1>
               <ul class="nav masthead-nav">
                 <li><a href="/">home</a></li>
                 <li><a href="stuff.php">stuff</a></li>
@@ -43,10 +43,10 @@
           </div>
 
           <div class="inner cover">
-            <h1 class="cover-heading">About ewe2.ninja</h1>
-            <p class="lead">The homesite of Sean Dwyer on the big wide internets.</p>
+            <h2 class="cover-heading">About ewe2.ninja</h2>
+            <h3 class="lead">The homesite of Sean Dwyer on the big wide internets.</h3>
             <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Details</a>
+              <a href="#" class="btn btn-lg btn-default">Under Construction</a>
             </p>
 
           </div>
