@@ -3,7 +3,7 @@
 // constants
 
 $text-color: #ffffbb;
-$translucent-color: rgba(255,255,255,.25);
+$translucent-color: rgba(255,255,255,.75);
 $shadow: rgba(0,0,0,.5);
 $headfoots: #666666;
 $borders: 1px solid;
@@ -73,6 +73,10 @@ body {
     margin-left: auto;
     @include setfor(phones) { width: 100%; }
     @include setfor(desktops) { width: 100%; }
+}
+
+.cover-heading {
+    font-size: 36pt;
 }
 
 .inner {
@@ -146,8 +150,8 @@ body {
 .mastfoot {
     border-top: $borders #000000;
     background: $headfoots;
-    color: #999;
-    color: rgba(255,255,255,.75);
+    color: #ccc;
+    color: rgba(255,255,255,1.0);
     padding: 20px;
     @include setfor(phones) { position: fixed; bottom: 0; width: 100%;  }
     @include setfor(desktops) { width: 100%; }
