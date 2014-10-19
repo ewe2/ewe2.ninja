@@ -34,7 +34,7 @@
 
           <div class="masthead clearfix">
             <div class="inner">
-              <a href="/" class="masthead-brand">ewe2.ninja</a>
+              <h1 class="masthead-brand">ewe2.ninja</h1>
               <ul class="nav masthead-nav">
                 <li class="active"><a href="/">home</a></li>
                 <li><a href="stuff.php">stuff</a></li>
@@ -45,7 +45,7 @@
 
           <div class="inner cover">
                 <div class=penguinbox>
-                    <div class=mainicon><img alt="ninja penguin" src="ewe2.ninja.png"><br/>
+                    <div class=mainicon><img alt="A ninja penguin stares at you, holding a katana" src="ewe2.ninja.png"><br/>
                     <script>
                     var Q=new Array();
                     Q[0] = "eek";

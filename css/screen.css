@@ -135,17 +135,22 @@ body {
 }
 
 /* line 78, ../sass/_default.scss */
+.cover-heading {
+  font-size: 36pt;
+}
+
+/* line 82, ../sass/_default.scss */
 .inner {
   padding: 20px;
 }
 
-/* line 82, ../sass/_default.scss */
+/* line 86, ../sass/_default.scss */
 .masthead {
   background: #666666;
   border-bottom: 1px solid #000000;
 }
 @media only screen and (min-width: 480px) {
-  /* line 82, ../sass/_default.scss */
+  /* line 86, ../sass/_default.scss */
   .masthead {
     position: fixed;
     top: 0;
@@ -153,13 +158,13 @@ body {
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 82, ../sass/_default.scss */
+  /* line 86, ../sass/_default.scss */
   .masthead {
     width: 100%;
   }
 }
 
-/* line 89, ../sass/_default.scss */
+/* line 93, ../sass/_default.scss */
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -167,19 +172,19 @@ body {
   font-size: 25pt;
 }
 @media only screen and (min-width: 768px) {
-  /* line 89, ../sass/_default.scss */
+  /* line 93, ../sass/_default.scss */
   .masthead-brand {
     float: left;
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 89, ../sass/_default.scss */
+  /* line 93, ../sass/_default.scss */
   .masthead-brand {
     float: left;
   }
 }
 
-/* line 99, ../sass/_default.scss */
+/* line 103, ../sass/_default.scss */
 .penguinbox {
   position: center;
   vertical-align: middle;
@@ -191,22 +196,22 @@ body {
   box-shadow: inset 0 0 150px rgba(0, 0, 0, 0.5);
 }
 
-/* line 108, ../sass/_default.scss */
+/* line 112, ../sass/_default.scss */
 .mainicon {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: center;
   vertical-align: middle;
 }
 
-/* line 115, ../sass/_default.scss */
+/* line 119, ../sass/_default.scss */
 .masthead-nav > li {
   display: inline-block;
 }
-/* line 117, ../sass/_default.scss */
+/* line 121, ../sass/_default.scss */
 .masthead-nav > li + li {
   margin-left: 20px;
 }
-/* line 118, ../sass/_default.scss */
+/* line 122, ../sass/_default.scss */
 .masthead-nav > li > a {
   padding-right: 0;
   padding-left: 0;
@@ -216,34 +221,34 @@ body {
   color: rgba(255, 255, 255, 0.75);
   border-bottom: 2px solid transparent;
 }
-/* line 126, ../sass/_default.scss */
+/* line 130, ../sass/_default.scss */
 .masthead-nav > li > a:hover, .masthead-nav > li > a:focus {
   background-color: transparent;
   border-bottom-color: #a9a9a9;
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: rgba(255, 255, 255, 0.75);
 }
-/* line 134, ../sass/_default.scss */
+/* line 138, ../sass/_default.scss */
 .masthead-nav > .active > a, .masthead-nav > .active:hover, .masthead-nav > .active:focus {
   color: #ffffbb;
   border-bottom-color: #ffffbb;
 }
 @media only screen and (min-width: 768px) {
-  /* line 114, ../sass/_default.scss */
+  /* line 118, ../sass/_default.scss */
   .masthead-nav {
     float: right;
   }
 }
 
-/* line 146, ../sass/_default.scss */
+/* line 150, ../sass/_default.scss */
 .mastfoot {
   border-top: 1px solid #000000;
   background: #666666;
-  color: #999;
-  color: rgba(255, 255, 255, 0.75);
+  color: #ccc;
+  color: white;
   padding: 20px;
 }
 @media only screen and (min-width: 480px) {
-  /* line 146, ../sass/_default.scss */
+  /* line 150, ../sass/_default.scss */
   .mastfoot {
     position: fixed;
     bottom: 0;
@@ -251,13 +256,13 @@ body {
   }
 }
 @media only screen and (min-width: 992px) {
-  /* line 146, ../sass/_default.scss */
+  /* line 150, ../sass/_default.scss */
   .mastfoot {
     width: 100%;
   }
 }
 
-/* line 156, ../sass/_default.scss */
+/* line 160, ../sass/_default.scss */
 .mastfoot-inner {
   display: block;
   display: -webkit-flex;
@@ -271,23 +276,23 @@ body {
   width: 100%;
 }
 @media only screen and (min-width: 768px) {
-  /* line 156, ../sass/_default.scss */
+  /* line 160, ../sass/_default.scss */
   .mastfoot-inner {
     float: left;
   }
 }
-/* line 164, ../sass/_default.scss */
+/* line 168, ../sass/_default.scss */
 .mastfoot-inner .bumf1 {
   -webkit-order: 1;
   order: 1;
 }
-/* line 165, ../sass/_default.scss */
+/* line 169, ../sass/_default.scss */
 .mastfoot-inner .bumf2 {
   -webkit-order: 2;
   order: 2;
 }
 
-/* line 168, ../sass/_default.scss */
+/* line 172, ../sass/_default.scss */
 .boiler {
   font-size: 8pt;
   font-weight: italic;
