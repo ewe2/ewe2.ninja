@@ -5,7 +5,21 @@
   compass/css3:
   can fix up flex and box-shadow stuff!
 
-- Implement grunt build
+- implement Rake build using jekyll, japr, compass to process the sass and use
+  the templating and markdown to generate the content!
+
+
+this means:
+
+- creating the jekyll structure
+- splitting the markup into chunks that can be templated OR just put together
+  a template that does this.
+- figuring out a way to get compass to do our js/css compression through japr.
+- have a look at floomby.github.io in parent dir, as an example where Rake is
+  used to automate all these things.
+
+this also means probably changing master to get the files from a _site deploy
+so we can update release from that. devel will have to look different!
 
 compass breakdown
 
@@ -36,6 +50,9 @@ what the commit was and what to choose which is painful.
 possibly master/release should have a list of files to update from devel so we can
 automate that (probably a Grunt thing to do).
 
+
+
+
 license boilerplate:
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
@@ -44,3 +61,5 @@ src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This
 work is licensed under a <a rel="license"
 href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons
 Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+
