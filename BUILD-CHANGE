@@ -14,3 +14,13 @@ js/
 fonts/ ?
 
 in addition our suffix is php because we use some php scripting.
+
+so now we have the jekyll layout, we will need to rewrite stuff in those dirs.
+using an idea to intergrate compass but will probably need a rakefile so the
+result gets put into _site/ .
+
+
+Hmmmm. Hold it. Upon looking into jekyll its got some issues: not flexible
+enough and very slow once you increase processing requirements (ie cant
+scale). So we'll try out middlman instead!. This is __OK__. devel is just the
+place to try out these things!.
