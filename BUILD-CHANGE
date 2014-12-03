@@ -1,26 +1,8 @@
-so we want to move to a jekyll build system that is automated by Rake.
-
-- move files to be processed into a jekyll-friendly layout. make sure other
-  build files know where to find things.
-- japr needs stuff in an _assets folder and files that need preprocessing need
-  renaming. it also needs a _plugins dir.
-
-jekyll usually outputs to a _site/. We need to process what japr does to fit
-our site layout which is
-
-/
-css/
-js/
-fonts/ ?
+figuring out a build system that'll work. initally looked at jekyll but it has
+issues, its slow and inflexible.
 
 in addition our suffix is php because we use some php scripting.
 
-so now we have the jekyll layout, we will need to rewrite stuff in those dirs.
-using an idea to intergrate compass but will probably need a rakefile so the
-result gets put into _site/ .
-
-
-Hmmmm. Hold it. Upon looking into jekyll its got some issues: not flexible
-enough and very slow once you increase processing requirements (ie cant
-scale). So we'll try out middlman instead!. This is __OK__. devel is just the
-place to try out these things!.
+the idea now is to use middleman to build with compass doing the css and haml
+to template the common parts of the site. still need to use markdown for
+actual text tho.
