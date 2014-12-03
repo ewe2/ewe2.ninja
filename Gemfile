@@ -16,11 +16,15 @@ gem "wdm", "~> 0.1.0", :platforms => [:mswin, :mingw]
 # Windows does not come with time zone data
 gem "tzinfo-data", platforms: [:mswin, :mingw]
 
-# slim templating and tilt if we need it
-gem "slim"
+# compass and haml templating and tilt. put dependencies even if they're
+# already known to force up to date behaviour
+gem "compass", "~>1.0.1"
+gem "haml", "~>4.0.6"
+# tilt has to be 1.4.1 for middleman.
 gem "tilt"
+gem "sass", "~>3.4.9"
 
-# bh helper
-gem 'bh', '~> 1.2'
+# bh helper, we probably wont need this actually but keep it.
+gem 'bh', "~>1.2.0"
 
 
