@@ -1,0 +1,16 @@
+so we want to move to a jekyll build system that is automated by Rake.
+
+- move files to be processed into a jekyll-friendly layout. make sure other
+  build files know where to find things.
+- japr needs stuff in an _assets folder and files that need preprocessing need
+  renaming. it also needs a _plugins dir.
+
+jekyll usually outputs to a _site/. We need to process what japr does to fit
+our site layout which is
+
+/
+css/
+js/
+fonts/ ?
+
+in addition our suffix is php because we use some php scripting.

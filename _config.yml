@@ -1,0 +1,12 @@
+# Site settings
+title: ewe2.ninja
+email: ewe2@ewe2.ninja
+description: > # this means to ignore newlines until "baseurl:"
+  ewe2, mdate, unix, geek, musician
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://ewe2.ninja" # the base hostname & protocol for your site
+twitter_username: ewe2
+github_username:  ewe2
+
+# Build settings
+markdown: kramdown
