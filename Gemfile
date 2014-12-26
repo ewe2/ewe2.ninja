@@ -24,6 +24,9 @@ gem "haml", "~>4.0.6"
 gem "tilt"
 gem "sass", "~>3.4.9"
 
+# susy in case we need to do something odd with layout
+gem "susy"
+
 # bh helper, we probably wont need this actually but keep it.
 gem 'bh', "~>1.2.0"
 
