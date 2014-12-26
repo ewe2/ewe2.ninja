@@ -1,0 +1,52 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %meta{:content => "penguin home", :name => "description"}/
+    %meta{:content => "ewe2", :name => "author"}/
+    %link{:href => "favicon.ico", :rel => "icon"}/
+    %title ewe2.ninja
+    / Bootstrap core CSS
+    %link{:href => "css/bootstrap.min.css", :rel => "stylesheet"}/
+    / Custom styles for this template
+    %link{:href => "css/screen.css", :media => "screen", :rel => "stylesheet"}/
+    / HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
+    /[if lt IE 9]
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+  %body
+    .site-wrapper
+      .site-wrapper-inner
+        .cover-container
+          .masthead.clearfix
+            .inner
+              %h1.masthead-brand ewe2.ninja
+              %ul.nav.masthead-nav
+                %li
+                  %a{:href => "/"} home
+                %li.active
+                  %a{:href => "stuff.php"} stuff
+                %li
+                  %a{:href => "about.php"} about
+          .inner.cover
+            %h2.cover-heading Placeholder
+            %h3.lead We'll rewrite this
+            %a.btn.btn-lg.btn-default{:href => "#"} Watch this space
+          .mastfoot
+            .mastfoot-inner
+              %span.bumf1
+                Hosting by
+                %a{:href => "http://cloudatcost.com"} Cloudatcost.com
+              %span.boiler.bumf2
+                <?php echo 'Modified: '. date('Y-m-d') ."\n"; ?>
+    /
+      Bootstrap core JavaScript
+      \==================================================
+    / Placed at the end of the document so the pages load faster
+    %script{:src => "js/jquery.min.js"}
+    %script{:src => "js/bootstrap.min.js"}
+    %script{:src => "js/modernizr-latest.js"}
+    / IE10 viewport hack for Surface/desktop Windows 8 bug
+    %script{:src => "js/ie10-viewport-bug-workaround.js"}

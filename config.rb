@@ -5,7 +5,7 @@
 # Change Compass configuration
 compass_config do |config|
    config.output_style = :compact
-   config.sass_dir = 'sass'
+   config.css_dir = 'css'
 end
 
 ###
@@ -51,7 +51,7 @@ end
 #   end
 # end
 
-set :css_dir, 'css'
+#set :css_dir, 'css'
 
 set :js_dir, 'js'
 
