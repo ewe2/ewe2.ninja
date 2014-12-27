@@ -1,0 +1,65 @@
+Always:
+
+check ruby dependencies with bundle install for new stuff, or bundle update
+for existing stuff!
+
+
+Split site up to modularize work:
+
+- figure out a good haml template for a menu
+- figure out a structure for content markup
+
+- split haml up on existing pages to make adding new pages a matter of markup
+  and not full html.
+
+- change deployment to rsync from build dir so we don't have to bother with
+  pushing to a git repo since we can just vc on release here.
+
+  middleman-deploy has an rsync method we should try.
+
+compass breakdown
+
+do as much setting in config.rb to stop cluttering things up. either keep
+compass watch running in another terminal (in devel branch!) or just run it
+after editing. try running compass compile --production in master branch.
+
+* devel is ongoing work: it has all the build structure. it is never tagged.
+  its commits get pushed to netstor devel
+
+* master is now staging for testing and fixes etc: it merges non-build stuff
+from devel and tags with a v-number. at some point it might have its own
+testing stuff also. its commits get pushed to netstor master
+
+* release is for deploying. it only merges the final files needed from master
+and tags with an r-number. its commits gets pushed to origin release. In
+future release should just be the build dir, so we don't have to pussyfoot
+around merges from master.
+
+old rules:
+
+Do NOT git rm in the working directory from now on!
+
+howto merge files from a branch: 
+git co master <files>
+
+this also applies to master!! particularly for css/*.css since we now generate
+those files. Unless prepared to commit each file seperately, or commit php's
+separately to css, merges wont work. On the other hand, you then have to know
+what the commit was and what to choose which is painful.
+
+possibly master/release should have a list of files to update from devel so we can
+automate that (probably a Grunt thing to do).
+
+
+
+
+license boilerplate:
+
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img
+alt="Creative Commons License" style="border-width:0"
+src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This
+work is licensed under a <a rel="license"
+href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons
+Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
+
+

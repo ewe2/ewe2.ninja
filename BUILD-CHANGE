@@ -1,0 +1,29 @@
+figuring out a build system that'll work. initally looked at jekyll but it has
+issues, its slow and inflexible.
+
+in addition our suffix is php because we use some php scripting.
+
+the idea now is to use middleman to build with compass doing the css and haml
+to template the common parts of the site. still need to use markdown for
+actual text tho.
+
+The basic build process is done, all source files have been hamel-ized, we
+just need to break that down into layout templates so we can construct stuff
+into a landing page with a templated menu and markdown content.
+
+for future reference:
+
+you dont need a separate sass dir, just put what you need into a css dir that
+you'll serve, give that to the config.rb that middleman will pick up and the
+compass stuff will be done inline and copy over existing css files.
+
+html2haml does a great job of converting to haml so its just a matter of
+seeing how to break stuff down.
+
+we now deploy via middleman deploy, this is configured in config.rb now. this
+has NOT been merged to master yet, but in future release will be just the
+build dir and middleman deploy.
+
+using middleman-syntax, we dont need a weird syntaxhighlighting css. HOWEVER,
+we DO need to include rouge.css on any page that needs it now, rather than
+fold it into screencss which is probably more efficient.
