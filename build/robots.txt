@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow /owncloud/
+Disallow /rss/
+Disallow /phpmyadmin/
+Disallow /cgi-bin/
+Disallow /.git/
