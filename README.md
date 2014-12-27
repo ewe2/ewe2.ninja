@@ -7,16 +7,14 @@ website technologies.
 
 ### Features
 
-* Built from a basic middleman template to include HAML, SASS, Compass
-  elements. Optional suzy and bh helpers.
+* HTML based on bootstrap css, modernizr and respond JS, server-side fonts.
+* Build system based on a basic middleman template to include HAML, SASS,
+  Compass elements. Optional suzy and bh helpers.
 * Uses middleman-deploy to simplfy deployment and middleman-syntax for
   highlighting.
 
-### TODO
+### Todo
 
 Break current pages down into partials and figure out a sidebar menu for
 stuff.php to get on with content.
-
-### Tagging
-
 
