@@ -151,5 +151,3 @@ DEPENDENCIES
   sass (~> 3.4.9)
   susy
   tilt
-  tzinfo-data
-  wdm (~> 0.1.0)
