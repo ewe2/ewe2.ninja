@@ -1,25 +1,21 @@
-- Sass mostly done, clean up compass method
-  Use compass inclusions to build what we need for the rest of the site unless
-  that becomes unwieldy.
+Always:
 
-  compass/css3:
-  can fix up flex and box-shadow stuff!
-
-- implement Rake build using jekyll, japr, compass to process the sass and use
-  the templating and markdown to generate the content!
+check ruby dependencies with bundle install for new stuff, or bundle update
+for existing stuff!
 
 
-this means:
+Split site up to modularize work:
 
-- creating the jekyll structure
-- splitting the markup into chunks that can be templated OR just put together
-  a template that does this.
-- figuring out a way to get compass to do our js/css compression through japr.
-- have a look at floomby.github.io in parent dir, as an example where Rake is
-  used to automate all these things.
+- figure out a good haml template for a menu
+- figure out a structure for content markup
 
-this also means probably changing master to get the files from a _site deploy
-so we can update release from that. devel will have to look different!
+- split haml up on existing pages to make adding new pages a matter of markup
+  and not full html.
+
+- change deployment to rsync from build dir so we don't have to bother with
+  pushing to a git repo since we can just vc on release here.
+
+  middleman-deploy has an rsync method we should try.
 
 compass breakdown
 
@@ -27,15 +23,19 @@ do as much setting in config.rb to stop cluttering things up. either keep
 compass watch running in another terminal (in devel branch!) or just run it
 after editing. try running compass compile --production in master branch.
 
-* devel is ongoing work: it has all the build structure. it is never tagged. its
-commits get pushed to netstor master
+* devel is ongoing work: it has all the build structure. it is never tagged.
+  its commits get pushed to netstor devel
 
 * master is now staging for testing and fixes etc: it merges non-build stuff
 from devel and tags with a v-number. at some point it might have its own
-testing stuff also. its commits get pushed to netstor devel
+testing stuff also. its commits get pushed to netstor master
 
 * release is for deploying. it only merges the final files needed from master
-and tags with an r-number. its commits gets pushed to origin release
+and tags with an r-number. its commits gets pushed to origin release. In
+future release should just be the build dir, so we don't have to pussyfoot
+around merges from master.
+
+old rules:
 
 Do NOT git rm in the working directory from now on!
 

@@ -37,12 +37,15 @@ end
 # activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+   activate :livereload
+end
 
 # bootstrap helper templating
-    activate :bh
+activate :bh
+
+# fire up rouge (may need to be put in :build
+activate :syntax, line_numbers: true
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -51,11 +54,14 @@ end
 #   end
 # end
 
+# this gets dealt with in the compass config
 #set :css_dir, 'css'
 
 set :js_dir, 'js'
-
 set :images_dir, 'images'
+
+# markdown
+set :markdown_engine, :kramdown
 
 # Build-specific configuration
 configure :build do
@@ -73,4 +79,17 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+end
+
+# our deployment
+activate :deploy do |deploy|
+  deploy.method = :rsync
+  deploy.host   = 'ewe2.ninja'
+  deploy.path   = '/var/www/html'
+  # Optional Settings
+  deploy.user  = 'ewe2' # no default
+  # deploy.port  = 5309 # ssh port, default: 22
+  # do this at least once
+  deploy.clean = false # remove orphaned files on remote host, default: false
+  # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
 end

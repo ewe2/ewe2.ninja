@@ -19,3 +19,11 @@ compass stuff will be done inline and copy over existing css files.
 
 html2haml does a great job of converting to haml so its just a matter of
 seeing how to break stuff down.
+
+we now deploy via middleman deploy, this is configured in config.rb now. this
+has NOT been merged to master yet, but in future release will be just the
+build dir and middleman deploy.
+
+using middleman-syntax, we dont need a weird syntaxhighlighting css. HOWEVER,
+we DO need to include rouge.css on any page that needs it now, rather than
+fold it into screencss which is probably more efficient.
