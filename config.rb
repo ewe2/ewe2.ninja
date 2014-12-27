@@ -71,7 +71,7 @@ configure :build do
   # Minify Javascript on build
   activate :minify_javascript
 
-  # Enable cache buster
+  # Enable cache buster. asset_hash is a bit ott
   activate :cache_buster
 
   # Use relative URLs
