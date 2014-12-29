@@ -12,7 +12,7 @@
     / Bootstrap core CSS
     %link{:href => "css/bootstrap.min.css", :rel => "stylesheet"}/
     / Custom styles for this template
-    %link{:href => "css/screen.css", :media => "screen", :rel => "stylesheet"}/
+    %link{:href => "css/stuff.css", :media => "screen", :rel => "stylesheet"}/
     / Highlighting 
     %link{:href => "css/rouge.css", :media => "screen", :rel => "stylesheet"}/
     / HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
@@ -20,36 +20,44 @@
       <script src="js/html5shiv.min.js"></script>
       <script src="js/respond.min.js"></script>
   %body
-    .site-wrapper
-      .site-wrapper-inner
-        .cover-container
-          .masthead.clearfix
-            .inner
-              %h1.masthead-brand ewe2.ninja
-              %ul.nav.masthead-nav
-                %li.active
-                  %a{:href => "/"} home
-                %li
-                  %a{:href => "stuff.php"} stuff
-                %li
-                  %a{:href => "about.php"} about
-          .inner.cover
+    #wrapper
+      %nav.navbar.navbar-default.navbar-static-top{:role => "navigation", :style => "margin-bottom: 0"}
+        .navbar-header
+          %button.navbar-toggle{:type => "button", "data-toggle" => "collapse", "data-target" => ".navbar-collapse"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.masthead-brand{:href => "index.php"}  ewe2.ninja
+        %ul.nav.navbar-top-links.navbar-right
+          %li.active
+            %a{:href => "index.php"} home
+          %li
+            %a{:href => "stuff.php"} stuff
+          %li
+            %a{:href => "about.php"} about
+        .navbar-default.sidebar{:role => 'navigation'}
+          .sidebar-nav.navbar-collapse
+            %ul#side-menu.nav
+              %li.active
+                %a{:href => "music.php"} music
+              %li
+                %a{:href => "computers.php"} computers
+
+              %li
+                %a{:href => "other.php"} other
+      #page-wrapper
+        .row
+          .col-lg-12
             = yield
-          .mastfoot
-            .mastfoot-inner
-              %span.bumf1
-                Hosting by
-                %a{:href => "http://cloudatcost.com"} Cloudatcost.com
-              %span.boiler.bumf2
-                <?php echo 'Modified: '. date('Y-m-d') ."\n"; ?>
-    /
-      Bootstrap core JavaScript
-      \==================================================
-    / Placed at the end of the document so the pages load faster
-    %script{:src => "js/webfont.js"}
-    %script{:src => "js/dofont.js"}
-    %script{:src => "js/jquery.min.js"}
-    %script{:src => "js/bootstrap.min.js"}
-    %script{:src => "js/modernizr-latest.js"}
-    / IE10 viewport hack for Surface/desktop Windows 8 bug
-    %script{:src => "js/ie10-viewport-bug-workaround.js"}
+      /
+        Bootstrap core JavaScript
+        \==================================================
+      / Placed at the end of the document so the pages load faster
+      %script{:src => "js/webfont.js"}
+      %script{:src => "js/dofont.js"}
+      %script{:src => "js/jquery.min.js"}
+      %script{:src => "js/bootstrap.min.js"}
+      %script{:src => "js/modernizr-latest.js"}
+      / IE10 viewport hack for Surface/desktop Windows 8 bug
+      %script{:src => "js/ie10-viewport-bug-workaround.js"}

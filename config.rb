@@ -45,7 +45,9 @@ end
 activate :bh
 
 # fire up rouge (may need to be put in :build
-activate :syntax, line_numbers: true
+# currently have issues with rouge line number code until we can reflow
+# containers.
+activate :syntax
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -63,10 +65,11 @@ set :images_dir, 'images'
 # markdown
 set :markdown_engine, :kramdown
 
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  activate :minify_css
+  #activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript

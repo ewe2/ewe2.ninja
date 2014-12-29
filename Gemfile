@@ -25,7 +25,8 @@ gem "haml", "~>4.0.6"
 gem "tilt"
 gem "sass", "~>3.4.9"
 
-# susy in case we need to do something odd with layout
+# susy in case we need to do something odd with layout, we'd also like
+# role-haml but that is in dependency hell
 gem "susy"
 
 # bh helper, we probably wont need this actually but keep it.
