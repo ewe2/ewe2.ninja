@@ -36,3 +36,7 @@ gem 'middleman-deploy', '~> 1.0'
 
 # syntax highlighting via Rouge, pick a theme and generate a css
 gem "middleman-syntax"
+
+# try to eradicate some dumb dependency rubbish
+gem 'thor', '~> 0.19.1'
+gem 'rack', '~> 1.6.0'
