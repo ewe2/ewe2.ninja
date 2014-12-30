@@ -38,8 +38,7 @@
               %span.bumf1
                 Hosting by
                 %a{:href => "http://cloudatcost.com"} Cloudatcost.com
-              %span.boiler.bumf2
-                <?php echo 'Modified: '. date('Y-m-d') ."\n"; ?>
+              %span.boiler.bumf2 Modified: #{Time.now.strftime "%F"}
     /
       Bootstrap core JavaScript
       \==================================================
