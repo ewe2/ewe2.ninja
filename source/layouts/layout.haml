@@ -25,33 +25,17 @@
             .inner
               %h1.masthead-brand ewe2.ninja
               %ul.nav.masthead-nav
-                %li.active
-                  %a{:href => "/"} home
-                %li
-                  %a{:href => "stuff.php"} stuff
-                %li
-                  %a{:href => "about.php"} about
+                =nav_link_to "home", "index.html"
+                =nav_link_to "stuff", "stuff.html"
+                =nav_link_to "about", "about.html"
           .inner.cover
-            .penguinbox
-              .mainicon
-                %img{:alt => "A ninja penguin stares at you, holding a katana", :src => "ewe2.ninja.png"}/
-                %br/
-                :javascript
-                  var Q=new Array();
-                  Q[0] = "eek";
-                  Q[1] = "eek eek";
-                  Q[2] = "EEK eek FISH";
-                  Q[3] = "There is no utopia. There never will be";
-                  Q[4] = "Give a penguin a fish and he'll go away. Give him ten fish and you've got yourself a penguin party!";
-                  Q[5] = "The past is gone and the future is imaginary. Be here now.";
-                  document.write(Q[Math.floor(Math.random() * Q.length)]);
+            = yield
           .mastfoot
             .mastfoot-inner
               %span.bumf1
                 Hosting by
                 %a{:href => "http://cloudatcost.com"} Cloudatcost.com
-              %span.boiler.bumf2
-                <?php echo 'Modified: '. date('Y-m-d') ."\n"; ?>
+              %span.boiler.bumf2 Modified: #{Time.now.strftime "%F"}
     /
       Bootstrap core JavaScript
       \==================================================

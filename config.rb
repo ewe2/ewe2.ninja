@@ -45,7 +45,9 @@ end
 activate :bh
 
 # fire up rouge (may need to be put in :build
-activate :syntax, line_numbers: true
+# currently have issues with rouge line number code until we can reflow
+# containers.
+activate :syntax
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -63,16 +65,34 @@ set :images_dir, 'images'
 # markdown
 set :markdown_engine, :kramdown
 
+
+# Methods defined in the helpers block are available in templates
+helpers do
+  def nav_link_to(link, url, opts={})
+    if current_resource.url == url_for(url)
+      prefix = '<li class="active">'
+    else
+      prefix = '<li>'
+    end
+    prefix + link_to(link, url, opts) + "</li>"
+  end
+  
+  def get_page_title
+    yield_content(:title) || current_page.data.title
+  end
+end
+
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  # activate :minify_css
+  #activate :minify_css
 
   # Minify Javascript on build
-  # activate :minify_javascript
+  activate :minify_javascript
 
-  # Enable cache buster
-  # activate :asset_hash
+  # Enable cache buster. asset_hash is a bit ott
+  activate :cache_buster
 
   # Use relative URLs
   # activate :relative_assets
