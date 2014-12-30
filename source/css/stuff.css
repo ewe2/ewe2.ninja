@@ -50,7 +50,14 @@ body {
 
 .navbar-top-links {
     margin-right: 0;
+    margin-bottom: 15px;
+    vertical-align: baseline;
+    float right!important;
 }
+
+/* there can be a whitespace issue with inline-block, adjust margin negatively
+ * if you need to. eg margin-bottom: -5px
+ */
 
 .navbar-top-links > li {
     display: inline-block;
@@ -60,14 +67,20 @@ body {
     margin-right: 15px;
 }
 
+.navbar-top-links li + li {
+    margin-left: 20px;
+}
+
+
 .navbar-top-links > li > a {
-    padding: 15px;
-    min-height: 50px;
+    border-bottom: 2px solid transparent;
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 20px;
     font-size: 16px;
     font-weight: bold;
     color: #fff;
     color: rgba(255,255,255, 0.75);
-    border-bottom 2px solid transparent;
 }
 
 .navbar-top-links > li > a:hover, .navbar-top-links > li > a:focus {
