@@ -66,6 +66,45 @@ set :images_dir, 'images'
 set :markdown_engine, :kramdown
 
 
+# Methods defined in the helpers block are available in templates
+helpers do
+  def tag_list(array, prefix="/blog")
+    array ||= []
+    array = [*array.split(/\s+,\s+/)].compact unless array.is_a? Array
+    array.map{|tag| link_to tag, "#{prefix}/tags/#{tag}/" }.join ", "
+  end
+
+  def nav_link(name, url, options={})
+    options = {
+      class: "",
+      active_if: url,
+      page: current_page.url,
+    }.update options
+    active_url = options.delete(:active_if)
+    active = Regexp === active_url ? current_page.url =~ active_url : current_page.url == active_url
+    options[:class] += " active" if active
+
+    link_to name, url, options
+  end
+
+  def blog_link(article)
+    if article.data.link
+      "#{link_to article.title, article.data.link} <span class=\"external-link\">&raquo;</span>"
+    else
+      link_to article.title, article
+    end
+  end
+
+  def permalink(article)
+    link_to "&infin;", article, title:"Permalink"
+  end
+
+  def get_page_title
+    yield_content(:title) || current_page.data.title
+  end
+end
+
+
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
