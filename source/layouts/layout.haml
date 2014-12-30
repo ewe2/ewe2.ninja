@@ -25,12 +25,9 @@
             .inner
               %h1.masthead-brand ewe2.ninja
               %ul.nav.masthead-nav
-                %li.active
-                  %a{:href => "index.php"} home
-                %li
-                  %a{:href => "stuff.php"} stuff
-                %li
-                  %a{:href => "about.php"} about
+                =nav_link_to "home", "index.html"
+                =nav_link_to "stuff", "stuff.html"
+                =nav_link_to "about", "about.html"
           .inner.cover
             = yield
           .mastfoot

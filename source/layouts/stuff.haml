@@ -28,24 +28,17 @@
             %span.icon-bar
             %span.icon-bar
             %span.icon-bar
-          %a.masthead-brand{:href => "index.php"}  ewe2.ninja
+          %a.masthead-brand{:href => "index.html"}  ewe2.ninja
         %ul.nav.navbar-top-links.navbar-right
-          %li
-            %a{:href => "index.php"} home
-          %li.active
-            %a{:href => "stuff.php"} stuff
-          %li
-            %a{:href => "about.php"} about
+          =nav_link_to "home", "index.html"
+          =nav_link_to "stuff", "stuff.html"
+          =nav_link_to "about", "about.html"
         .navbar-default.sidebar{:role => 'navigation'}
           .sidebar-nav.navbar-collapse
             %ul#side-menu.nav
-              %li.active
-                %a{:href => "music.php"} music
-              %li
-                %a{:href => "computers.php"} computers
-
-              %li
-                %a{:href => "other.php"} other
+              =nav_link_to "music", "music.html"
+              =nav_link_to "computers", "computers.html"
+              =nav_link_to "other", "other.html"
       #page-wrapper
         .row
           .col-lg-12
