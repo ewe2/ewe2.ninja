@@ -1,0 +1,13 @@
+---
+about.html: "/about.html"
+computers.html: "/computers.html"
+index.html: "/index.html"
+music.html: "/music.html"
+random.html: "/random.html"
+stuff:
+  - bootstrapping.html: "/stuff/bootstrapping.html"
+  - ching.html: "/stuff/ching.html"
+  - cno.html: "/stuff/cno.html"
+  - soevssis.html: "/stuff/soevssis.html"
+stuff.html: "/stuff.html"
+test.html: "/test.html"

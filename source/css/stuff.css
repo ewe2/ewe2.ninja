@@ -13,6 +13,7 @@ body {
     background-color: #888888;
     color: #ffffbb;
     font-family: 'Roboto',sans-serif;
+    font-size: 14px;
     text-shadow: 0 1px 3px rgba(0,0,0, 0.5);
 }
 
@@ -410,4 +411,46 @@ table.dataTable thead .sorting:after {
 
 .panel-yellow a:hover {
     color: #df8a13;
+}
+
+
+/* css attributes of good table to use, sassify */
+
+table.wiki-table td.hl1, table.wiki-table th, table.wiki-table th.hl1,
+table.wikitable td.hl1, table.wikitable th, table.wikitable th.hl1 {
+    background: none repeat scroll 0% 0% #f7f7f7;
+    padding: 0.35em 0.5em;
+    color: #000;
+Write failed: Broken pipe
+ewe2@netstor:~$ s: 0.3em;
+    text-shadow: none;
+    border: 1px solid #CCC;
+    box-shadow: 0px 0.2em 0.2em rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+table.wiki-table td:nth-child(2n), table.wikitable td:nth-child(2n) {
+    background: none repeat scroll 0% 0% #49483e;
+}
+
+table.wiki-table td, table.wiki-table th, table.wikitable td, table.wikitable
+th {
+    border-width: 0px 0px 1px;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color #CCC;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    padding: 0.35em 0.5em;
+
+}
+
+table.wiki-table td, table.wikitable td {
+    vertical-align: top;
+}
+
+blockquote {
+    font-size: 14px;
 }
