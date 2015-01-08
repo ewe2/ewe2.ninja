@@ -18,37 +18,23 @@
       <script src="/js/html5shiv.min.js"></script>
       <script src="/js/respond.min.js"></script>
   %body
-    #wrapper
-      #page-wrapper
-        = navbar container: false do
-          = navbar_header brand: "ewe2.ninja", brand_link: "/index.html"
-          = navbar_collapse do
-            = navbar_group align: 'right', id: 'menu' do
-              = navbar_item "home", '/'
-              = navbar_dropdown "stuff" do
-                = navbar_dropdown_header "Penguin stuff"
-                = navbar_item "stuff", '/stuff/', {class: 'wank' }
-                = navbar_dropdown_divider
-                = navbar_item "music", '/music/', {class: 'wank' }
-                = navbar_item "computers", '/computers/', {class: 'wank'}
-                = navbar_item "random", '/random/', {class: 'wank' }
-              = navbar_item "about", '/about', {class: 'wank' }
-        .inner
-          = yield
-        .mastfoot
-          .mastfoot-inner
-            %span.bumf1
-              Hosting by
-              %a{:href => "http://cloudatcost.com"} Cloudatcost.com
-            %span.boiler.bumf2 Modified: #{Time.now.strftime "%F"}
+    = partial "layouts/nav2"
+    .container-penguin
+      = yield
+    .mastfoot
+      .mastfoot-inner
+        %span.bumf1
+          Hosting by
+          %a{:href => "http://cloudatcost.com"} Cloudatcost.com
+          %span.boiler.bumf2 Modified: #{Time.now.strftime "%F"}
     /
       Bootstrap core JavaScript
       \==================================================
     / Placed at the end of the document so the pages load faster
-    %script{:src => "/js/webfont.js"}
-    %script{:src => "/js/dofont.js"}
     %script{:src => "/js/jquery.min.js"}
     %script{:src => "/js/bootstrap.min.js"}
+    %script{:src => "/js/webfont.js"}
+    %script{:src => "/js/dofont.js"}
     %script{:src => "/js/modernizr-latest.js"}
     / IE10 viewport hack for Surface/desktop Windows 8 bug
     %script{:src => "/js/ie10-viewport-bug-workaround.js"}

@@ -10,6 +10,8 @@ html {
 }
 
 body {
+    min-height: 2000px;
+    width: 100%;
     background-color: #888888;
     color: #ffffbb;
     font-family: 'Roboto',sans-serif;
@@ -17,63 +19,58 @@ body {
     text-shadow: 0 1px 3px rgba(0,0,0, 0.5);
 }
 
-#wrapper {
-    width: 100%;
-}
-
-#page-wrapper {
+.container-stuff {
+    margin: 15px;
     padding: 30px;
-    min-height: 568px;
-    background-color: #888;
-}
-
-@media(min-width:768px) {
-    #page-wrapper {
-        padding: 30px;
-    }
-}
-
-.container {
-    padding-right: 0px;
 }
 
 .navbar-default {
 	background-color: #666666;
 	border-color: #666666;
 }
+
 .navbar-default .navbar-brand {
 	color: #a9a9a9;
     margin-left: 20px; font-weight: bold; font-size: 25pt;
 }
+
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
 	color: #ffffbb;
 }
+
 .navbar-default .navbar-text {
 	color: #a9a9a9;
 }
+
 .navbar-default .navbar-nav > li > a {
 	color: #a9a9a9;
 }
+
 .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
 	color: #ffffbb;
 }
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	color: #ffffbb;
 	background-color: #666666;
 }
+
 .navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
 	color: #ffffbb;
 	background-color: #666666;
 }
+
 .navbar-default .navbar-toggle {
 	border-color: #666666;
 }
+
 .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
 	background-color: #666666;
 }
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #a9a9a9;
 }
+
 .navbar-default .navbar-collapse,
 .navbar-default .navbar-form {
 	border-color: #a9a9a9;
@@ -287,8 +284,8 @@ table.wikitable td.hl1, table.wikitable th, table.wikitable th.hl1 {
     background: none repeat scroll 0% 0% #f7f7f7;
     padding: 0.35em 0.5em;
     color: #000;
-Write failed: Broken pipe
-ewe2@netstor:~$ s: 0.3em;
+    text-align: left;
+    border-radius: 0.3em;
     text-shadow: none;
     border: 1px solid #CCC;
     box-shadow: 0px 0.2em 0.2em rgba(0, 0, 0, 0.1);

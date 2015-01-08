@@ -15,35 +15,21 @@
     %link{:href => "/css/stuff.css", :media => "screen", :rel => "stylesheet"}/
     / Highlighting 
     %link{:href => "/css/rouge.css", :media => "screen", :rel => "stylesheet"}/
-    / HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries
-    /[if lt IE 9]
+    / HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries
+    / [if lt IE 9]
       <script src="/js/html5shiv.min.js"></script>
       <script src="/js/respond.min.js"></script>
   %body
-    #wrapper
-      = navbar container: false do
-        = navbar_header brand: "ewe2.ninja", brand_link: "/index.html"
-        = navbar_collapse do
-          = navbar_group align: 'right', id: 'menu' do
-            = navbar_item "home", '/'
-            = navbar_dropdown "stuff" do
-              = navbar_dropdown_header "Penguin stuff"
-              = navbar_item "stuff", '/stuff/'
-              = navbar_dropdown_divider
-              = navbar_item "music", '/music/'
-              = navbar_item "computers", '/computers/'
-              = navbar_item "random", '/random/'
-            = navbar_item "about", '/about'
-      #page-wrapper
-        = yield
+    = partial "layouts/nav2"
+    .container-stuff
+      = yield
       /
         Bootstrap core JavaScript
         \==================================================
       / Placed at the end of the document so the pages load faster
-      %script{:src => "/js/webfont.js"}
-      %script{:src => "/js/dofont.js"}
-      %script{:src => "/js/jquery.min.js"}
-      %script{:src => "/js/bootstrap.min.js"}
-      %script{:src => "/js/modernizr-latest.js"}
-      / IE10 viewport hack for Surface/desktop Windows 8 bug
-      %script{:src => "/js/ie10-viewport-bug-workaround.js"}
+    %script{:src => "/js/webfont.js"}
+    %script{:src => "/js/dofont.js"}
+    %script{:src => "/js/jquery.min.js"}
+    %script{:src => "/js/bootstrap.min.js"}
+    %script{:src => "/js/modernizr-latest.js"}
+    %script{:src => "/js/ie10-viewport-bug-workaround.js"}
