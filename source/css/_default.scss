@@ -403,6 +403,8 @@ blockquote {
 // footer
 
 .mastfoot {
+    margin-left: auto;
+    margin-right: auto;
     border-top: $borders #000000;
     background: $headfoots;
     color: #ccc;
@@ -421,7 +423,7 @@ blockquote {
     width: 100%;
     @include setfor(tablets) { float: left;}
     .bumf1 { @include order(1); }
-    .bumf2 { @include order(2); }
+    .bumf2 { @include order(2); text-align: right; }
 }
 
 .boiler {
