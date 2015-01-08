@@ -6,7 +6,8 @@
 source 'https://rubygems.org'
 
 gem "middleman", "~>3.3.7"
-gem "middleman-bootstrap-navbar"
+# good for prototyping but not flexible enough for production
+#gem "middleman-bootstrap-navbar"
 gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-syntax"
 gem "middleman-deploy", "~> 1.0"
