@@ -21,21 +21,28 @@
       <script src="/js/respond.min.js"></script>
   %body
     #wrapper
-      = navbar container: false do
-        = navbar_header brand: "ewe2.ninja", brand_link: "/index.html"
-        = navbar_collapse do
-          = navbar_group align: 'right', id: 'menu' do
-            = navbar_item "home", '/'
-            = navbar_dropdown "stuff" do
-              = navbar_dropdown_header "Penguin stuff"
-              = navbar_item "stuff", '/stuff/'
-              = navbar_dropdown_divider
-              = navbar_item "music", '/music/'
-              = navbar_item "computers", '/computers/'
-              = navbar_item "random", '/random/'
-            = navbar_item "about", '/about'
+      %nav.navbar.navbar-default.navbar-static-top{:role => "navigation", :style => "margin-bottom: 0"}
+        .navbar-header
+          %button.navbar-toggle{:type => "button", "data-toggle" => "collapse", "data-target" => ".navbar-collapse"}
+            %span.sr-only Toggle navigation
+            %span.icon-bar
+            %span.icon-bar
+            %span.icon-bar
+          %a.masthead-brand{:href => "index.html"}  ewe2.ninja
+        %ul.nav.navbar-top-links.navbar-right
+          =nav_link_to "home", "/index.html"
+          =nav_link_to "stuff", "/stuff.html"
+          =nav_link_to "about", "/about.html"
+        .navbar-default.sidebar{:role => 'navigation'}
+          .sidebar-nav.navbar-collapse
+            %ul#side-menu.nav
+              =nav_link_to "music", "/music.html"
+              =nav_link_to "computers", "/computers.html"
+              =nav_link_to "random", "/random.html"
       #page-wrapper
-        = yield
+        .row
+          .col-lg-12
+            = yield
       /
         Bootstrap core JavaScript
         \==================================================

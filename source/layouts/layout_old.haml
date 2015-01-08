@@ -18,29 +18,24 @@
       <script src="/js/html5shiv.min.js"></script>
       <script src="/js/respond.min.js"></script>
   %body
-    #wrapper
-      #page-wrapper
-        = navbar container: false do
-          = navbar_header brand: "ewe2.ninja", brand_link: "/index.html"
-          = navbar_collapse do
-            = navbar_group align: 'right', id: 'menu' do
-              = navbar_item "home", '/'
-              = navbar_dropdown "stuff" do
-                = navbar_dropdown_header "Penguin stuff"
-                = navbar_item "stuff", '/stuff/', {class: 'wank' }
-                = navbar_dropdown_divider
-                = navbar_item "music", '/music/', {class: 'wank' }
-                = navbar_item "computers", '/computers/', {class: 'wank'}
-                = navbar_item "random", '/random/', {class: 'wank' }
-              = navbar_item "about", '/about', {class: 'wank' }
-        .inner
-          = yield
-        .mastfoot
-          .mastfoot-inner
-            %span.bumf1
-              Hosting by
-              %a{:href => "http://cloudatcost.com"} Cloudatcost.com
-            %span.boiler.bumf2 Modified: #{Time.now.strftime "%F"}
+    .site-wrapper
+      .site-wrapper-inner
+        .cover-container
+          .masthead.clearfix
+            .inner
+              %h1.masthead-brand ewe2.ninja
+              %ul.nav.masthead-nav
+                =nav_link_to "home", "/index.html"
+                =nav_link_to "stuff", "/stuff.html"
+                =nav_link_to "about", "/about.html"
+          .inner.cover
+            = yield
+          .mastfoot
+            .mastfoot-inner
+              %span.bumf1
+                Hosting by
+                %a{:href => "http://cloudatcost.com"} Cloudatcost.com
+              %span.boiler.bumf2 Modified: #{Time.now.strftime "%F"}
     /
       Bootstrap core JavaScript
       \==================================================

@@ -1,6 +1,6 @@
 ### Things
 
-Apart from the topics on the navigation to the left, I'm interested in many
+Apart from the topics on the navigation above, I'm interested in many
 things: 
 
 * I've been an avid book reader since childhood, with a particular love

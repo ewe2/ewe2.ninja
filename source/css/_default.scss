@@ -14,6 +14,11 @@ $swidth: 480px;
 $mwidth: 768px;
 $lwidth: 992px;
 
+$bgDefault      : #666666;
+$bgHighlight    : #666666;
+$colDefault     : #a9a9a9;
+$colHighlight   : #ffffbb;
+
 // test using webfont js loader instead
 //@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic|Roboto:400italic,400);
 //@import url(http://fonts.googleapis.com/css?family=Noto+Sans:400,400italic);
@@ -57,50 +62,329 @@ body {
     @include text-shadow(0 1px 3px $shadow);
 }
 
-.site-wrapper {
-  display: table;
+#wrapper {
   width: 100%;
-  height: 100%;
-  min-height: 100%;
 }
 
 
-.site-wrapper-inner {
-  display: table-cell;
-  vertical-align: top;
+#page-wrapper {
+  background-color: #888;
+  min-height: 568px;
   @include setfor(phones) {vertical-align: middle;}
 }
-  
 
-.cover-container {
-    margin-right: auto;
-    margin-left: auto;
-    @include setfor(phones) { width: 100%; }
-    @include setfor(desktops) { width: 100%; }
+
+.container {
+    padding-right: 0px;
 }
 
-.cover-heading {
-    font-size: 36pt;
+
+.navbar-default {
+	background-color: $bgDefault;
+	border-color: $bgHighlight;
+	.navbar-brand {
+	  color: $colHighlight;
+	  margin-left: 20px;
+	  font-weight: bold;
+	  font-size: 25pt;
+	  &:hover, &:focus { 
+		color: $colHighlight; 
+        }
+    }
+	.navbar-text {
+		color: $colDefault; 
+    }
+	.navbar-nav {
+      float: right!important;
+      margin-right: 0px;
+      vertical-align: baseline;
+		> li {
+			> a {
+				color: $colDefault;
+				&:hover,  &:focus {
+					color: $colHighlight; 
+                  }
+                }
+        }
+		> .active {
+			> a, > a:hover, > a:focus {
+				color: $colHighlight;
+				background-color: $bgHighlight;
+              }
+        }
+		> .open {
+			> a, > a:hover, > a:focus {
+				color: $colHighlight;
+				background-color: $bgHighlight; 
+              }
+        }
+    }
+	.navbar-toggle {
+		border-color: $bgHighlight;
+		&:hover, &:focus {
+			background-color: $bgHighlight; 
+          }
+		.icon-bar {
+			background-color: $colDefault; 
+          }
+    }
+	.navbar-collapse,
+	.navbar-form {
+		border-color: $colDefault; }
+	.navbar-link {
+		color: $colDefault;
+		&:hover {
+			color: $colHighlight; 
+        }
+    }
 }
 
-.inner {
-    padding: 20px;
+@media (max-width: 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu {
+		> li > a {
+			color: $colDefault;
+			&:hover, &:focus {
+				color: $colHighlight; }}
+		> .active {
+			> a, > a:hover, > a:focus, {
+				color: $colHighlight;
+				background-color: $bgHighlight; }}}
 }
 
-.masthead {
-  background: $headfoots;
-  border-bottom: $borders #000000;
-  @include setfor(phones) { position: fixed; top: 0; width: 100%; }
-  @include setfor(desktops) { width: 100%; }
+
+/* there can be a whitespace issue with inline-block, adjust margin negatively
+ * if you need to. eg margin-bottom: -5px
+ */
+
+.navbar-nav > li {
+    display: inline-block;
 }
 
-.masthead-brand {
-    margin-top: 10px;
-    margin-bottom: 10px;
+.navbar-nav li:last-child {
+    margin-right: 15px;
+}
+
+.navbar-nav li + li {
+    margin-left: 20px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    border-bottom: 2px solid transparent;
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 20px;
+    font-size: 16px;
     font-weight: bold;
-    font-size: 25pt;
-    @include setfor(tablets) { float: left; }
-    @include setfor(desktops) { float: left; }
+    color: #a9a9a9;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default
+.navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus {
+  color: #ffffbb;
+  background-color: #666666;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default
+.navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+  color: $text-color;
+  background-color: transparent;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-nav > li > a:focus .navbar-nav > li > a:active {
+    color: #ffffbb;
+    background-color: transparent;
+    border-bottom-color: #ffffbb;
+}
+
+.navbar-nav .dropdown-menu li {
+    display: block;
+    background-color: transparent;
+    color: $text-color;
+}
+
+.navbar-nav .dropdown-menu li:last-child {
+    margin-right: 0;
+}
+
+.navbar-nav .dropdown-menu > li > a {
+    padding: 3px 20px;
+    min-height: 0;
+}
+
+.navbar-nav .dropdown-menu li a div {
+    white-space: normal;
+}
+
+.navbar-nav .dropdown-messages,
+.navbar-nav .dropdown-tasks,
+.navbar-nav .dropdown-alerts {
+    width: 310px;
+    min-width: 0;
+}
+
+.navbar-nav .dropdown-messages {
+    margin-left: 5px;
+}
+
+.navbar-nav .dropdown-tasks {
+    margin-left: -59px;
+}
+
+.navbar-nav .dropdown-alerts {
+    margin-left: -123px;
+}
+
+.navbar-nav .dropdown-user {
+    right: 0;
+    left: auto;
+}
+
+
+@media(min-width:768px) {
+    .navbar-nav .dropdown-messages,
+    .navbar-nav .dropdown-tasks,
+    .navbar-nav .dropdown-alerts {
+        margin-left: auto;
+    }
+}
+
+
+.dropdown-menu>li>a:hover {
+    background-color: #666666;
+    color: #ffffbb;
+}
+
+.dropdown-header {
+    color: #fff;
+}
+
+.dropdown-menu {
+    background-color: #888888;
+}
+
+.dropdown-menu >li > a {
+    color: #ffffbb;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    color: #ffffbb;
+    text-decoration: none;
+    background-color: #666666;
+    outline: 0;
+}
+
+
+.btn-outline {
+    color: inherit;
+    background-color: transparent;
+    transition: all .5s;
+}
+
+.btn-primary.btn-outline {
+    color: #428bca;
+}
+
+.btn-success.btn-outline {
+    color: #5cb85c;
+}
+
+.btn-info.btn-outline {
+    color: #5bc0de;
+}
+
+.btn-warning.btn-outline {
+    color: #f0ad4e;
+}
+
+.btn-danger.btn-outline {
+    color: #d9534f;
+}
+
+.btn-primary.btn-outline:hover,
+.btn-success.btn-outline:hover,
+.btn-info.btn-outline:hover,
+.btn-warning.btn-outline:hover,
+.btn-danger.btn-outline:hover {
+    color: #333;
+}
+
+a,a:hover, a:active, a:focus { 
+    color: #ffffbb; 
+    border-bottom-color: #ffffbb;
+}
+
+.btn-circle {
+    width: 30px;
+    height: 30px;
+    padding: 6px 0;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.428571429;
+}
+
+.btn-circle.btn-lg {
+    width: 50px;
+    height: 50px;
+    padding: 10px 16px;
+    border-radius: 25px;
+    font-size: 18px;
+    line-height: 1.33;
+}
+
+.btn-circle.btn-xl {
+    width: 70px;
+    height: 70px;
+    padding: 10px 16px;
+    border-radius: 35px;
+    font-size: 24px;
+    line-height: 1.33;
+}
+
+/* css attributes of good table to use, sassify */
+
+table.wiki-table td.hl1, table.wiki-table th, table.wiki-table th.hl1,
+table.wikitable td.hl1, table.wikitable th, table.wikitable th.hl1 {
+    background: none repeat scroll 0% 0% #f7f7f7;
+    padding: 0.35em 0.5em;
+    color: #000;
+    text-shadow: none;
+    border: 1px solid #CCC;
+    box-shadow: 0px 0.2em 0.2em rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+table.wiki-table td:nth-child(2n), table.wikitable td:nth-child(2n) {
+    background: none repeat scroll 0% 0% #49483e;
+}
+
+table.wiki-table td, table.wiki-table th, table.wikitable td, table.wikitable
+th {
+    border-width: 0px 0px 1px;
+    border-style: none none solid;
+    border-color: -moz-use-text-color -moz-use-text-color #CCC;
+    -moz-border-top-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    border-image: none;
+    padding: 0.35em 0.5em;
+
+}
+
+table.wiki-table td, table.wikitable td {
+    vertical-align: top;
+}
+
+blockquote {
+    font-size: 14px;
+}
+  
+.inner {
+  vertical-align: middle;
+  position: center;
+  padding: 20px;
 }
 
 .penguinbox {
@@ -116,36 +400,6 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
     vertical-align: middle;
-}
-
-.masthead-nav {
-    > li {
-        display: inline-block;
-        + li { margin-left: 20px; }
-        > a {
-            padding-right: 0;
-            padding-left: 0;
-            font-size: 16px;
-            font-weight: bold;
-            color: #fff;
-            color: rgba(255,255,255,.75);
-            border-bottom: 2px solid transparent;
-            &:hover, &:focus {
-                background-color: transparent;
-                border-bottom-color: #a9a9a9;
-                border-bottom-color: $translucent-color;
-            }
-        }
-    }
-    > .active {
-        > a, &:hover, &:focus {
-            color: $text-color;
-            border-bottom-color: $text-color;
-            }
-    }
-
-   @include setfor(tablets) {float: right;}
-   @include setfor(desktop) {float: right;}
 }
 
 // footer
