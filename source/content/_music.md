@@ -37,5 +37,5 @@ Chiefly bass, also keyboards, guitar.
 
 Some stuff I wrote about music-related things
 
-* Revolution in the head: an appraisal of Ian MacDonald's *Revolution in the
+* <a href="/stuff/revolution/">Revolution in the Head</a>: an appraisal of Ian MacDonald's *Revolution in the
   Heart*
