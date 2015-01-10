@@ -74,13 +74,14 @@ set :js_dir, 'js'
 set :images_dir, 'images'
 
 # markdown. move to redcarpet because it supports stuff we need.
-set :markdown, :tables => true, :autolink => true, :fenced_code_blocks => true, with_toc_data: true, disable_indented_code_blocks: true, :strikethrough => true, :highlight => true, :footnotes => true, :no_intra_emphasis => true
-set :markdown_engine, :redcarpet
+#set :markdown, :tables => true, :autolink => true, :fenced_code_blocks => true, with_toc_data: true, disable_indented_code_blocks: true, :strikethrough => true, :highlight => true, :footnotes => true, :no_intra_emphasis => true
+#set :markdown_engine, :redcarpet
+set :markdown_engine, :kramdown
 
-# Easier boostrap navbars
-activate :bootstrap_navbar do | bootstrap_navbar |
-  bootstrap_navbar.bootstrap_version = '3.2.0'
-end
+# Easier boostrap navbar for prototyping
+#activate :bootstrap_navbar do | bootstrap_navbar |
+#  bootstrap_navbar.bootstrap_version = '3.2.0'
+#end
 
 
 # Grabbed from the middleman forum, nav_link_to precomputes active links for

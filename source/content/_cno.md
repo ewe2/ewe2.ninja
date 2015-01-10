@@ -1,4 +1,12 @@
-Cno is the unstripped and mysterious first binary that forms part of ching(6) which first appears in V7. But, as we will see, that's not its origin!
+### Why look at Cno?
+
+Cno is the unstripped and mysterious first binary that forms part of ching(6)
+which first appears in V7. But, as we will see, that's not its origin! It is a
+simple binary compared to its sister phx, but perhaps unique enough that it
+was treaded differently afterwards. Phx was basically unchanged but Cno was
+altered several times! (see [The strange case of the ching(6) in the Unix][1])
+
+[1]: https://ewe2.ninja/stuff/ching "Ching"
 
 As an exercise in understanding V7 Unix and to recover its long-lost source we
 will disassemble cno. We'll use a few tools to do this: I have a copy of cno
@@ -19,11 +27,14 @@ structured. If we cheat a little and look at the <kbd>phx</kbd> binary, we can
 see that "hexagrams.r" appears. That also tells us that C is being used as "r"
 and "a" are file handle flags: r for reading and a for text output.
 
-All this is at the end of the file, which tells us that there will be mostly library code appended by the linker, and references to it will be resolved in the preceding code, so it will be useful to find those addresses to find the system calls in the code. 
+All this is at the end of the file, which tells us that there will be mostly
+library code appended by the linker, and references to it will be resolved in
+the preceding code, so it will be useful to find those addresses to find the
+system calls in the code. 
 
 #### Code-hunting
 
-The C compiler in V7 emitted code for the V7 assembler to translate; this
+The C compiler in Unix emitted code for the Unix assembler to translate; this
 means it output code intended for the syntax of that assembler! <kbd>as</kbd>
 had some significant differences from the standard macro assembler from RT-11,
 particularly with input/output syntax. This is useful, because that gives us
@@ -42,7 +53,7 @@ sourcecode for the 2nd pass (usually the pass for resolving symbols):
 ~~~
 
 <kbd>$</kbd> is "AT&T syntax" for <kbd>#</kbd> in DEC assembler syntax, and is
-usually a PC instruction. Remember that destination <- source in most PDP11
+usually a PC instruction. Remember that destination precedes source in most PDP11
 operands, so this instruction is designed to reference the *address* of the
 program counter from a register address rather than the PC directly.
 
@@ -128,7 +139,7 @@ mov r0, 2(sp)    / effectively the .bss
 jsr pc, _main    / jump to main
 cmp (sp)+, (sp)+ / check argv
 mov r0, (sp)     / push argument on the stack
-jsr pc, *$_exit  / mode 37 for \*$expr.
+jsr pc, *$_exit  / mode 37 for $expr.
 sys exit
 ~~~
 

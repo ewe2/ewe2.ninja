@@ -1,15 +1,41 @@
 ## The strange case of the ching(6) in the Unix
 
-There are many mysteries of the early days of Unix. Because it grew organically, there wasn't really anyone in charge of care and feeding except Dennis and Ken and the Bell Labs crews initial work. Inevitably, things didn't get documented (after all, they were *doing stuff* not writing it up) and some contributions got forgotten. When Don Libes wrote *Life With Unix: A Guide for Everyone* back in the early 1990's, he found it impossible to track everything down even with his contacts and experience in the early Internet age. It was already 20 years too late. So the mystery of ching is likely to remain one, even if it is a small mystery.
+There are many mysteries of the early days of Unix. Because it grew organically, there wasn't really
+anyone in charge of care and feeding except Dennis and Ken and the Bell Labs crews initial work.
+Inevitably, things didn't get documented (after all, they were *doing stuff* not writing it up) and
+some contributions got forgotten. When Don Libes wrote *Life With Unix: A Guide for Everyone* back
+in the early 1990's, he found it impossible to track everything down even with his contacts and
+experience in the early Internet age. It was already 20 years too late. So the mystery of ching is
+likely to remain one, even if it is a small mystery.
 
 ### Discovery
 
-I first discovered ching in the early 1990's also. Back then people were innocent enough to throw all sorts of things on the big ftp sites of the time, and CSRG were incautious enough to throw parts of BSD online before checking with USL if that was okay. And people were very keen to port everything to Linux also, so a lot of SunOS stuff, quite illegally, was also being thrown on there. Of course, this didn't last long, but while it did, there were a few things that slipped through, even on to commercial CDs. One of these was the Infomagic series which was just dumps of sunsite.unc.edu and tsx-11.mit.edu mainly, whatever was current because it was a resource for Linux enthusiasts. And a version of BSD, probably 4.4 BSD-Lite1, was also online, and this was how I was able to acquire a version of ching, and that version was incomplete. But let's start at the beginning.
+I first discovered ching in the early 1990's also. Back then people were innocent enough to throw
+all sorts of things on the big ftp sites of the time, and CSRG were incautious enough to throw parts
+of BSD online before checking with USL if that was okay. And people were very keen to port
+everything to Linux also, so a lot of SunOS stuff, quite illegally, was also being thrown on there.
+Of course, this didn't last long, but while it did, there were a few things that slipped through,
+even on to commercial CDs. One of these was the Infomagic series which was just dumps of
+sunsite.unc.edu and tsx-11.mit.edu mainly, whatever was current because it was a resource for Linux
+enthusiasts. And a version of BSD, probably 4.4 BSD-Lite1, was also online, and this was how I was
+able to acquire a version of ching, and that version was incomplete. But let's start at the
+beginning.
 
 ### Original ching (1978? V6 - 1979 V7)
 
-We *think* that ching started with V7 because we have an original tape and the timestamped Pdp-11 binaries. 
-But that's not the real truth. Although ching made it into the official V7 tape, it came without the sourcecode or any indication of who wrote it. The binaries themselves aren't even V7, they're V6 and not even original V6 but what I would call V6B or proto-V7, a development before the stdio library was in its fixed form but after the first wave of development, called libS which superseded the old iolib. We can see this because the binaries themselves exhibit a specific form of C setup code known as crt0.s that did not exist except at this specific time when the core libraries were in redevelopment. In addition, although *cno* (*c*opy *n*umerical *o*utput?) was stripped, and therefore difficult to track, *phx* (*p*rint *h*e*x*agrams?) was *not* stripped and we can see the object files it needed from the system to link as an executable, and these too are specifically from this period. The mystery of the loss of the sourcecode has its origin here: too popular to let bitrot in the V6 upheavals, it worked well enough in V7 to survive. This set the tone of the ching story ever afterwards.
+We *think* that ching started with V7 because we have an original tape and the timestamped Pdp-11
+binaries.  But that's not the real truth. Although ching made it into the official V7 tape, it came
+without the sourcecode or any indication of who wrote it. The binaries themselves aren't even V7,
+they're V6 and not even original V6 but what I would call V6B or proto-V7, a development before the
+stdio library was in its fixed form but after the first wave of development, called libS which
+superseded the old iolib. We can see this because the binaries themselves exhibit a specific form of
+C setup code known as crt0.s that did not exist except at this specific time when the core libraries
+were in redevelopment. In addition, although cno (Copy Numerical Output) was stripped, and
+therefore difficult to track, phx (Print Hexagrams) was *not* stripped and we can see the
+object files it needed from the system to link as an executable, and these too are specifically from
+this period. The mystery of the loss of the sourcecode has its origin here: too popular to let
+bitrot in the V6 upheavals, it worked well enough in V7 to survive. This set the tone of the ching
+story ever afterwards.
 
 More famous than the program itself is the appropriately cryptic manpage. The
 "game" itself was a collection, not a single file. It ran from a shell script
@@ -107,7 +133,7 @@ this is an unstripped binary: the stripped binary found in 4BSD onwards
 completely does away with all the alteration. And yet phx remained unchanged
 except stripped throughout!
 
-There is one outside possibility: the 2BSD source indicates the struggle to
+There is one other possibility: the 2BSD source indicates the struggle to
 upgrade v6 to v7 code for existing systems, still on PDP11 hardware. If
 someone had access to the sourcecode during this period where BSD was just a
 collection of updates and additions, it's possible that cno was modified.
@@ -209,7 +235,7 @@ This is not an exhaustive list: many BSD VAX variants carried ching(6) without m
 </td>
 <td>Stripped
 </td>
-<td>Unstripped, altered\*
+<td>Unstripped, altered
 </td>
 <td>Stripped
 </td>
@@ -240,7 +266,7 @@ This is not an exhaustive list: many BSD VAX variants carried ching(6) without m
 </td>
 <td>Same as Reno rewrite
 </td>
-<td>Rewritten\*
+<td>Rewritten
 </td>
 <td>printching.c+
 </td>

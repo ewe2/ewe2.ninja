@@ -1,33 +1,41 @@
 
-Reading Ian MacDonald's *Revolution In The Head* is like reading a history of Beatles musical
-criticism. It has been the most up-to-date synthesis of many Beatles critical sources, particularly
-Lewisohn's exhasutive recording history and has a unique comparative cultural timeline of their
-impact, but it is beginning to date. This aspect of the book is probably most useful to a non-fan.
-The great problem of making any appraisal of the Beatles, either as musicians or as cultural
-participants, is how to be properly objective. McDonald is bluntly honest, beginning with the
-premise that objectivity is impossible until possibly a century into the future. He undoes his
-premise by attempting to obscure his own biases. As any Beatles fan will tell you, there are good
-Beatles songs and (because fans are loathe to say the word bad) *not-so-good* Beatles songs.  Which
-songs fall into the *not-so-good* category says as much about the fan as the band; this is, after
-all, a conversation.  McDonald-as-critic tries to objectify the taste of McDonald-as-fan by putting
-forward a curious argument: that *random* is the cause of bad music today and the Beatles music
-became *randomly* bad.  He may well be right that the Beatles mirrored a change in the Western
-zeitgeist, but if he disagrees with that zeitgeist in important respects he is also at odds with his
-chosen metaphor.  This tension undoes his plan and derails his work.
+Reading Ian MacDonald's *Revolution In The Head* is like reading a history of
+Beatles musical criticism. It has been the most up-to-date synthesis of many
+Beatles critical sources, particularly Lewisohn's exhasutive recording history
+and has a unique comparative cultural timeline of their impact, but it is
+beginning to date. This aspect of the book is probably most useful to a
+non-fan.  The great problem of making any appraisal of the Beatles, either as
+musicians or as cultural participants, is how to be properly objective.
+McDonald is bluntly honest, beginning with the premise that objectivity is
+impossible until possibly a century into the future. He undoes his premise by
+attempting to obscure his own biases. As any Beatles fan will tell you, there
+are good Beatles songs and (because fans are loathe to say the word bad)
+*not-so-good* Beatles songs.  Which songs fall into the *not-so-good* category
+says as much about the fan as the band; this is, after all, a conversation.
+McDonald-as-critic tries to objectify the taste of McDonald-as-fan by putting
+forward a curious argument: that *random* is the cause of bad music today and
+the Beatles music became *randomly* bad.  He may well be right that the
+Beatles mirrored a change in the Western zeitgeist, but if he disagrees with
+that zeitgeist in important respects he is also at odds with his chosen
+metaphor.  This tension undoes his plan and derails his work.
 
-Another requirement of criticism, is to frame the subject in a new way: MacDonald's most important
-contribution to this is restoring the Beatles to the context of their contemporaries. But again, he
-undermines this achievement by falling back on some hackneyed journalistic devices common to Beatles
-criticism: by measuring their creativity in terms of their maturity (the "they grew up" excuse, used
-for everything from their later music to their breakup and post-Beatles careers). Perhaps more
-unfortunately, he also falls into that habit of describing their career as an arc, an inevitable up
-and down. He forgets, as we often do, that while *we* maybe looking back, *they* were looking
-forward, and it requires an appreciation of their perspective as much as our own. His disappointment
-with the present taints his analysis of the past.
+Another requirement of criticism, is to frame the subject in a new way:
+MacDonald's most important contribution to this is restoring the Beatles to
+the context of their contemporaries. But again, he undermines this achievement
+by falling back on some hackneyed journalistic devices common to Beatles
+criticism: by measuring their creativity in terms of their maturity (the "they
+grew up" excuse, used for everything from their later music to their breakup
+and post-Beatles careers). Perhaps more unfortunately, he also falls into that
+habit of describing their career as an arc, an inevitable up and down. He
+forgets, as we often do, that while *we* maybe looking back, *they* were
+looking forward, and it requires an appreciation of their perspective as much
+as our own. His disappointment with the present taints his analysis of the
+past.
 
-As time passes, more memoirs are written. Probably the most important is Geoff Emrick's *Here, There
-and Everywhere* (2006). Of course he adds his own interpretations, but it's no less valuable in
-light of some of MacDonald's pronouncments.
+As time passes, more memoirs are written. Probably the most important is Geoff
+Emrick's *Here, There and Everywhere* (2006). Of course he adds his own
+interpretations, but it's no less valuable in light of some of MacDonald's
+pronouncments.
 
 ### You tell me it's the institution
 
@@ -102,31 +110,30 @@ fact that *all Beatles approved the mix*. To quote Peter Doggett, author of *You
 Money* from his <a
 href="http://peterdoggettbeatles.blogspot.com/2010/09/phil-spector-and-let-it-be.html"> blog</a>:
 
-<blockquote> <p> And it was Klein who suggested that Phil Spector, who had just produced John
-Lennon's 'Instant Karma' single in magnificent style, should be asked to go back through the January
-1969 tapes, and assemble a suitable soundtrack album for the movie. Despite what you've read
-elsewhere, all four Beatles authorised that decision.
-
-<p> Spector set to work, mixing here, snipping tape there, and ultimately recruiting both Ringo
-Starr and an orchestra to work on several tracks - including McCartney's song, 'The Long And Winding
-Road'. Why wasn't Paul there at the session? Because both he and John were so sick of the project
-that they had agreed to let George and Ringo supervise what Spector was doing. So it's true that
-Paul McCartney didn't know what Phil Spector was planning to do to 'The Long And Winding Road' (i.e.
-add an orchestra and choir); but only because he had chosen not to get involved.
-
-<p> When Spector's work was done, he rapidly assembled his mix of the Let It Be album, cut four
-acetate copies of the LP, and sent one apiece to each of the Beatles for their approval. The four
-musicians liaised with each other, and approved Spector's work. Only two weeks later, when the
-presses were already rolling, did Paul suddenly wake up and think, "Hang on a minute, I want to make
-some changes". But by then it was too late.
-
-<p> During the research for my book, I came across the original letter that Spector sent to the four
-Beatles. Rather than the authoritarian rant I was expecting, his note turned out to be extremely
-friendly. *If there is anything you'd like done to the album, let me know and I'll be glad to help*,
-he wrote.  *Naturally little things are easy to change, big things might be a problem. If you wish,
-please call me about anything regarding the album tonight.* That's definitely the voice of
-compromise, rather than a control freak.
-</blockquote>
+>And it was Klein who suggested that Phil Spector, who had just produced John
+>Lennon's 'Instant Karma' single in magnificent style, should be asked to go back through the January
+>1969 tapes, and assemble a suitable soundtrack album for the movie. Despite what you've read
+>elsewhere, all four Beatles authorised that decision.
+>
+>Spector set to work, mixing here, snipping tape there, and ultimately recruiting both Ringo
+>Starr and an orchestra to work on several tracks - including McCartney's song, 'The Long And Winding
+>Road'. Why wasn't Paul there at the session? Because both he and John were so sick of the project
+>that they had agreed to let George and Ringo supervise what Spector was doing. So it's true that
+>Paul McCartney didn't know what Phil Spector was planning to do to 'The Long And Winding Road' (i.e.
+>add an orchestra and choir); but only because he had chosen not to get involved.
+>
+>When Spector's work was done, he rapidly assembled his mix of the Let It Be album, cut four
+>acetate copies of the LP, and sent one apiece to each of the Beatles for their approval. The four
+>musicians liaised with each other, and approved Spector's work. Only two weeks later, when the
+>presses were already rolling, did Paul suddenly wake up and think, "Hang on a minute, I want to make
+>some changes". But by then it was too late.
+>
+>During the research for my book, I came across the original letter that Spector sent to the four
+>Beatles. Rather than the authoritarian rant I was expecting, his note turned out to be extremely
+>friendly. *If there is anything you'd like done to the album, let me know and I'll be glad to help*,
+>he wrote.  *Naturally little things are easy to change, big things might be a problem. If you wish,
+>please call me about anything regarding the album tonight.* That's definitely the voice of
+>compromise, rather than a control freak.
 
 Again, Emerick's memoir bears out this version of Spector's approach. But as a review of *Naked*
 plaintively asked, if the intention was to "fix" the record, why didn't they? Astonishingly, it is
@@ -145,12 +152,15 @@ McCartney's own biases. Of course, that dualism ignores Harrison's contributions
 McDonald is often scathing, as mentioned already. In most cases, if it's not Indian-influenced,
 McDonald hates it. [66] *If I Needed Someone* sums up his attitude:
 
-<blockquote>Like so many Harrison songs, *If I Needed Someone* has an
+
+<blockquote markdown="1">
+Like so many Harrison songs, *If I Needed Someone* has an
 obstinate quality which, combined with his preferences for aloof sentiments
 and dour progressions, renders it gauche beside McCartney's urbanity and
-anaemic next to the boldness of Lennon.</blockquote>
+anaemic next to the boldness of Lennon.
+</blockquote>
 
-MacDonald characterizes Harrison as *obstinate* to an absurd degree; he is written off as a kind of
+MacDonald characterizes Harrison as obstinate to an absurd degree; he is written off as a kind of
 grumpy third wheel to the Partnership. This is unfortunately in line with most Beatles criticism.
 *Reticent* is probably a more apt description of Harrison; while he freely discussed other aspects
 of the Beatles, his real thoughts on the Partnership were never drawn out to my knowledge outside of
