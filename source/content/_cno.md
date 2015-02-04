@@ -1,9 +1,9 @@
 ### Why look at Cno?
 
 Cno is the unstripped and mysterious first binary that forms part of ching(6)
-which first appears in V7. But, as we will see, that's not its origin! It is a
+which first appears in V7 Unix. But, as we will see, that's not its origin! It is a
 simple binary compared to its sister phx, but perhaps unique enough that it
-was treaded differently afterwards. Phx was basically unchanged but Cno was
+was treated differently afterwards. Phx was basically unchanged but Cno was
 altered several times! (see [The strange case of the ching(6) in the Unix][1])
 
 [1]: https://ewe2.ninja/stuff/ching "Ching"
@@ -15,9 +15,8 @@ on my Linux system and the first tasks are to use <kbd>od</kbd> and
 
 #### Using strings
 
-After <kbd>strings cno</kbd> we have predictably little. It pays to examine the
-file where some strings are found and we find some important additions, the
-word "log.a" as well as "%s" and then a long sequence <kbd>d o x f e g c s l L
+After <kbd>strings cno</kbd> we have predictably little. Examining the file directly for strings,  we find some important additions, the
+word <kbd>log.a</kbd> as well as <kbd>%s</kbd> and then a long sequence <kbd>d o x f e g c s l L
 u r D O X * U</kbd> which is actually part of the code for converting variables
 in the printf() family. There is also some date-related strings following
 that. As we know there was a log file and it had a particular format, we can
@@ -85,7 +84,7 @@ There are many references to 104400 but that is a false positive. mount is an od
 
 #### Library calls
 
-These are trickier: most library routines are simple JMP instructions or variants on JMP, even more opportunity to make false positives particularly with subroutines. What we can be sure of are RTS, returns from subroutines.
+These are trickier: calls to most library routines are simple JMP instructions or variants on JMP, even more opportunity to make false positives particularly with subroutines. What we can be sure of are RTS, returns from subroutines.
 
 ### cno: Black Box Theory
 When attempting to understand the internals of a machine or a program, it's helpful to get something to go on by considering what it takes as input and what it outputs. For instance, we know V7 cno wrote a log file of coin tosses in a particular format, we know that it could take random input or generated its own random input and it output six numbers for phx to interpret.
@@ -291,7 +290,7 @@ out to be pretty much what the original code was, except for the logfile. So,
 going back to the previous disassembly section, we can see that the helper
 functions were either all written before main(), possibly either for scoping
 reasons or thats just the way the linker reorganized the file. For instance,
-here is <kb>char \*change()</kbd> from the IDA Pro disassembly; note how call is
+here is <kbd>char *change()</kbd> from the IDA Pro disassembly; note how call is
 substituted for internal function calls where as uses jsr pc syntax
 
 ~~~ cpp
