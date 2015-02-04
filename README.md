@@ -15,6 +15,5 @@ website technologies.
 
 ### Todo
 
-Break current pages down into partials and figure out a sidebar menu for
-stuff.php to get on with content.
-
+Figure out the best partials/content structure to make subpages easy to
+generate without too much logic on the sidebar.

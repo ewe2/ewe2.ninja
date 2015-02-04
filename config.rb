@@ -3,9 +3,11 @@
 ###
 
 # Change Compass configuration
+# don't use caching during development, it will force css rewrites as you go.
 compass_config do |config|
    config.output_style = :compact
    config.css_dir = 'css'
+   config.cache = 'false'
 end
 
 ###
@@ -20,10 +22,12 @@ end
 # With alternative layout
 # page "/path/to/file.html", :layout => :otherlayout
 #
-# A path which all have the same layout
-# with_layout :admin do
-#   page "/admin/*"
-# end
+
+# we put the linked pages in this directory so we don't clutter up the main
+# directory.
+with_layout :stuff do
+   page "/stuff/*"
+end
 
 # Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
 # proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
@@ -49,12 +53,19 @@ activate :bh
 # containers.
 activate :syntax
 
-# Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+# rather handy
+activate :directory_indexes
+
+#activate :navtree do | options |
+#  options.ignore_dir = ['css']
+#  options.ignore_files = ['favicon.ico', 'ewe2.ninja.png', 'robots.txt']
+#  options.automatic_tree_updates = false
+#end
+
+# we need to do this apparently for navtree
+#config.ignored_sitemap_matchers[:layout] = proc { |file|
+#  file.start_with?(File.join(config.source, 'layouts/'))
+#}
 
 # this gets dealt with in the compass config
 #set :css_dir, 'css'
@@ -62,11 +73,25 @@ activate :syntax
 set :js_dir, 'js'
 set :images_dir, 'images'
 
-# markdown
+# markdown. move to redcarpet because it supports stuff we need.
+#set :markdown, :tables => true, :autolink => true, :fenced_code_blocks => true, with_toc_data: true, disable_indented_code_blocks: true, :strikethrough => true, :highlight => true, :footnotes => true, :no_intra_emphasis => true
+#set :markdown_engine, :redcarpet
 set :markdown_engine, :kramdown
 
+# Easier boostrap navbar for prototyping
+#activate :bootstrap_navbar do | bootstrap_navbar |
+#  bootstrap_navbar.bootstrap_version = '3.2.0'
+#end
 
-# Methods defined in the helpers block are available in templates
+
+# Grabbed from the middleman forum, nav_link_to precomputes active links for
+# us, which saves on having to generate hardcoded navigation lists. 
+#
+# get_page_title can grab out one if we need it.
+#
+# table_of_contents SHOULD work but unfortunately doesn't.
+#
+# comment is a way to comment multiline erb without saying "if false"
 helpers do
   def nav_link_to(link, url, opts={})
     if current_resource.url == url_for(url)
@@ -80,13 +105,23 @@ helpers do
   def get_page_title
     yield_content(:title) || current_page.data.title
   end
+
+  def table_of_contents(resource)
+    content = File.read(resource.source_file)
+    toc_renderer = Redcarpet::Render::HTML_TOC.new
+    markdown = Redcarpet::Markdown.new(toc_renderer, nesting_level: 2) # nesting_level is optional
+    markdown.render(content)
+  end
+  
+  def comment
+  end
 end
 
 
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  #activate :minify_css
+  activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
@@ -99,6 +134,9 @@ configure :build do
 
   # Or use a different image path
   # set :http_prefix, "/Content/images/"
+
+  # ignore our testbed when building
+  ignore "/test.haml"
 end
 
 # our deployment
