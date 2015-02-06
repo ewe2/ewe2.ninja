@@ -6,61 +6,106 @@
     <meta content='width=device-width, initial-scale=1' name='viewport'>
     <meta content='penguin home' name='description'>
     <meta content='ewe2' name='author'>
-    <link href='favicon.ico' rel='icon'>
+    <link href='/favicon.ico' rel='icon'>
     <title>ewe2.ninja</title>
     <!-- font links last -->
     <!-- Bootstrap core CSS -->
-    <link href='css/bootstrap.min.css' rel='stylesheet'>
+    <link href='/css/bootstrap.min.css' rel='stylesheet'>
     <!-- Custom styles for this template -->
-    <link href='css/screen.css' media='screen' rel='stylesheet'>
+    <link href='/css/screen.css' media='screen' rel='stylesheet'>
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
+      <script src="/js/html5shiv.min.js"></script>
+      <script src="/js/respond.min.js"></script>
     <![endif]-->
   </head>
   <body>
-    <div class='site-wrapper'>
-      <div class='site-wrapper-inner'>
-        <div class='cover-container'>
-          <div class='masthead clearfix'>
-            <div class='inner'>
-              <h1 class='masthead-brand'>ewe2.ninja</h1>
-              <ul class='nav masthead-nav'>
-                <li class="active"><a href="/">home</a></li>
-                <li><a href="/stuff.html">stuff</a></li>
-                <li><a href="/about.html">about</a></li>
-              </ul>
-            </div>
-          </div>
-          <div class='inner cover'>
-            <div class="penguinbox">
-              <div class="mainicon">
-                <img alt='A ninja penguin stares at you, holding a katana' src='ewe2.ninja.png'>
-                <br>
-                <script type="text/javascript">
-                var Q=new Array();
-                Q[0] = "eek";
-                Q[1] = "eek eek";
-                Q[2] = "EEK eek FISH";
-                Q[3] = "There is no utopia. There never will be";
-                Q[4] = "Give a penguin a fish and he'll go away. Give him ten fish and you've got yourself a penguin party!";
-                Q[5] = "The past is gone and the future is imaginary. Be here now.";
-                document.write(Q[Math.floor(Math.random() * Q.length)]);
-                </script>
-              </div>
-            </div>
-          </div>
-          <div class='mastfoot'>
-            <div class='mastfoot-inner'>
-              <span class='bumf1'>
-                Hosting by
-                <a href='http://cloudatcost.com'>Cloudatcost.com</a>
-              </span>
-              <span class='boiler bumf2'>Modified: 2014-12-30</span>
-            </div>
-          </div>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="/index.html" class="navbar-brand">
+        ewe2.ninja
+      </a>
+        
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right" id="menu">
+        <li>
+        <a href="/">
+          home
+        </a>
+      </li>
+      <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">stuff <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li class="dropdown-header">
+        Penguin stuff
+      </li>
+      <li>
+        <a href="/stuff/">
+          stuff
+        </a>
+      </li>
+      <li class="divider"></li>
+      <li>
+        <a href="/music/">
+          music
+        </a>
+      </li>
+      <li>
+        <a href="/computers/">
+          computers
+        </a>
+      </li>
+      <li>
+        <a href="/random/">
+          random
+        </a>
+      </li>
+      
+        </ul>
+      </li>
+      <li>
+        <a href="/about">
+          about
+        </a>
+      </li>
+      
+      </ul>
+      
+      </div>
+    </nav>
+    <div class='container-penguin'>
+      <div class="penguinbox">
+        <div class="mainicon">
+          <img alt='A ninja penguin stares at you, holding a katana' src='ewe2.ninja.png'>
+          <br>
+          <script type="text/javascript">
+          var Q=new Array();
+          Q[0] = "eek";
+          Q[1] = "eek eek";
+          Q[2] = "EEK eek FISH";
+          Q[3] = "There is no utopia. There never will be";
+          Q[4] = "Give a penguin a fish and he'll go away. Give him ten fish and you've got yourself a penguin party!";
+          Q[5] = "The past is gone and the future is imaginary. Be here now.";
+          document.write(Q[Math.floor(Math.random() * Q.length)]);
+          </script>
         </div>
+      </div>
+    </div>
+    <div class='mastfoot'>
+      <div class='mastfoot-inner'>
+        <span class='bumf1'>
+          Hosting by
+          <a href='http://cloudatcost.com'>Cloudatcost.com</a>
+          <span class='boiler bumf2'>© 2014-2015 Sean Dwyer All rights reserved. Modified: 2015-02-06</span>
+        </span>
       </div>
     </div>
     <!--
@@ -68,12 +113,12 @@
       ==================================================
     -->
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src='js/webfont.js'></script>
-    <script src='js/dofont.js'></script>
-    <script src='js/jquery.min.js'></script>
-    <script src='js/bootstrap.min.js'></script>
-    <script src='js/modernizr-latest.js'></script>
+    <script src='/js/jquery.min.js'></script>
+    <script src='/js/bootstrap.min.js'></script>
+    <script src='/js/webfont.js'></script>
+    <script src='/js/dofont.js'></script>
+    <script src='/js/modernizr-latest.js'></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src='js/ie10-viewport-bug-workaround.js'></script>
+    <script src='/js/ie10-viewport-bug-workaround.js'></script>
   </body>
 </html>
