@@ -31,9 +31,9 @@ I became interested in computer history as a means of understanding the many
 layers of computer technology. When understood as an accretion of
 technologies, computers become more interesting and fun to learn about!
 
-* [Bootstrapping](/stuff/bootstrapping/)
+* [Bootstrapping](/computers/bootstrapping/)
 
 Here are a collection of essays about various bits of Unix.
 
-* [The strange case of the ching in the Unix](/stuff/ching/)
-* [An Exploration of Cno](/stuff/cno/)
+* [The strange case of the ching in the Unix](/computers/ching/)
+* [An Exploration of Cno](/computers/cno/)
