@@ -144,6 +144,6 @@ to the point where I am now which is not having any idea but just going with wha
 
 Some stuff I wrote about music-related things:
 
-* <a href="/stuff/revolution/">Revolution in the Head</a>: an appraisal of Ian MacDonald's *Revolution in the
+* <a href="/music/revolution/">Revolution in the Head</a>: an appraisal of Ian MacDonald's *Revolution in the
   Heart*
-* <a href="/stuff/beatlemania/">Beatlemania: A fan's journey</a>: what being a Beatles fan has taught me.
+* <a href="/music/beatlemania/">Beatlemania: A fan's journey</a>: what being a Beatles fan has taught me.

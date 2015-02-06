@@ -211,15 +211,16 @@ of songwriting (whatever you think of their quality). MacDonald decides instead 
 Lennon and to some degree Harrison for this. But in fact, as we know, it is McCartney who begins to
 unravel the bands recording relationship by using Abbey Road as his personal studio from the time of
 *Sgt Pepper* onwards. The band were so huge that live performance was practically impossible and
-they began to use multitracking itself as a compositional method. Much later in the book, MacDonald
-introduces the chronology proper with a rant on modern recording techniques and computer-aided
-composition. It is easy to miss its import until you notice how he preferences particular issues of
-the Beatles recording career in the main chapters. The not-so-subtle inference is that by being
-relatively backward in technology compared to American studios, Beatle records gained by other forms
-of innovation (drum miking, ADT, etc). This may well have some truth in it; on the other hand, the
-Beatles happily changed studios when an 8-track was available, and used new technology like the Moog
-synthesizer. If it were not for studio fees, they would have preferred to record albums in America.
-So this argument is merely self-serving, using the Beatles to confirm his bias. 
+they wanted to explore the use of multitracking itself as a compositional method. Much later in the
+book, MacDonald introduces the chronology proper with a rant on modern recording techniques and
+computer-aided composition. It is easy to miss its import until you notice how he preferences
+particular issues of the Beatles recording career in the main chapters. The not-so-subtle inference
+is that by being relatively backward in technology compared to American studios, Beatle records
+gained by other forms of innovation (drum miking, ADT, etc). This may well have some truth in it; on
+the other hand, the Beatles happily changed studios when an 8-track was available, and used new
+technology like the Moog synthesizer. Although they were envious of American studio facilities they
+never seriously considered recording in America, but nevertheless made noises about it.  So this
+argument is merely self-serving, using the Beatles to confirm his bias. 
 
 ### You say you've got a real solution
 
