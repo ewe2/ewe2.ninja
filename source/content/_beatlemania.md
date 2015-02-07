@@ -47,7 +47,7 @@ musician, since in my experience the obsession is more with the songs and the re
 
 And thus it proved to be. The Beatles didn't just influence me musically, they've been a well of
 inspiration for a couple of generations now, including many other of my favourite musicians, and
-they don't all necessarily sound like their influence either. Speaking strictly as a bassplayer,
+they don't all necessarily sound like their influence either. Speaking strictly as a bass player,
 there are a lot of useful melodic tricks you can pick up from McCartney. One of the most subtle is
 how the bass relates to the main melody. It's the key thing I think about once the rhythm is
 accounted for. If you're lucky the two go together naturally but sometimes you have to think a bit

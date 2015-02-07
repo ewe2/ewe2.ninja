@@ -1,41 +1,33 @@
 
-Reading Ian MacDonald's *Revolution In The Head* is like reading a history of
-Beatles musical criticism. It has been the most up-to-date synthesis of many
-Beatles critical sources, particularly Lewisohn's exhasutive recording history
-and has a unique comparative cultural timeline of their impact, but it is
-beginning to date. This aspect of the book is probably most useful to a
-non-fan.  The great problem of making any appraisal of the Beatles, either as
-musicians or as cultural participants, is how to be properly objective.
-McDonald is bluntly honest, beginning with the premise that objectivity is
-impossible until possibly a century into the future. He undoes his premise by
-attempting to obscure his own biases. As any Beatles fan will tell you, there
-are good Beatles songs and (because fans are loathe to say the word bad)
-*not-so-good* Beatles songs.  Which songs fall into the *not-so-good* category
-says as much about the fan as the band; this is, after all, a conversation.
-McDonald-as-critic tries to objectify the taste of McDonald-as-fan by putting
-forward a curious argument: that *random* is the cause of bad music today and
-the Beatles music became *randomly* bad.  He may well be right that the
-Beatles mirrored a change in the Western zeitgeist, but if he disagrees with
-that zeitgeist in important respects he is also at odds with his chosen
-metaphor.  This tension undoes his plan and derails his work.
+Reading Ian MacDonald's *Revolution In The Head* is like reading a history of Beatles musical
+criticism. It has been the most up-to-date synthesis of many Beatles critical sources, particularly
+Lewisohn's exhaustive recording history and has a unique comparative cultural timeline of their
+impact, but it is beginning to date. This aspect of the book is probably most useful to a non-fan.
+The great problem of making any appraisal of the Beatles, either as musicians or as cultural
+participants, is how to be properly objective.  McDonald is bluntly honest, beginning with the
+premise that objectivity is impossible until possibly a century into the future. He undoes his
+premise by attempting to obscure his own biases. As any Beatles fan will tell you, there are good
+Beatles songs and (because fans are loathe to say the word bad) *not-so-good* Beatles songs.  Which
+songs fall into the *not-so-good* category says as much about the fan as the band; this is, after
+all, a conversation.  McDonald-as-critic tries to objectify the taste of McDonald-as-fan by putting
+forward a curious argument: that *random* is the cause of bad music today and the Beatles music
+became *randomly* bad.  He may well be right that the Beatles mirrored a change in the Western
+zeitgeist, but if he disagrees with that zeitgeist in important respects he is also at odds with his
+chosen metaphor.  This tension undoes his plan and derails his work.
 
-Another requirement of criticism, is to frame the subject in a new way:
-MacDonald's most important contribution to this is restoring the Beatles to
-the context of their contemporaries. But again, he undermines this achievement
-by falling back on some hackneyed journalistic devices common to Beatles
-criticism: by measuring their creativity in terms of their maturity (the "they
-grew up" excuse, used for everything from their later music to their breakup
-and post-Beatles careers). Perhaps more unfortunately, he also falls into that
-habit of describing their career as an arc, an inevitable up and down. He
-forgets, as we often do, that while *we* maybe looking back, *they* were
-looking forward, and it requires an appreciation of their perspective as much
-as our own. His disappointment with the present taints his analysis of the
-past.
+Another requirement of criticism, is to frame the subject in a new way: MacDonald's most important
+contribution to this is restoring the Beatles to the context of their contemporaries. But again, he
+undermines this achievement by falling back on some hackneyed journalistic devices common to Beatles
+criticism: by measuring their creativity in terms of their maturity (the "they grew up" excuse, used
+for everything from their later music to their break-up and post-Beatles careers). Perhaps more
+unfortunately, he also falls into that habit of describing their career as an arc, an inevitable up
+and down. He forgets, as we often do, that while *we* maybe looking back, *they* were looking
+forward, and it requires an appreciation of their perspective as much as our own. His disappointment
+with the present taints his analysis of the past.
 
-As time passes, more memoirs are written. Probably the most important is Geoff
-Emrick's *Here, There and Everywhere* (2006). Of course he adds his own
-interpretations, but it's no less valuable in light of some of MacDonald's
-pronouncments.
+As time passes, more memoirs are written. Probably the most important is Geoff Emrick's *Here, There
+and Everywhere* (2006). Of course he adds his own interpretations, but it's no less valuable in
+light of some of MacDonald's pronouncements.
 
 ### You tell me it's the institution
 
@@ -53,10 +45,10 @@ fault. As one review puts it:
 
 <blockquote> What he fails to understand is that the best criticism of pop
 music succeeds because it recognizes it's own inherent prejudice and presents
-itself with the irreverence and humor that such a recognition involves.'
+itself with the irreverence and humour that such a recognition involves.'
 </blockquote>
 
-which is a nice way of saying that McDonald is not only biased, but humorless about it. MacDonald
+which is a nice way of saying that McDonald is not only biased, but humourless about it. MacDonald
 makes his remarks applicable within the strictly chronological sequence of recordings, allowing him
 to cover, for instance, the direction of an albums sessions, or (as we'll see) continue a series of
 pronouncements on a Beatles character. The problems begin with his musical analysis; meant to help
@@ -75,7 +67,7 @@ times he uses musicological analysis to attack the composer, particularly in Geo
 
 Typical of the problems with the book is the way MacDonald reviews John Lennon. Like many before
 him, he falls into the trap of writing as if he knows the Beatles personally. He begins to pronounce
-judgment on Lennon's drug-taking; it seems partly an explanation of his approach to Lennon's songs
+judgement on Lennon's drug-taking; it seems partly an explanation of his approach to Lennon's songs
 and as a negative contrast to what was undoubtedly a purple patch for McCartney. It also appears
 that his disappointment with Lennon the solo artist gets 'worked back' into Beatle compositions. The
 review for [123] *Across The Universe* has been noted by many as a failure to grasp the nature of
@@ -96,9 +88,9 @@ comparison between the *Anthology* version and the *Naked* version (which can no
 reveals not much difference at all. So it's odd, then, that he never applies it to *Let It Be*
 itself, on which Lennon also played bass *on the same Jan 31 session* to which MacDonald refers, nor
 does MacDonald acknowledge how relatively rare it was for Lennon to play bass at all (Harrison is
-much more in evidence on Beatles records as a stand-in bassplayer), and that these demos were made
+much more in evidence on Beatles records as a stand-in bass player), and that these demos were made
 within the context of the long Get Back sessions. And beyond that, MacDonald's charge ignores the
-wide selection of mistakes, dodgy edits and ad libs throughout the Beatles recorded history, to
+wide selection of mistakes, dodgy edits and adlibs throughout the Beatles recorded history, to
 which he refers more than once. A brief trawl through the excellent resource offered by
 <a href="http://wgo.signal11.org.uk/wgo.htm">The Beatles Anomalies List</a> is evidence enough, but
 Emerick's memoir confirms that playing with "duff" notes on a session was a Beatles *game*, not a
@@ -137,7 +129,7 @@ href="http://peterdoggettbeatles.blogspot.com/2010/09/phil-spector-and-let-it-be
 
 Again, Emerick's memoir bears out this version of Spector's approach. But as a review of *Naked*
 plaintively asked, if the intention was to "fix" the record, why didn't they? Astonishingly, it is
-yet unfinished, as now we have McCartney's version, arguably no less biased than Spectors's. The
+yet unfinished, as now we have McCartney's version, arguably no less biased than Spector's. The
 original album as prepared by Glyn Johns has never been released, its rejection (again, by all four
 Beatles) the catalyst for Spector's work.  Remember too, it was originally a soundtrack album, (the
 point of having the rooftop concert at all) and ironically many of the preferred takes for *Naked*
@@ -147,7 +139,7 @@ Despite this, *Revolution In The Head* goes some way to redressing the critical 
 Lennonism and McCartneyism. Yet MacDonald still fails to be objective because he robs John to pay
 Paul. We still need a critical view that goes beyond this tired dualism. I have not read the earlier
 editions so I cannot judge properly, but MacDonald does acknowledge that this edition was updated to
-reflect McCartney's book with Buddy Miles. It seems a slender support for such arguments, given
+reflect McCartney's book with Barry Miles. It seems a slender support for such arguments, given
 McCartney's own biases. Of course, that dualism ignores Harrison's contributions about which
 McDonald is often scathing, as mentioned already. In most cases, if it's not Indian-influenced,
 McDonald hates it. [66] *If I Needed Someone* sums up his attitude:
@@ -187,7 +179,7 @@ literally begins Part 3 *Coming Down* after this album, in his eyes the Beatles 
 After that he begins to struggle with his material. [107] *With A Little Help From My Friends*
 describes the songwriting process at its most benign. Yet like many song reviews, the sting is in
 the tail, where he dismisses later work as self-indulgent. He may have more of a point that the
-production process got less concise but once again this is an easy judgment to make from this
+production process got less concise but once again this is an easy judgement to make from this
 distance. What characterized the Beatles was the attempt to avoid repeating themselves, as much in
 production as in songwriting, a fact he acknowledges in [107] but seems reluctant to take into
 account later. The experimental aspect has MacDonald particularly worried: the released material he
@@ -203,8 +195,8 @@ disappointment with the Beatles' direction after Pepper. As he acknowledges, Abb
 terrible place to be creative in, both for its culture and its environment, and Emerick has similar
 issues with it and his personal involvement with the Beatles.
 
-It is almost impossible to avoid making biographical judgments here: perhaps a better approach would
-involve an acknowledgment that the Beatles felt trapped by their fame and the necessity of artistic
+It is almost impossible to avoid making biographical judgements here: perhaps a better approach would
+involve an acknowledgement that the Beatles felt trapped by their fame and the necessity of artistic
 development, keeping in mind that few at this stage of rock history were ever faced with such an
 issue. Together with their belief in their abilities, this might have had an effect on their style
 of songwriting (whatever you think of their quality). MacDonald decides instead to largely blame
@@ -236,7 +228,7 @@ vulnerable when they began addressing their culture instead of reflecting it, gi
 this gives MacDonald license to treat the surrounding oeuvre with the same attitude is moot. He
 certainly uses *Revolution* to again characterize Lennon, but this time blaming him for an
 inappropriate social conscience and getting a few digs in at Yoko Ono (he cites her as a *disturbing
-influence* with throwaway comments about her political affliations). There is also a long (and
+influence* with throwaway comments about her political affiliations). There is also a long (and
 winding) thread of blaming the Beatles and their love of *random*, on semi-crazed and actually
 crazed interpretations of their music and lyrics. This idea is more or less identical to evangelical
 Christianity's devotion to backwards masking and has as much validity. Making the Beatles
