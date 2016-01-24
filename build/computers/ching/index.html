@@ -84,19 +84,19 @@
       </div>
     </nav>
     <div class='container-stuff'>
-      <h2 id="the-strange-case-of-the-ching6-in-the-unix">The strange case of the ching(6) in the Unix</h2>
+      <h2 id="the-strange-case-of-the-kbdchingkbd6-in-the-unix">The strange case of the <kbd>ching</kbd>(6) in the Unix</h2>
       
       <p>There are many mysteries of the early days of Unix. Because it grew organically, there wasn't really
       anyone in charge of care and feeding except Dennis and Ken and the Bell Labs crews initial work.
       Inevitably, things didn't get documented (after all, they were <em>doing stuff</em> not writing it up) and
       some contributions got forgotten. When Don Libes wrote <em>Life With Unix: A Guide for Everyone</em> back
       in the early 1990's, he found it impossible to track everything down even with his contacts and
-      experience in the early Internet age. It was already 20 years too late. So the mystery of ching is
+      experience in the early Internet age. It was already 20 years too late. So the mystery of <kbd>ching</kbd> is
       likely to remain one, even if it is a small mystery.</p>
       
       <h3 id="discovery">Discovery</h3>
       
-      <p>I first discovered ching in the early 1990's also. Back then people were innocent enough to throw
+      <p>I first discovered <kbd>ching</kbd> in the early 1990's also. Back then people were innocent enough to throw
       all sorts of things on the big ftp sites of the time, and CSRG were incautious enough to throw parts
       of BSD online before checking with USL if that was okay. And people were very keen to port
       everything to Linux also, so a lot of SunOS stuff, quite illegally, was also being thrown on there.
@@ -104,30 +104,30 @@
       even on to commercial CDs. One of these was the Infomagic series which was just dumps of
       sunsite.unc.edu and tsx-11.mit.edu mainly, whatever was current because it was a resource for Linux
       enthusiasts. And a version of BSD, probably 4.4 BSD-Lite1, was also online, and this was how I was
-      able to acquire a version of ching, and that version was incomplete. But let's start at the
+      able to acquire a version of <kbd>ching</kbd>, and that version was incomplete. But let's start at the
       beginning.</p>
       
-      <h3 id="original-ching-1978-v6---1979-v7">Original ching (1978? V6 - 1979 V7)</h3>
+      <h3 id="original-kbdchingkbd-1978-v6---1979-v7">Original <kbd>ching</kbd> (1978? V6 - 1979 V7)</h3>
       
-      <p>We <em>think</em> that ching started with V7 because we have an original tape and the timestamped Pdp-11
-      binaries.  But that's not the real truth. Although ching made it into the official V7 tape, it came
+      <p>We <em>think</em> that <kbd>ching</kbd> started with V7 because we have an original tape and the timestamped Pdp-11
+      binaries.  But that's not the real truth. Although <kbd>ching</kbd> made it into the official V7 tape, it came
       without the sourcecode or any indication of who wrote it. The binaries themselves aren't even V7,
       they're V6 and not even original V6 but what I would call V6B or proto-V7, a development before the
       stdio library was in its fixed form but after the first wave of development, called libS which
       superseded the old iolib. We can see this because the binaries themselves exhibit a specific form of
-      C setup code known as crt0.s that did not exist except at this specific time when the core libraries
-      were in redevelopment. In addition, although cno (Copy Numerical Output) was stripped, and
+      C setup code contained in crt0.s that did not exist except at this specific time when the core libraries
+      were in redevelopment. In addition, although <kbd>cno</kbd> (Copy Numerical Output) was stripped, and
       therefore difficult to track, phx (Print Hexagrams) was <em>not</em> stripped and we can see the
       object files it needed from the system to link as an executable, and these too are specifically from
       this period. The mystery of the loss of the sourcecode has its origin here: too popular to let
-      bitrot in the V6 upheavals, it worked well enough in V7 to survive. This set the tone of the ching
+      bitrot in the V6 upheavals, it worked well enough in V7 to survive. This set the tone of the <kbd>ching</kbd>
       story ever afterwards.</p>
       
       <p>More famous than the program itself is the appropriately cryptic manpage. The
       "game" itself was a collection, not a single file. It ran from a shell script
       to allow users to input numbers from a coin toss directly or to frame a
-      question to ching and have that translated to numbers first before output. To
-      do this it used the cno and phx binaries,  an nroff-formatted text file of the
+      question to <kbd>ching</kbd> and have that translated to numbers first before output. To
+      do this it used the <kbd>cno</kbd> and phx binaries,  an nroff-formatted text file of the
       hexagrams (called <kbd>hexagrams</kbd>) and a file of macros ( called
       <kbd>macros</kbd>) that the hexagram output would be filtered through. All
       these except the shell script was in a directory of its own within
@@ -137,14 +137,14 @@
       
       <pre class="highlight shell"><code>
       <span class="c">#! /bin/sh</span>
-      <span class="nb">cd</span> /usr/games/lib/ching.d
+      <span class="nb">cd</span> /usr/games/lib/&lt;kbd&gt;ching&lt;/kbd&gt;.d
       <span class="nv">PATH</span><span class="o">=</span>:<span class="nv">$PATH</span>
       <span class="k">case</span> <span class="nv">$1</span> <span class="k">in</span>
               <span class="o">[</span>6-9]<span class="k">*</span><span class="p">)</span> <span class="nv">H</span><span class="o">=</span><span class="nv">$1</span>;<span class="nb">shift</span><span class="p">;;</span>
       <span class="k">esac</span>
       <span class="k">if      </span><span class="nb">test</span> <span class="nv">$H</span>
       <span class="k">then    </span>phx <span class="nv">$H</span> | nroff <span class="nv">$*</span> macros -
-      <span class="k">else    </span>cno | phx | nroff <span class="nv">$*</span> macros -
+      <span class="k">else</span>   &lt;kbd&gt;cno&lt;/kbd&gt;| phx | nroff <span class="nv">$*</span> macros -
       <span class="k">fi</span>
       </code></pre>
       
@@ -154,7 +154,7 @@
       file called log in the current directory; if it couldn't find the log, or
       something was wrong with its format (I'm not sure which at this stage), it
       would print out an error message. Over the years, you can track the
-      differences in the cno binary by the existence of this log and the code for
+      differences in the <kbd>cno</kbd> binary by the existence of this log and the code for
       it.</p>
       
       <p>A note about the hexagrams file: this was clearly modelled on the Wilhelm
@@ -162,52 +162,52 @@
       interpretations, and strictly speaking this is an infringement of the English
       translation copyright. Further, it appears from a post to comp.os.bsd in 1994
       from Keith Bostic, that at least the nroff macros were contestable under the
-      USL settlement and thus ching had never appeared in 4.4 BSD.No-one seems to
+      USL settlement and thus <kbd>ching</kbd> had never appeared in 4.4 BSD.No-one seems to
       have tried to rewrite <kbd>hexagrams</kbd> or <kbd>macros</kbd> to use the
       public domain Legge text or groff however. It was not until Caldera freed 32v
-      that it was realized that ching itself was now freed, see below.</p>
+      that it was realized that <kbd>ching</kbd> itself was now freed, see below.</p>
       
-      <h3 id="vax-ching-unix32v-1979">VAX ching (UNIX/32v 1979)</h3>
+      <h3 id="vax-kbdchingkbd-unix32v-1979">VAX <kbd>ching</kbd> (UNIX/32v 1979)</h3>
       
       <p>The mystery deepens when we look at the first port of V7 to the VAX. It is now
       possible to run a 32v system in emulation with the SIMH vax780 simulator and
-      we find that ching had also been ported <em>with vax executables</em> along with it.
+      we find that <kbd>ching</kbd> had also been ported <em>with vax executables</em> along with it.
       Still no sign of source code - in fact the one system available has no
       sourcecode for the other games except fortune.c. The timestamps are December
       1978, well before its official release in June 1979. 32v is crucial to the
       history of later Unix, both System V and BSD derive from this port. This is
       likely to have been the last time source code was available. I believe the
-      reason ching survived at all was because the surviving 32v executables were
+      reason <kbd>ching</kbd> survived at all was because the surviving 32v executables were
       still usable on VAX-based BSD derivatives for as much as 10 years later! We
       can definitively say that this was the last time the code was actually
-      <em>compiled</em>, but it seems later cno itself may have been <em>changed</em>. </p>
+      <em>compiled</em>, but it seems later <kbd>cno</kbd> itself may have been <em>changed</em>.</p>
       
       <p>But things are a little more interesting than that. <kbd>phx</kbd> certainly
       survived unchanged, even unstripped. <kbd>cno</kbd> however has lost the log
-      file code! This is important because the cno here is <em>not</em> the cno that
-      survived in later BSD distributions! It's also valuable because being not
-      stripped, one can see the functions, variables and linked library code.
-      Weirdly, the log file was left as it was and actually survived into 3bsd, even
-      though it was redundant!</p>
+      file code! This is important because the <kbd>cno</kbd> here is <em>not</em> the
+      <kbd>cno</kbd> that survived in later BSD distributions! It's also valuable
+      because being not stripped, one can see the functions, variables and linked
+      library code.  Weirdly, the log file was left as it was and actually survived
+      into 3bsd, even though it was redundant!</p>
       
-      <p>It should be noted that Unix SYSIII| Unix System III did <em>not</em> carry ching,
+      <p>It should be noted that Unix SYSIII| Unix System III did <em>not</em> carry <kbd>ching</kbd>,
       and it is likely that, if no source was available, most V7-derived games also
-      missed the cut besides ching from then on, including derivatives even if they
+      missed the cut besides <kbd>ching</kbd> from then on, including derivatives even if they
       extended theirs with BSD.</p>
       
-      <h3 id="bsd-ching-1979-1990-">BSD ching (1979-1990 )</h3>
+      <h3 id="bsd-kbdchingkbd-1979-1990-">BSD <kbd>ching</kbd> (1979-1990 )</h3>
       
       <p>The first VAX BSD was released only six months later and on first sight,
       appears to have identical binaries, but it is not that simple. Up to 3BSD, BSD
       was still supported on PDP11 hardware. The 2.9BSD binaries are still standard
       headers and look like they're the untouched v7 executables. On 3BSD however,
-      it looks like they're the 32v executables: unstripped and cno has no log file
+      it looks like they're the 32v executables: unstripped and <kbd>cno</kbd> has no log file
       code, but like the 32v port, it's still left in the directory. But there is a
-      crucial difference in the cno binary: 32v was essentially a minimal port
+      crucial difference in the <kbd>cno</kbd> binary: 32v was essentially a minimal port
       without all the VAX bells and whistles, so PDP11 executables had a "text
       read-only" magic number, 0410 instead of 0407. But in the 3bsd executables,
       there is a marked difference in the size of the symbol table! 3bsd did have a
-      different executable structure, but how did cno acquire this difference and
+      different executable structure, but how did <kbd>cno</kbd> acquire this difference and
       why was phx left unchanged? The extent of the change is apparent from a
       <kbd>cmp -lb cno.32v cno.3bsd</kbd>. The header has been extended by 21 bytes,
       and there are significantly large new areas which I am assuming are due to
@@ -221,9 +221,9 @@
       <p>There is one other possibility: the 2BSD source indicates the struggle to
       upgrade v6 to v7 code for existing systems, still on PDP11 hardware. If
       someone had access to the sourcecode during this period where BSD was just a
-      collection of updates and additions, it's possible that cno was modified.</p>
+      collection of updates and additions, it's possible that<kbd>cno</kbd>was modified.</p>
       
-      <p>It was not until the Reno port of 4.3 BSD that ching had to actually be
+      <p>It was not until the Reno port of 4.3 BSD that <kbd>ching</kbd> had to actually be
       rewritten. This situation was replicated in other BSD variants, for instance
       Ultrix and Dynix.</p>
       
@@ -231,10 +231,10 @@
       
       <p>We now come to rewrites. One of the oddities of the 4.4 BSD-Lite1 release was
       that the macros and the hexagrams files went missing, but the rewrites of
-      <kbd>ching.sh ching.cno.c ching.phx.c</kbd> remained. But now that the many BSD
-      and research versions are freely available, we can see that the data files
-      remained untouched for many years, even as the other files changed or went
-      missing around them.</p>
+      <kbd>ching.sh</kbd>, <kbd>ching.cno.c</kbd> and <kbd>ching.phx.c</kbd>
+      remained. But now that the many BSD and research versions are freely
+      available, we can see that the data files remained untouched for many years,
+      even as the other files changed or went missing around them.</p>
       
       <p><kbd>ching.sh</kbd> itself went through the usual contortions of early version
       control. I have found 3 different dated versions based on Berkeley code alone
@@ -257,11 +257,11 @@
       <p>Now we come to another fork in the road, SunOS. This generally tracked CSRG
       releases until they developed their own SPARC architecture which at last
       forced a rewrite. It was reverse-engineered by Tom Lyon who credits Ralph Muha
-      as being the original source of ching.</p>
+      as being the original source of <kbd>ching</kbd>.</p>
       
-      <h4 id="summary-of-differences-between-ching-versions">Summary of differences between ching versions</h4>
+      <h4 id="summary-of-differences-between-kbdchingkbd-versions">Summary of differences between <kbd>ching</kbd> versions</h4>
       
-      <p>This is not an exhaustive list: many BSD VAX variants carried ching(6) without modification from the 3BSD binaries (eg Ultrix).</p>
+      <p>This is not an exhaustive list: many BSD VAX variants carried <kbd>ching</kbd>(6) without modification from the 3BSD binaries (eg Ultrix).</p>
       
       <table class="wiki-table" width="100%" style="font-size: 8pt;">
       <tr>
@@ -388,17 +388,17 @@
       truth is, many files didn't. For example, in the one 32v distribution
       available, the only game source is <kbd>fortune.c</kbd> The source to maze(6)
       is completely missing and it was never passed onto 32v. Many of the games we
-      know from historical Unix are in fact of BSD origin, not AT&amp;T. </p>
+      know from historical Unix are in fact of BSD origin, not AT&amp;T.</p>
       
-      <p>So it's difficult to ascribe any particular motive for ching going missing.
-      Why was the code altered to remove the log file? Why and how was cno altered
-      from the 32v executable in 3bsd? Was there a reason for cno being stripped and
+      <p>So it's difficult to ascribe any particular motive for <kbd>ching</kbd> going missing.
+      Why was the code altered to remove the log file? Why and how was<kbd>cno</kbd>altered
+      from the 32v executable in 3bsd? Was there a reason for<kbd>cno</kbd>being stripped and
       phx not, or was that just an accident of circumstance?</p>
       
       <h3 id="see-also">See Also</h3>
       
-      <p><a href="/stuff/cno/">An Exploration of Cno</a></p>
-      <p>Last updated: 2015-02-26</p>
+      <p><a href="/computers/cno/">An Exploration of Cno</a></p>
+      <p>Last updated: 2016-01-24</p>
       <a href='/computers'>Back to computers</a>
       <!--
         Bootstrap core JavaScript
