@@ -114,7 +114,7 @@
       <p>All this is at the end of the file, which tells us that there will be mostly
       library code appended by the linker, and references to it will be resolved in
       the preceding code, so it will be useful to find those addresses to find the
-      system calls in the code. </p>
+      system calls in the code.</p>
       
       <h4 id="code-hunting">Code-hunting</h4>
       
@@ -298,7 +298,7 @@
       similarities but also important differences. Subroutine setup is much simpler
       here. The assembler optimizes code differently in <kbd>_getques</kbd> and its
       I/O routine differs. This is further confirmation that here is a V6 binary
-      pretending to be a V7 one. </p>
+      pretending to be a V7 one.</p>
       
       <h3 id="od-finding-the-seed-routine">od: Finding the Seed Routine</h3>
       <p>So the first subroutine here had me wondering, clearly not <kbd>main()</kbd> but a function, and the answer comes from the Reno code by Guy Harris: it is indeed the original seed routine!</p>
@@ -316,7 +316,7 @@
       results both in object and assembler form were enlightening. If cno had not
       been stripped, the object code would have at once shown the structure of the
       program. By comparison, the VAX 32V code is not as helpful to identify global
-      variables and functions. </p>
+      variables and functions.</p>
       
       <p>Another thing to consider is whether cno was written at a time when the system
       itself was evolving its assembler output. If the seed is calculated in a
@@ -409,13 +409,13 @@
       <ul>
         <li>No c preprocessor. The practical upshot of this is no #includes. We can use #defines.</li>
         <li>No standard lib. This isn't exactly true, but we are more dependent on our own I/O routines than simple calls to a shared library.</li>
-        <li>iolib is only good for basic I/O, like printf, getch, putch and tmpnam. Everything else has to be done ourselves. </li>
+        <li>iolib is only good for basic I/O, like printf, getch, putch and tmpnam. Everything else has to be done ourselves.</li>
         <li>we have a bit of a crib from phx because it was unstripped: the object files of system code can be tracked that way.</li>
         <li>Both cno and phx were written at what appears to have been what I would call v6b, version 6 as the standard library was moving from libS to libc, as Dennis Ritchie formalised the library proper. This can be seen in crt0.s where the form is not of standard V6 but of the libc V6 before it became standard in V7 and changed yet again. I was able to track this using the UNSW archives which have both libraries at the critical point.</li>
       </ul>
       
-      <p>This essay is a work in progress. </p>
-      <p>Last updated: 2015-02-26</p>
+      <p>This essay is a work in progress.</p>
+      <p>Last updated: 2016-01-24</p>
       <a href='/computers/'>Back to computers</a>
       <!--
         Bootstrap core JavaScript
