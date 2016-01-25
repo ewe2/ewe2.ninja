@@ -17,3 +17,5 @@ website technologies.
 
 Figure out the best partials/content structure to make subpages easy to
 generate without too much logic on the sidebar.
+
+Mobile code is broken, need to refactor.

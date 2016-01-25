@@ -1,4 +1,4 @@
-## The strange case of the <kbd>ching</kbd>(6) in the Unix
+### Introduction
 
 There are many mysteries of the early days of Unix. Because it grew organically, there wasn't really
 anyone in charge of care and feeding except Dennis and Ken and the Bell Labs crews initial work.
@@ -21,7 +21,7 @@ enthusiasts. And a version of BSD, probably 4.4 BSD-Lite1, was also online, and 
 able to acquire a version of <kbd>ching</kbd>, and that version was incomplete. But let's start at the
 beginning.
 
-### Original <kbd>ching</kbd> (1978? V6 - 1979 V7)
+### Original ching (1978? V6 - 1979 V7)
 
 We *think* that <kbd>ching</kbd> started with V7 because we have an original tape and the timestamped Pdp-11
 binaries.  But that's not the real truth. Although <kbd>ching</kbd> made it into the official V7 tape, it came
@@ -82,7 +82,7 @@ have tried to rewrite <kbd>hexagrams</kbd> or <kbd>macros</kbd> to use the
 public domain Legge text or groff however. It was not until Caldera freed 32v
 that it was realized that <kbd>ching</kbd> itself was now freed, see below.
 
-### VAX <kbd>ching</kbd> (UNIX/32v 1979)
+### VAX ching (UNIX/32v 1979)
 
 The mystery deepens when we look at the first port of V7 to the VAX. It is now
 possible to run a 32v system in emulation with the SIMH vax780 simulator and
@@ -110,7 +110,7 @@ and it is likely that, if no source was available, most V7-derived games also
 missed the cut besides <kbd>ching</kbd> from then on, including derivatives even if they
 extended theirs with BSD.
 
-### BSD <kbd>ching</kbd> (1979-1990 )
+### BSD ching (1979-1990 )
 
 The first VAX BSD was released only six months later and on first sight,
 appears to have identical binaries, but it is not that simple. Up to 3BSD, BSD
@@ -175,7 +175,7 @@ forced a rewrite. It was reverse-engineered by Tom Lyon who credits Ralph Muha
 as being the original source of <kbd>ching</kbd>.
 
 
-#### Summary of differences between <kbd>ching</kbd> versions
+#### Summary of differences between ching versions
 
 This is not an exhaustive list: many BSD VAX variants carried <kbd>ching</kbd>(6) without modification from the 3BSD binaries (eg Ultrix).
 

@@ -1,3 +1,4 @@
+### We all wanna change the world
 
 Reading Ian MacDonald's *Revolution In The Head* is like reading a history of Beatles musical
 criticism. It has been the most up-to-date synthesis of many Beatles critical sources, particularly
@@ -25,7 +26,7 @@ and down. He forgets, as we often do, that while *we* maybe looking back, *they*
 forward, and it requires an appreciation of their perspective as much as our own. His disappointment
 with the present taints his analysis of the past.
 
-As time passes, more memoirs are written. Probably the most important is Geoff Emrick's *Here, There
+As time passes, more memoirs are written. Probably the most important is Geoff Emerick's *Here, There
 and Everywhere* (2006). Of course he adds his own interpretations, but it's no less valuable in
 light of some of MacDonald's pronouncements.
 

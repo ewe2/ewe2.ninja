@@ -6,7 +6,7 @@ simple binary compared to its sister phx, but perhaps unique enough that it
 was treated differently afterwards. Phx was basically unchanged but Cno was
 altered several times! (see [The strange case of the ching(6) in the Unix][1])
 
-[1]: https://ewe2.ninja/stuff/ching "Ching"
+[1]: https://ewe2.ninja/computers/ching "Ching"
 
 As an exercise in understanding V7 Unix and to recover its long-lost source we
 will disassemble cno. We'll use a few tools to do this: I have a copy of cno

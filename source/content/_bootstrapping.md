@@ -1,5 +1,3 @@
-## Bootstrapping Concepts
-
 ### Introduction
 
 In 2011 Jean-Baptiste Queru, posted an [enticing overview](https://plus.google.com/+JeanBaptisteQueru/posts/dfydM2Cnepe) of the
