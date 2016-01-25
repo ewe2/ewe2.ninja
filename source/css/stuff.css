@@ -335,3 +335,26 @@ blockquote {
 dd {
     padding-left: 50px;
 }
+
+/* generated toc css */
+
+#toc a {
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+#toc a:hover {
+    text-decoration: underline;
+}
+
+#toc {
+    list-style-type: none;
+    padding-left: 0;
+    margin-left: 1.5em;
+}
+
+/* cheat to force links to start below the header */
+
+h3,h4 {
+    padding-top: 51px;
+}

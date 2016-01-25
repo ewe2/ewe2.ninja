@@ -52,6 +52,39 @@ Chiefly bass, also keyboards, guitar, electronic instruments.
   very old and battered, having gigged a lot and is retired pending a miracle
   of reworking!
 
+#### Alesis SR-16 drum machine
+
+A drum machine from the early '90s that only ceased production in 2003! The
+reason is the excellent quantiser and the solid sequencing and MIDI output.
+You can input effects and audio to spice up the admittedly unexciting kits,
+and it's got some good panning. The sequencer can be fooled to create
+different time signatures for different patterns which then can be alternated
+in song mode. It misses some onboard effects but stimulates creativity.
+
+#### Steinberg UR22 USB Audio Interface
+
+Great USB interface usable under Linux as well as windows/mac. The mono inputs
+can fool you with panning from stereo interfaces, but its clean DACs are
+amazing. Very useful in MIDI situations where you want to sync between a
+couple of machines which can't do so directly themselves, and important for
+outputting MIDI data to a DAW.
+
+At one time before the later 3.16.x series of Linux kernels,
+<kbd>linux/sound/usb/quirks-table.h</kbd> had to be modified for the UR22 in a
+similar way to that for the Boss GT-10B, but thankfully it's a standard part
+of the kernel since then. Depending on your setup, if you use pulseaudio, you
+will have to kill it to allow native programs like audacity access the ALSA
+channels to get input. When I'm not recording with it, I use the UR22 as a
+simple practice interface by looping a line in from the computer to one of the
+inputs, and plugging an instrument and headphones in. Some music will suffer
+from the mono input but it does well enough!
+
+#### AKG Perception 220 Condenser Microphone
+
+Best value Neumann-design based microphone. I don't know what the 2nd
+version/usb version are like, I have the XLR version. Perfect for vocals and
+simple accoustic instrument recordings.
+
 #### Boss GT-10B Bass effects processor
 
 Although superseded by later models, this is an amazing deal if you like
@@ -126,8 +159,8 @@ remember all those settings for that awesome patch you made.
 
 I've been writing semi-instrumental electronic music for some years, some of it is on <a
 href="http://soundcloud.com/penguinmusic">Soundcloud</a> and <a
-href="http://tindeck.com/users/ewe2">tindeck</a>. I'm saving up for some usb gear to make the
-process more interesting and be able to input real instruments into the mix.
+href="http://tindeck.com/users/ewe2">tindeck</a>. Currently saving for a nice
+analogue synth to change my workflow.
 
 ### General fandom stuff
 

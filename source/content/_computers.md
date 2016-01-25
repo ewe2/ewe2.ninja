@@ -15,6 +15,7 @@ I have a small collection of interesting computing devices. Currently:
 * SGI O2 running Irix 6.5
 * Commodore C64 with the marvellous IDE64 card
 * SNES game console
+* Toshiba Tecra 740CDT
 
 Past devices include:
 

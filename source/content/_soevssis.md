@@ -1,5 +1,3 @@
-## SOE vs SIS
-
 ### Origins
 
 This was a battle launched by the very existence of SOE. Leo Marks in *Between Silk and Cyanide* documents much of it, but there is also a fair amount in RV Jones *Most Secret War*. And it is a story that both recount in different ways that indicates the depth of the problem.
