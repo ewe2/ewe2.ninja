@@ -14,31 +14,15 @@ end
 # Page options, layouts, aliases and proxies
 ###
 
-# Per-page layout changes:
-#
-# With no layout
-# page "/path/to/file.html", :layout => false
-#
-# With alternative layout
-# page "/path/to/file.html", :layout => :otherlayout
-#
-
 # we put the linked pages in this directory so we don't clutter up the main
 # directory.
 with_layout :stuff do
    page "/stuff/*"
 end
 
-# Proxy pages (http://middlemanapp.com/basics/dynamic-pages/)
-# proxy "/this-page-has-no-template.html", "/template-file.html", :locals => {
-#  :which_fake_page => "Rendering a fake page with a local variable" }
-
 ###
 # Helpers
 ###
-
-# Automatic image dimensions on image_tag helper
-# activate :automatic_image_sizes
 
 # Reload the browser automatically whenever files change
 configure :development do
@@ -48,75 +32,16 @@ end
 # bootstrap helper templating
 activate :bh
 
-# fire up rouge (may need to be put in :build
-# currently have issues with rouge line number code until we can reflow
-# containers.
 activate :syntax
 
 # rather handy
 activate :directory_indexes
 
-#activate :navtree do | options |
-#  options.ignore_dir = ['css']
-#  options.ignore_files = ['favicon.ico', 'ewe2.ninja.png', 'robots.txt']
-#  options.automatic_tree_updates = false
-#end
-
-# we need to do this apparently for navtree
-#config.ignored_sitemap_matchers[:layout] = proc { |file|
-#  file.start_with?(File.join(config.source, 'layouts/'))
-#}
-
-# this gets dealt with in the compass config
-#set :css_dir, 'css'
-
 set :js_dir, 'js'
 set :images_dir, 'images'
 
-# markdown. move to redcarpet because it supports stuff we need.
-#set :markdown, :tables => true, :autolink => true, :fenced_code_blocks => true, with_toc_data: true, disable_indented_code_blocks: true, :strikethrough => true, :highlight => true, :footnotes => true, :no_intra_emphasis => true
-#set :markdown_engine, :redcarpet
+# markdown. redcarpet is over-complicated, kramdown does enough.
 set :markdown_engine, :kramdown
-
-# Easier boostrap navbar for prototyping
-#activate :bootstrap_navbar do | bootstrap_navbar |
-#  bootstrap_navbar.bootstrap_version = '3.2.0'
-#end
-
-
-# Grabbed from the middleman forum, nav_link_to precomputes active links for
-# us, which saves on having to generate hardcoded navigation lists. 
-#
-# get_page_title can grab out one if we need it.
-#
-# table_of_contents SHOULD work but unfortunately doesn't.
-#
-# comment is a way to comment multiline erb without saying "if false"
-helpers do
-  def nav_link_to(link, url, opts={})
-    if current_resource.url == url_for(url)
-      prefix = '<li class="active">'
-    else
-      prefix = '<li>'
-    end
-    prefix + link_to(link, url, opts) + "</li>"
-  end
-  
-  def get_page_title
-    yield_content(:title) || current_page.data.title
-  end
-
-  def table_of_contents(resource)
-    content = File.read(resource.source_file)
-    toc_renderer = Redcarpet::Render::HTML_TOC.new
-    markdown = Redcarpet::Markdown.new(toc_renderer, nesting_level: 2) # nesting_level is optional
-    markdown.render(content)
-  end
-  
-  def comment
-  end
-end
-
 
 # Build-specific configuration
 configure :build do
