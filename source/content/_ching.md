@@ -31,7 +31,7 @@ stdio library was in its fixed form but after the first wave of development, cal
 superseded the old iolib. We can see this because the binaries themselves exhibit a specific form of
 C setup code contained in crt0.s that did not exist except at this specific time when the core libraries
 were in redevelopment. In addition, although <kbd>cno</kbd> (Copy Numerical Output) was stripped, and
-therefore difficult to track, phx (Print Hexagrams) was *not* stripped and we can see the
+therefore difficult to track, <kbd>phx</kbd> (Print Hexagrams) was *not* stripped and we can see the
 object files it needed from the system to link as an executable, and these too are specifically from
 this period. The mystery of the loss of the sourcecode has its origin here: too popular to let
 bitrot in the V6 upheavals, it worked well enough in V7 to survive. This set the tone of the <kbd>ching</kbd>
@@ -41,7 +41,7 @@ More famous than the program itself is the appropriately cryptic manpage. The
 "game" itself was a collection, not a single file. It ran from a shell script
 to allow users to input numbers from a coin toss directly or to frame a
 question to <kbd>ching</kbd> and have that translated to numbers first before output. To
-do this it used the <kbd>cno</kbd> and phx binaries,  an nroff-formatted text file of the
+do this it used the <kbd>cno</kbd> and <kbd>phx</kbd> binaries,  an nroff-formatted text file of the
 hexagrams (called <kbd>hexagrams</kbd>) and a file of macros ( called
 <kbd>macros</kbd>) that the hexagram output would be filtered through. All
 these except the shell script was in a directory of its own within
@@ -59,7 +59,7 @@ case $1 in
 esac
 if      test $H
 then    phx $H | nroff $* macros -
-else   <kbd>cno</kbd>| phx | nroff $* macros -
+else    cno | phx | nroff $* macros -
 fi
 ~~~
 
@@ -123,14 +123,14 @@ without all the VAX bells and whistles, so PDP11 executables had a "text
 read-only" magic number, 0410 instead of 0407. But in the 3bsd executables,
 there is a marked difference in the size of the symbol table! 3bsd did have a
 different executable structure, but how did <kbd>cno</kbd> acquire this difference and
-why was phx left unchanged? The extent of the change is apparent from a
+why was <kbd>phx</kbd> left unchanged? The extent of the change is apparent from a
 <kbd>cmp -lb cno.32v cno.3bsd</kbd>. The header has been extended by 21 bytes,
 and there are significantly large new areas which I am assuming are due to
 3bsd's relocation requirements. But how the hell this was managed is a mystery
 unless someone had access to an object file and then processed it with ld: it
 would have taken a significant effort to alter the binary in another way. And
 this is an unstripped binary: the stripped binary found in 4BSD onwards
-completely does away with all the alteration. And yet phx remained unchanged
+completely does away with all the alteration. And yet <kbd>phx</kbd> remained unchanged
 except stripped throughout!
 
 There is one other possibility: the 2BSD source indicates the struggle to
@@ -310,7 +310,7 @@ know from historical Unix are in fact of BSD origin, not AT&T.
 So it's difficult to ascribe any particular motive for <kbd>ching</kbd> going missing.
 Why was the code altered to remove the log file? Why and how was<kbd>cno</kbd>altered
 from the 32v executable in 3bsd? Was there a reason for<kbd>cno</kbd>being stripped and
-phx not, or was that just an accident of circumstance?
+<kdbd>phx</kbd> not, or was that just an accident of circumstance?
 
 ### See Also
 
