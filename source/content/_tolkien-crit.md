@@ -16,7 +16,7 @@ folk tales as insignificant or merely repetitive, but sought to understand the
 cultural relationships behind them, especially in their choice of words. He
 was also antagonistic to their methodology, regarding it as cleverness for its
 own sake, or for power, to which he seemed very sensitive. Witness this
-particularly revealing passage in LotR between Gandalf and Saruman:
+particularly revealing passage in LOTR between Gandalf and Saruman:
 <blockquote>
 "White!" he sneered. "It serves as a beginning. White cloth may be dyed. The
 white page can be overwritten; and the white light can be broken."
@@ -34,26 +34,25 @@ and tried to link their position as cultural guardians by using the movies as
 the logical extension to the "obvious" conclusions they draw about mainstream
 literary culture.
 
-A point that Shippey makes in his book, which cannot fail to be noticed, is
-that critics misrepresent LotR according to their own prejudices (Shippey is
-guilty of Anglocentrism when he ascribes this chiefly to class-distinctions).
-He might also have noted this is true even of the sympathetic ones. What is
-one to make of the insinuations by Andrew O'Hehir's [OHehir][^2] otherwise
-Shippey-like analysis of a "Tolkienian Fascism", with supposedly revealing
-remarks suggesting Tolkien wasn't entirely anti-Nazi? It's certainly a biased
-and out-of-context reading of the letters, in which Tolkien speaks as an
-onlooker with a philological interest (cf. the "Germanic ideal"), and as
-someone uncomfortably familiar with the games of power, and suspicious of the
-simplistic good vs. evil propaganda of WWII. Indeed, to paraphrase the words
-of LotR *...the victor has emerged, stronger than either, and free of doubt.*
-O'Hehir oddly changes tack and excuses Tolkien later on the grounds that he
-disliked the *rational forms of government.* What Tolkien was actually saying
-about feudalism is that there was actually a bond of moral obligation between
-villein and lord that no longer exists in the rational forms, a bond that
-existed as far as the British officer-batman relationship in WWI, and a bond
-described by Frodo and Samwise's friendship. That we still actually understand
-this relationship is to be wondered at, since the idea has been culturally
-dead for a century.
+A point that Shippey makes in his book, is that critics misrepresent LOTR
+according to their own prejudices (Shippey is guilty of Anglocentrism when he
+ascribes this chiefly to class-distinctions).  He might also have noted this
+is true even of the sympathetic ones. What is one to make of the insinuations
+by Andrew O'Hehir's [OHehir][^2] otherwise Shippey-like analysis of a
+"Tolkienian Fascism", with supposedly revealing remarks suggesting Tolkien
+wasn't entirely anti-Nazi? It's certainly a biased and out-of-context reading
+of the letters, in which Tolkien speaks as an onlooker with a philological
+interest (cf. the "Germanic ideal"), and as someone uncomfortably familiar
+with the games of power, and suspicious of the simplistic good vs. evil
+propaganda of WWII. Indeed, to paraphrase the words of LOTR *...the victor has
+emerged, stronger than either, and free of doubt.* O'Hehir oddly changes tack
+and excuses Tolkien later on the grounds that he disliked the *rational forms
+of government.* What Tolkien was actually saying about feudalism is that there
+was actually a bond of moral obligation between villein and lord that no
+longer exists in the rational forms, a bond that existed as far as the British
+officer-batman relationship in WWI, and a bond described by Frodo and
+Samwise's friendship. That we still actually understand this relationship is
+to be wondered at, since the idea has been culturally dead for a century.
 
 What makes O'Hehir's analysis (which has its good points) even odder is that
 it is a review of Shippey's book, not Tolkien's. Rather than examine Shippey's
@@ -71,12 +70,12 @@ contemporaries are read as school texts, but he is not. Perhaps because they
 can be "explained away" better than Tolkien.
 
 Julith Shulevitz [Shulevitz][^3] takes the movies as a starting-point to slag
-Tolkien off in a variety of self-contradictory ways: as a come-uppance for the
+Tolkien off in a variety of self-contradictory ways: as a comeuppance for the
 *tweedy philogist* (surely calling the kettle black here), and most
 conspicuously, lumping him together with J.K Rowling as a children's writer.
 Admitting she loved the books as a child, she still sees them in categorical
 terms: like Rowling, Tolkien wasn't writing for a demographic, but
-contemporary criticism like Shulevitz's depends on it, so *obviously* LoTR is
+contemporary criticism like Shulevitz's depends on it, so *obviously* LOTR is
 the progenitor of all modern fantasy - perhaps not so far from the truth -
 which is, of course, a Bad Thing.
 
@@ -121,7 +120,7 @@ what?, and go back to reading Tolkien and Rowling for the very good reason
 that they prefer brownies, not brownie-points.
 
 I sense a position here: any popular book that doesn't play with reality in
-the manner prescribed by modern critical law must therefore be obscurist or
+the manner prescribed by modern critical law must therefore be obscurantist or
 childish or both. It follows that no serious critical value can be obtained
 and is a trap for the novice analyst. There's one question I would like
 cleared up: why do literary critics think in terms of Freud and not Jung when
@@ -132,7 +131,7 @@ the rest of us?
 
 A cynic might comment that literary worth is in inverse proportion to public
 acceptance, but what is being dismissed is possibly one of the major cultural
-influences of our time. The Geek = LotR fan equation proposed by some is not
+influences of our time. The Geek = LOTR fan equation proposed by some is not
 so far-fetched as you might think, given that so-called "geeks" are more than
 the one-dimensional gnomes of code that the media describe.
 
@@ -158,7 +157,7 @@ Gothic and provided much of the reconstruction of Anglo Saxon and Middle
 English, of which Tolkien was master. Philology didn't shy from using myth as
 an aid, and it was this aspect particularly that brought it down in the eyes
 of the establishment; it was then broken down into the above-mentioned
-categories, and by the 1950's, when LotR was published, it was regarded as a
+categories, and by the 1950s, when LOTR was published, it was regarded as a
 dead and discredited discipline. There are still many who regard themselves as
 philologists in response to increasingly obscure rationalisations of language,
 which they feel ignores its wider socio-historical context. All this may seem
@@ -177,10 +176,10 @@ support the languages, not the other way around. Modern critics have no
 problem associating others with this kind of craft, but don't equally apply it
 to Tolkien, yet Tolkien was by far the more knowledgeable about the roots of
 the English language and the way it evolved and demonstrated it particularly
-in LotR. In an age before the word processor, he rewrote and retyped LotR to
+in LOTR. In an age before the word processor, he rewrote and retyped LOTR to
 hone the language for specific effects. What you get is something unique in
 English literature: the sense of how different races and cultures interact
-through a lingua fraca (the Common Speech), and the implications of that. I
+through a *lingua fraca* (the Common Speech), and the implications of that. I
 don't know that critics such as Shippey have really got this important point
 across. In an increasingly multi-cultural age, we have a novel that expresses
 that sense of interracial, inter-cultural exchange, and it was written 50
@@ -188,11 +187,42 @@ years ago by an English professor!
 
 Of course, I am part of a culture that Tolkien himself would likely reject.
 Yet my culture loves words, is highly creative, and is surprisingly aware of
-its past. LotR is the book that launched a thousand fantasy authors, and is
+its past. LOTR is the book that launched a thousand fantasy authors, and is
 still the leading fantasy title. When book polls reveal massive public
-approval, it belies the notion that Tolkien enjoys only cult status. It's
-obviously not the cult status the critics desire; it appears to fail all their
-tests.
+approval, it belies the notion that Tolkien enjoys only cult status.
+
+### Post-Modernist Maze
+
+A general question comes up if we consider what an objective post-modern
+analysis should turn up. A very quick brush-up on post-modern criticism for
+the hasty:
+
+* Death of the Author: we're not concerned with the author's intent or life in
+  relationship to The Text. This is also related to the essential atomization
+  of postmodernism, in which we are all alone. There is no communication. This
+  makes all narrators unreliable whether they be the Author or their characters.
+
+* The Text's meaning may be completely arbitrary in different contexts. It is
+  the *context* of the text that gives the Text meaning, it has none of its
+  own. In addition, this makes the context itself relative, since different
+  contexts may be brought to bear. Yes, it is that pointless, deliberately so.
+
+* Since the Narrator is unreliable and the Text is paradoxical, it follows
+  that literature that follows these rules is appropriately postmodern. By
+  this axiom, most literature fails.
+
+What is really bizarre about contemporary criticism of Tolkien is how they
+break their own postmodern rules to condemn him. It is as if they are afraid
+to meet the implications of a postmodern reading, or perhaps, they are more
+annoyed that they cannot apply any criticism without looking foolish. Consider
+some of the criticisms above: Tolkien is slammed for predating postmodernism,
+or being reduced to boredom via feminist or Marxian or other readings. You can
+see the problem: it would mean since most literature predates postmodernism,
+it's not much of an objective criticism.
+
+And despite all this post-modernist pretension, they still have a few
+favourite tests that they apply to Tolkien specifically which should not even
+matter according to their own dogma.
 
 ### A Few Tests
 
@@ -225,34 +255,44 @@ dislike. Again, none of this seems to bother Tolkien fans, so why are the
 critics obsessive about it? Why are they not looking for the real reasons for
 Tolkien's popularity?
 
+From a purely postmodernist angle this already fails because sex wasn't a
+major concern in literature before the 20th century; as an alternate reading,
+fine but it hardly invalidates anything. And once again, it fails the death of
+the author test anyway.
+
 #### Myth
 
 The excuse, "well if it's so much about myth, and myth has sex in it therefore
 it's broken" simply doesn't wash. This is lit. crits. other way of trying to
 get its cake and eat it; when cornered it declaims that it alone defines the
-argument. There is more to myth than sex or indeed religosity, and far more
+argument. There is more to myth than sex or indeed religiosity, and far more
 than the typical critics exposure to European myth, and this is a recurring
 theme in Tolkien criticism: the academic immaturity of its critics. Jenkyns is
 a good example of this: having ticked off his favourite comparisons, he goes
 on to "prove" that Tolkien fails them. He finds it impossible that Tolkien did
 not reference Wagner, or an explicit Catholicism, completely misunderstands
 Frodo's character development because it doesn't fit his preconceptions of the
-Hero, demonstrates his anaethema of medieval prose (virtually all lit. critics
+Hero, demonstrates his anathema of medieval prose (virtually all lit. critics
 are), and you can read the rest of the list if you can be bothered finding it.
 
-An example of this blindness is racism. Once again forgetting that Tolkien's
-aims are oblivious to modernist/post-modernist mores, critics decry his
-portrayals of orcs as irredeemably racist, a *...northern European's paranoid
-caricature.*  This is missing the point so obviously that it makes plain their
-ignorance of European myth, and exposes their desire to have literature remade
-in their own image. Like Frodo, one might wish to have an invasion of orcs
-just to wake them up from their easy relativism and hypocritical political
-correctness. How is Zoroastrian dualism so rife in the Near Eastern origins of
-much of Western ethical/religious thought, uncomfortably dovetailing with
-Western logic, supposed to be inappropriate here? What Western myth is without
-it? Arguing that it seems simplistic is simplistic itself, an excuse to
-dislike the work without really examining it. Without any continuum, how does
-one distinguish the grey character from the black and white?
+Again, from the postmodernist angle, you can play with all the readings you
+like, but you can't *prove* anything. It is actually incorrect to make such
+connections, remember?
+
+Another example of this blindness is racism. Once again forgetting that
+Tolkien's aims are oblivious to modernist/post-modernist mores, critics decry
+his portrayals of orcs as irredeemably racist, a *...northern European's
+paranoid caricature.*  This is missing the point so obviously that it makes
+plain their ignorance of European myth, and exposes their desire to have
+literature remade in their own image. Like Frodo, one might wish to have an
+invasion of orcs just to wake them up from their easy relativism and
+hypocritical political correctness. How is Zoroastrian dualism so rife in the
+Near Eastern origins of much of Western ethical/religious thought,
+uncomfortably dovetailing with Western logic, supposed to be inappropriate
+here? What Western myth is without it? Arguing that it seems simplistic is
+simplistic itself, an excuse to dislike the work without really examining it.
+Without any continuum, how does one distinguish the grey character from the
+black and white?
 
 Modern critics react with fear and loathing to such symbolism but the books
 were never written for them.
@@ -276,6 +316,11 @@ through fantasy. This was immediately jumped-upon and discounted but I suspect
 if it had been some non-professors Honours paper it wouldn't have attracted
 such derision.
 
+A postmodernist should properly make a bored noise and do something else, but
+lit. crit. cannot stand to have its heroes compared to, and therefore refuses
+Tolkien any concurrency or context because that would be bad, and this
+obviously fails the postmodern test too.
+
 ### Conclusions
 
 John Ralston Saul, in Voltaire's Bastards, makes the assertion that the critic
@@ -285,9 +330,13 @@ feeling that most critics think that fantasy has been "done" and is no longer
 important. Yet the academic Tolkien himself who almost single-handedly brought
 to critical attention the importance of Beowulf as literature, a living
 document of the Anglo-Saxon world colliding head-on with Christianity. And
-LotR (in fact most of his work) is all about collisions: that between races,
+LOTR (in fact most of his work) is all about collisions: that between races,
 cultures, languages and ethos. But apparently this isn't obscure enough,
 interesting enough, or just plain too popular enough.
+
+Post-modernism has been an excuse for bad criticism for too long, because the
+critics are not held to account enough for not applying it rigorously. If
+Tolkien is to be fairly critiqued, where is the postmodernist to do it?
 
 There are lots of books to enjoy without requiring the permission of literary
 critics, and their function as guides to the underlying intentions of literary
