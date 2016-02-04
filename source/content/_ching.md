@@ -52,7 +52,7 @@ original shell script source:
 ~~~ bash
 
 #! /bin/sh
-cd /usr/games/lib/<kbd>ching</kbd>.d
+cd /usr/games/lib/ching.d
 PATH=:$PATH
 case $1 in
         [6-9]*) H=$1;shift;;
@@ -310,7 +310,7 @@ know from historical Unix are in fact of BSD origin, not AT&T.
 So it's difficult to ascribe any particular motive for <kbd>ching</kbd> going missing.
 Why was the code altered to remove the log file? Why and how was<kbd>cno</kbd>altered
 from the 32v executable in 3bsd? Was there a reason for<kbd>cno</kbd>being stripped and
-<kdbd>phx</kbd> not, or was that just an accident of circumstance?
+<kbd>phx</kbd> not, or was that just an accident of circumstance?
 
 ### See Also
 
