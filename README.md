@@ -13,9 +13,11 @@ website technologies.
 * Uses middleman-deploy to simplfy deployment and middleman-syntax for
   highlighting.
 
-### Todo
+### TODO
 
 Figure out the best partials/content structure to make subpages easy to
 generate without too much logic on the sidebar.
 
 Mobile code is broken, need to refactor.
+
+Refactor css for theming.
