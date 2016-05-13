@@ -61,6 +61,20 @@ and it's got some good panning. The sequencer can be fooled to create
 different time signatures for different patterns which then can be alternated
 in song mode. It misses some onboard effects but stimulates creativity.
 
+#### Novation Bass Station II
+
+A monophonic analog synthesizer, it really ticks all the boxes for basic
+synthesis for me. I love the aftertouch on the full-size keys, and the filter
+setup is really intuitive. I do find the arpegiattor and sequencer to be the
+most odd part of the machine, it takes some getting used to. It's a fantastic
+little unit for lead lines and silly noises! I'm in the market for a polysynth
+to deal with pads and some effects and my synthesiser world would be complete.
+The other really nice thing is that it's uncomplicated to use as a MIDI
+synth/controller under several OSes. I've not used it under Windows, but I've
+been able to successfully read/write patches to/from it in Linux and use
+Rosegarden without issues. It's quite loud, actually, I have to record
+carefully in Audacity.
+
 #### Steinberg UR22 USB Audio Interface
 
 Great USB interface usable under Linux as well as windows/mac. The mono inputs
@@ -160,7 +174,10 @@ remember all those settings for that awesome patch you made.
 I've been writing semi-instrumental electronic music for some years, some of it is on <a
 href="http://soundcloud.com/penguinmusic">Soundcloud</a> and <a
 href="http://tindeck.com/users/ewe2">tindeck</a>. Currently saving for a nice
-analogue synth to change my workflow.
+electric guitar to complete my basic instrumental needs.
+
+Recently I've been delving into parody songs and it's been a good learning
+experience for recording in my limited setup. 
 
 ### General fandom stuff
 
