@@ -4,6 +4,7 @@
 
 # Change Compass configuration
 # don't use caching during development, it will force css rewrites as you go.
+require 'susy'
 compass_config do |config|
    config.output_style = :compact
    config.css_dir = 'css'
