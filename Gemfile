@@ -5,12 +5,15 @@
 # them installed put them here!
 source 'https://rubygems.org'
 
-gem "middleman", "~>3.3.7"
+# do NOT upgrade to v4 its utter shite and fucks working configs up
+gem "middleman", "~>3.3.12"
 # good for prototyping but not flexible enough for production
 #gem "middleman-bootstrap-navbar"
 gem "middleman-livereload", "~> 3.1.0"
 gem "middleman-syntax"
 gem "middleman-deploy", "~> 1.0"
+# this is for middleman v4 help, avoid
+#gem 'middleman-deploy', github: 'middleman-contrib/middleman-deploy', branch: 'master'
 
 # nice idea, but limited to a specific use case which additionally requires
 # extra work to avoid errors, and the author doesn't understand the problem.
@@ -24,6 +27,8 @@ gem "middleman-deploy", "~> 1.0"
 
 # compass and haml templating and tilt. put dependencies even if they're
 # already known to force up to date behaviour
+# new plugin needed for newer middleman to get compass to work
+#gem "compass-susy-plugin"
 gem "compass", "~>1.0.1"
 gem "haml", "~>4.0.6"
 
@@ -37,7 +42,7 @@ gem "redcarpet"
 gem "susy"
 
 # bh helper, we probably wont need this actually but keep it.
-gem 'bh', "~>1.2.0"
+gem 'bh', "~>1.3.6"
 
 # try to eradicate some dumb dependency rubbish
 gem 'thor', '~> 0.19.1'
