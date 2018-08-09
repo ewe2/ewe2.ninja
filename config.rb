@@ -4,12 +4,12 @@
 
 # Change Compass configuration
 # don't use caching during development, it will force css rewrites as you go.
-require 'susy'
-compass_config do |config|
-   config.output_style = :compact
-   config.css_dir = 'css'
-   config.cache = 'false'
-end
+#require 'susy'
+#compass_config do |config|
+#   config.output_style = :compact
+#   config.css_dir = 'css'
+#   config.cache = 'false'
+#end
 
 ###
 # Page options, layouts, aliases and proxies
@@ -17,9 +17,9 @@ end
 
 # we put the linked pages in this directory so we don't clutter up the main
 # directory.
-with_layout :stuff do
-   page "/stuff/*"
-end
+page "/stuff/*", :layout => "stuff"
+
+
 
 ###
 # Helpers
@@ -38,6 +38,9 @@ activate :syntax
 # rather handy
 activate :directory_indexes
 
+# goodbye compass
+activate :autoprefixer
+
 set :js_dir, 'js'
 set :images_dir, 'images'
 
@@ -47,7 +50,7 @@ set :markdown_engine, :kramdown
 # Build-specific configuration
 configure :build do
   # For example, change the Compass output style for deployment
-  activate :minify_css
+  #activate :minify_css
 
   # Minify Javascript on build
   activate :minify_javascript
@@ -66,14 +69,14 @@ configure :build do
 end
 
 # our deployment
-activate :deploy do |deploy|
-  deploy.method = :rsync
-  deploy.host   = 'ewe2.ninja'
-  deploy.path   = '/var/www/html'
+#activate :deploy do |deploy|
+#  deploy.method = :rsync
+#  deploy.host   = 'ewe2.ninja'
+#  deploy.path   = '/var/www/html'
   # Optional Settings
-  deploy.user  = 'ewe2' # no default
+#  deploy.user  = 'ewe2' # no default
   # deploy.port  = 5309 # ssh port, default: 22
   # do this at least once
-  deploy.clean = false # remove orphaned files on remote host, default: false
+#  deploy.clean = false # remove orphaned files on remote host, default: false
   # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
-end
+#end
