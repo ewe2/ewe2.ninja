@@ -11,7 +11,7 @@ gem "middleman", "~>4.2.0"
 #gem "middleman-bootstrap-navbar"
 gem "middleman-livereload", "~> 3.4.0"
 gem "middleman-syntax"
-#gem "middleman-deploy", "~> 1.0"
+gem "middleman-rsync"
 gem "middleman-autoprefixer"
 
 # nice idea, but limited to a specific use case which additionally requires

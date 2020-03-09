@@ -72,11 +72,18 @@ end
 #activate :deploy do |deploy|
 #  deploy.method = :rsync
 #  deploy.host   = 'ewe2.ninja'
-#  deploy.path   = '/var/www/html'
-  # Optional Settings
+#  deploy.path   = '/var/www/test'
+# # Optional Settings
 #  deploy.user  = 'ewe2' # no default
-  # deploy.port  = 5309 # ssh port, default: 22
+#  deploy.port  = 1026 # ssh port, default: 22
   # do this at least once
 #  deploy.clean = false # remove orphaned files on remote host, default: false
-  # deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
-#end
+#  deploy.flags = '-rltgoDvzO --no-p --del' # add custom flags, default: -avz
+end
+
+activate :rsync do |rsync|
+  rsync.production_server = "ewe2.ninja"
+  rsync.path = "/var/www/test/"
+  rsync.user = "ewe2"
+  rsync.flags = "-rltgoDvzO --no-p --del"
+end
