@@ -7,17 +7,10 @@ website technologies.
 
 ### Features
 
-* HTML based on bootstrap css, modernizr and respond JS, server-side fonts.
-* Build system based on a basic middleman template to include HAML, SASS,
-  Compass elements. Optional suzy and bh helpers.
-* Uses middleman-deploy to simplfy deployment and middleman-syntax for
-  highlighting.
+* Hugo-based build system.
+* hermit theme with site-specific tweaks.
+* simple rsync deployment.
 
 ### TODO
 
-Figure out the best partials/content structure to make subpages easy to
-generate without too much logic on the sidebar.
-
-Mobile code is broken, need to refactor.
-
-Refactor css for theming.
+mobile theming works fine except for the case where tables break things.
