@@ -1,5 +1,4 @@
+# for development, don't save the output
+public/
+# backups
 *~
-/.bundle
-/build
-/.sass-cache
-/.cache

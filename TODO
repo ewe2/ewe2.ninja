@@ -1,6 +1,0 @@
-refactoring css:
-
-set up some themeing in _default and make sure that gets inherited by
-stuff.css (include screen.css in layouts).
-
-We have to replace compass/suzy and possibly sass, they're out of date.
