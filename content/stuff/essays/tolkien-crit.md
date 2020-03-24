@@ -202,9 +202,8 @@ approval, it belies the notion that Tolkien enjoys only cult status.
 
 ### Post-Modernist Maze
 
-A general question comes up if we consider what an objective post-modern
-analysis should turn up. A very quick brush-up on post-modern criticism for
-the hasty:
+But what about an objective post-modern analysis? A very quick brush-up on
+post-modern criticism for the hasty:
 
 * Death of the Author: we're not concerned with the author's intent or life in
   relationship to The Text. This is also related to the essential atomization
@@ -222,8 +221,8 @@ the hasty:
 
 What is really bizarre about contemporary criticism of Tolkien is how they
 break their own postmodern rules to condemn him. It is as if they are afraid
-to meet the implications of a postmodern reading, or perhaps, they are more
-annoyed that they cannot apply any criticism without looking foolish. Consider
+of the implications of a postmodern reading, or perhaps, they are more
+annoyed that they cannot apply such criticism without looking foolish. Consider
 some of the criticisms above: Tolkien is slammed for predating postmodernism,
 or being reduced to boredom via feminist or Marxian or other readings. You can
 see the problem: it would mean since most literature predates postmodernism,
@@ -243,8 +242,8 @@ Tolkien novels. Apparently there's not enough of it, or it's weirdly
 sublimated. The idea that Sam's encounter with Shelob are a mythic
 representation of sex (O'Hehir again) is to me completely distasteful, and
 smacks of the worst Freudianism. Turner is one critic who opens up on their
-obsession - sex in books means adult themes (duh). If you have adult themes,
-you can't have fantasy apparently (Magic Realism is an exception, cough). This
+obsession - sex in books is a prequesite for adult themes. If you have adult themes,
+you can't have fantasy apparently (Magic Realism is an exception apparently). This
 charge is repeated by [Jenkyns][^6], who went so far as to declaim that Hobbits had
 apparently no balls (he says nothing about Sam's many children or perhaps he
 never go that far).

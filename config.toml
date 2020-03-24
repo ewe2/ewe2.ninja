@@ -13,8 +13,8 @@ paginate = 5
 [author]
     name = "Sean Dwyer"
 [taxonomies]
+    # keep defaults if you want to define your own.
     tag = "tags"
-    # Categories are disabled by default.
     categories = "categories"
 
 [params]
