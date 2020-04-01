@@ -128,13 +128,16 @@ Burrough's Naked Lunch. To which the disinterested bystander will say So
 what?, and go back to reading Tolkien and Rowling for the very good reason
 that they prefer brownies, not brownie-points.
 
-I sense a position here: any popular book that doesn't play with reality in
-the manner prescribed by modern critical law must therefore be obscurantist or
-childish or both. It follows that no serious critical value can be obtained
-and is a trap for the novice analyst. There's one question I would like
-cleared up: why do literary critics think in terms of Freud and not Jung when
-they analyse Tolkien? Can't they have courses in contemporary psychology like
-the rest of us?
+There is an unexamined orthodoxy here: any popular book that doesn't play with
+reality in the manner prescribed by modern critical law must therefore be
+obscurantist or childish or both. It follows that no serious critical value
+can be obtained and is a trap for the novice analyst. There's one question I
+would like cleared up: why do literary critics think in terms of Freud and not
+Jung when they analyse Tolkien? Can't they have courses in contemporary
+psychology like the rest of us? From this early 21st-century vantage point, we
+recognise a clear echo-chamber effect, and its inhabitants seem almost
+unconscious followers of its dogma. Let's look at another "echo-chamber".
+ 
 
 ### The Geek Perspective
 
@@ -167,7 +170,13 @@ English, of which Tolkien was master. Philology didn't shy from using myth as
 an aid, and it was this aspect particularly that brought it down in the eyes
 of the establishment; it was then broken down into the above-mentioned
 categories, and by the 1950s, when LOTR was published, it was regarded as a
-dead and discredited discipline. There are still many who regard themselves as
+dead and discredited discipline.  It is a curious position to be enforcing
+linguistic dogma to the point of gatekeeping acceptable etymological source
+material, such that culture at large is "not allowed" because it doesn't fit
+neatly into the linguists myopic taxonomy.
+
+
+There are still many who regard themselves as
 philologists in response to increasingly obscure rationalisations of language,
 which they feel ignores its wider socio-historical context. All this may seem
 to be merely side issues, but when critics of Tolkien dismiss his books as
