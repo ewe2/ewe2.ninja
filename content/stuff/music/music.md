@@ -43,22 +43,62 @@ Chiefly bass, also keyboards, guitar, electronic instruments.
 
 #### Basses
 
-* Mr White: G&L SB-2 Tribute with ghs pressurewounds. My very favourite
+* Perky: 2012 G&L SB-2 Tribute with ghs pressurewounds. My very favourite
   instrument.  Although made in Indonesia, it has virtually the same
   components as the USA_made ones in a standard package. Mine is the white
-  with a  black pickguard, occasionally G&L change these colours.
+  with a  black pickguard, occasionally G&L change these colours. Well,
+  *formerly white*. Due to what I suspect is a failed polyurethane cap layer,
+  Perky is slowly turning pink where regular contact is made on the body. It's
+  a form of relicing which isn't so bad unless it starts to crack badly, and
+  then I'll need to protect it.
 
-* Mr Black: Black Washburn XB125 5-string active bass. DR Rainbow Neons. Great
-  5-string for the price, and DR's give it a lovely warmth. Also made in
-  Indonesia and is also a fantastic budget bass.
+  * Boris: The newest bass of the family, Boris is a 2019 Squier Classic Vibe
+    70's Jazz bass. As received it has a very punky/trebly bias which can be
+    tamed somewhat but that's just what I like about him. Very fun to play.
 
-* Mr Brown: Brown stained Stagg BC300FL A fretless PJ bass, ghs flats. Neck
-  unfortunately warped and the pickups are weak, so this needs some work.
+* Blacky: 2003 Black Washburn XB125 5-string active bass. DR Rainbow Neons.
+  Great 5-string for the price, and DR's give it a lovely warmth. Also made in
+  Indonesia and is also a fantastic budget bass. As you can see by now,
+  Indonesian-made basses, particularly from the Cort factory, are really good
+  value and there's no reason to turn your nose up at them.
 
-* Mr Blue: Red Metallic Riverhead Headless longscale. This odd bass is a
+* Bluey: Red Metallic Riverhead Headless longscale. This odd bass is a
   Riverhead version of the classic Steinberger shape but in wood! This bass is
   very old and battered, having gigged a lot and is retired pending a miracle
   of reworking!
+
+#### Guitars
+
+* Shona: Epiphone SG G400-Pro. A classic  vintage tone, not like your brasher
+  Gibson style, but a much more mid-60's sound. Really fast and easy to play,
+  it's a great rhythm guitar and also has the Peter Green out of phase middle
+  pickup position sound.
+
+* Sparky: A 2005 Epiphone SG Junior with the 700T bridge pickup. This one is
+  defintely brash! Needs a bit of work done on it but quite playable and fun
+  just to make noise with.
+
+* Surfy: 2017 G&L Tribute Fallout (currently NYXL strings). This is an amazing
+  guitar. Somehow it has balance pickups between a neck P90 and a bridge
+  humbucker that can be coil tapped and it's still balanced with the tap and
+  there's no volume drop in any position (aside from the perceptual one when
+  you lose bass). Can twang which gives it tones between a Tele and a Strat,
+  it covers all that ground and is still original. Fantastic.
+
+{{< rawhtml >}}
+<style>
+li.myli {
+  visibility: hidden;
+}
+</style>
+
+<li class="myli"> Shane: 2015 G&L Tribute Ascari GT-90. I probably have the last one sold
+  "as new" in Australia, the line was discontinued in 2017 amid the CITES
+  debacle. Stunning looks and sound, it's the perfect reggae guitar or the
+  perfect anything-you-want guitar!
+</li>
+
+{{< /rawhtml >}}
 
 #### Alesis SR-16 drum machine
 
