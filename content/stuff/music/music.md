@@ -52,7 +52,7 @@ Chiefly bass, also keyboards, guitar, electronic instruments.
   a form of relicing which isn't so bad unless it starts to crack badly, and
   then I'll need to protect it.
 
-  * Boris: The newest bass of the family, Boris is a 2019 Squier Classic Vibe
+* Boris: The newest bass of the family, Boris is a 2019 Squier Classic Vibe
     70's Jazz bass. As received it has a very punky/trebly bias which can be
     tamed somewhat but that's just what I like about him. Very fun to play.
 
@@ -100,38 +100,39 @@ li.myli {
 
 {{< /rawhtml >}}
 
-#### Alesis SR-16 drum machine
+#### Drum Machines
 
-A drum machine from the early '90s that only ceased production in 2003! The
-reason is the excellent quantiser and the solid sequencing and MIDI output.
-You can input effects and audio to spice up the admittedly unexciting kits,
-and it's got some good panning. The sequencer can be fooled to create
-different time signatures for different patterns which then can be alternated
-in song mode. It misses some onboard effects but stimulates creativity.
+* **Alesis SR-16 drum machine**: A drum machine from the early '90s that only
+  ceased production in 2003! The reason is the excellent quantiser and the
+  solid sequencing and MIDI output.  You can input effects and audio to spice
+  up the admittedly unexciting kits, and it's got some good panning. The
+  sequencer can be fooled to create different time signatures for different
+  patterns which then can be alternated in song mode. It misses some onboard
+  effects but stimulates creativity.
 
-#### Novation Bass Station II
+#### Synthesizers
 
-A monophonic analog synthesizer, it really ticks all the boxes for basic
-synthesis for me. I love the aftertouch on the full-size keys, and the filter
-setup is really intuitive. I do find the arpegiattor and sequencer to be the
-most odd part of the machine, it takes some getting used to. It's a fantastic
-little unit for lead lines and silly noises! I'm in the market for a polysynth
-to deal with pads and some effects and my synthesiser world would be complete.
-The other really nice thing is that it's uncomplicated to use as a MIDI
-synth/controller under several OSes. I've not used it under Windows, but I've
-been able to successfully read/write patches to/from it in Linux and use
-Rosegarden without issues. It's quite loud, actually, I have to record
-carefully in Audacity.
+* **Novation Bass Station II**: A monophonic analog synthesizer, it really ticks
+  all the boxes for basic synthesis for me. I love the aftertouch on the
+  full-size keys, and the filter setup is really intuitive. I do find the
+  arpegiattor and sequencer to be the most odd part of the machine, it takes
+  some getting used to. It's a fantastic little unit for lead lines and silly
+  noises! I'm in the market for a polysynth to deal with pads and some effects
+  and my synthesiser world would be complete.  The other really nice thing is
+  that it's uncomplicated to use as a MIDI synth/controller under several
+  OSes. I've not used it under Windows, but I've been able to successfully
+  read/write patches to/from it in Linux and use Rosegarden without issues.
+  It's quite loud, actually, I have to record carefully in Audacity.
 
-#### Steinberg UR22 USB Audio Interface
+#### Production Gear
 
-Great USB interface usable under Linux as well as windows/mac. The mono inputs
-can fool you with panning from stereo interfaces, but its clean DACs are
-amazing. Very useful in MIDI situations where you want to sync between a
-couple of machines which can't do so directly themselves, and important for
-outputting MIDI data to a DAW.
+* **Steinberg UR22 USB Audio Interface**: Great USB interface usable under Linux
+  as well as windows/mac. The mono inputs can fool you with panning from
+  stereo interfaces, but its clean DACs are amazing. Very useful in MIDI
+  situations where you want to sync between a couple of machines which can't
+  do so directly themselves, and important for outputting MIDI data to a DAW.
 
-At one time before the later 3.16.x series of Linux kernels,
+  At one time before the later 3.16.x series of Linux kernels,
 `linux/sound/usb/quirks-table.h` had to be modified for the UR22 in a
 similar way to that for the Boss GT-10B, but thankfully it's a standard part
 of the kernel since then. Depending on your setup, if you use pulseaudio, you
@@ -141,23 +142,21 @@ simple practice interface by looping a line in from the computer to one of the
 inputs, and plugging an instrument and headphones in. Some music will suffer
 from the mono input but it does well enough!
 
-#### AKG Perception 220 Condenser Microphone
+* **AKG Perception 220 Condenser Microphone**: Best value Neumann-design based
+   microphone. I don't know what the 2nd version/usb version are like, I have
+   the XLR version. Perfect for vocals and simple accoustic instrument
+   recordings.
 
-Best value Neumann-design based microphone. I don't know what the 2nd
-version/usb version are like, I have the XLR version. Perfect for vocals and
-simple accoustic instrument recordings.
+* **Boss GT-10B Bass effects processor**: Although superseded by later models,
+  this is an amazing deal if you like your Boss effects. There is a
+  [utility][1] to be able to reprogram it from a PC.  Linux users have to get
+  their hands dirty with a patch to the ALSA usb driver in quirks-table.h.
+  This file is a moving target: in recent kernels the entries for the Boss GT
+  models has been removed. The catch-all entry won't work because the usb
+  interface has a couple of specific modes, but don't be frightened, it's not
+  that difficult a patch:
 
-#### Boss GT-10B Bass effects processor
-
-Although superseded by later models, this is an amazing deal if you like
-your Boss effects. There is a [utility][1] to be able to reprogram it from a PC.
-Linux users have to get their hands dirty with a patch to the ALSA usb driver
-in quirks-table.h. This file is a moving target: in recent kernels the entries
-for the Boss GT models has been removed. The catch-all entry won't work
-because the usb interface has a couple of specific modes, but don't be
-frightened, it's not that difficult a patch:
-
-First find `linux/sound/usb/quirks-table.h` and make a backup file
+  First find `linux/sound/usb/quirks-table.h` and make a backup file
 first! Then open the original in an editor and search for the Roland section
 either by name or by vendor id `0x0582`. The file is sorted in
 ascending order by device id, so we want to put our patch after ids

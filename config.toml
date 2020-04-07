@@ -17,6 +17,12 @@ paginate = 5
     tag = "tags"
     categories = "categories"
 
+[markup]
+  [markup.tableOfContents]
+    endLevel = 4
+    ordered = false
+    startLevel = 2
+
 [params]
     dateform    = "Jan 2 2006"
     dateformShort = "Jan 3"
