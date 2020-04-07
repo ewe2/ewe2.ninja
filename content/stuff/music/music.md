@@ -43,55 +43,96 @@ Chiefly bass, also keyboards, guitar, electronic instruments.
 
 #### Basses
 
-* Mr White: G&L SB-2 Tribute with ghs pressurewounds. My very favourite
+* Perky: 2012 G&L SB-2 Tribute with ghs pressurewounds. My very favourite
   instrument.  Although made in Indonesia, it has virtually the same
   components as the USA_made ones in a standard package. Mine is the white
-  with a  black pickguard, occasionally G&L change these colours.
+  with a  black pickguard, occasionally G&L change these colours. Well,
+  *formerly white*. Due to what I suspect is a failed polyurethane cap layer,
+  Perky is slowly turning pink where regular contact is made on the body. It's
+  a form of relicing which isn't so bad unless it starts to crack badly, and
+  then I'll need to protect it.
 
-* Mr Black: Black Washburn XB125 5-string active bass. DR Rainbow Neons. Great
-  5-string for the price, and DR's give it a lovely warmth. Also made in
-  Indonesia and is also a fantastic budget bass.
+* Boris: The newest bass of the family, Boris is a 2019 Squier Classic Vibe
+    70's Jazz bass. As received it has a very punky/trebly bias which can be
+    tamed somewhat but that's just what I like about him. Very fun to play.
 
-* Mr Brown: Brown stained Stagg BC300FL A fretless PJ bass, ghs flats. Neck
-  unfortunately warped and the pickups are weak, so this needs some work.
+* Blacky: 2003 Black Washburn XB125 5-string active bass. DR Rainbow Neons.
+  Great 5-string for the price, and DR's give it a lovely warmth. Also made in
+  Indonesia and is also a fantastic budget bass. As you can see by now,
+  Indonesian-made basses, particularly from the Cort factory, are really good
+  value and there's no reason to turn your nose up at them.
 
-* Mr Blue: Red Metallic Riverhead Headless longscale. This odd bass is a
+* Bluey: Red Metallic Riverhead Headless longscale. This odd bass is a
   Riverhead version of the classic Steinberger shape but in wood! This bass is
   very old and battered, having gigged a lot and is retired pending a miracle
   of reworking!
 
-#### Alesis SR-16 drum machine
+#### Guitars
 
-A drum machine from the early '90s that only ceased production in 2003! The
-reason is the excellent quantiser and the solid sequencing and MIDI output.
-You can input effects and audio to spice up the admittedly unexciting kits,
-and it's got some good panning. The sequencer can be fooled to create
-different time signatures for different patterns which then can be alternated
-in song mode. It misses some onboard effects but stimulates creativity.
+* Shona: Epiphone SG G400-Pro. A classic  vintage tone, not like your brasher
+  Gibson style, but a much more mid-60's sound. Really fast and easy to play,
+  it's a great rhythm guitar and also has the Peter Green out of phase middle
+  pickup position sound.
 
-#### Novation Bass Station II
+* Sparky: A 2005 Epiphone SG Junior with the 700T bridge pickup. This one is
+  defintely brash! Needs a bit of work done on it but quite playable and fun
+  just to make noise with.
 
-A monophonic analog synthesizer, it really ticks all the boxes for basic
-synthesis for me. I love the aftertouch on the full-size keys, and the filter
-setup is really intuitive. I do find the arpegiattor and sequencer to be the
-most odd part of the machine, it takes some getting used to. It's a fantastic
-little unit for lead lines and silly noises! I'm in the market for a polysynth
-to deal with pads and some effects and my synthesiser world would be complete.
-The other really nice thing is that it's uncomplicated to use as a MIDI
-synth/controller under several OSes. I've not used it under Windows, but I've
-been able to successfully read/write patches to/from it in Linux and use
-Rosegarden without issues. It's quite loud, actually, I have to record
-carefully in Audacity.
+* Surfy: 2017 G&L Tribute Fallout (currently NYXL strings). This is an amazing
+  guitar. Somehow it has balance pickups between a neck P90 and a bridge
+  humbucker that can be coil tapped and it's still balanced with the tap and
+  there's no volume drop in any position (aside from the perceptual one when
+  you lose bass). Can twang which gives it tones between a Tele and a Strat,
+  it covers all that ground and is still original. Fantastic.
 
-#### Steinberg UR22 USB Audio Interface
+{{< rawhtml >}}
+<style>
+li.myli {
+  visibility: hidden;
+}
+</style>
 
-Great USB interface usable under Linux as well as windows/mac. The mono inputs
-can fool you with panning from stereo interfaces, but its clean DACs are
-amazing. Very useful in MIDI situations where you want to sync between a
-couple of machines which can't do so directly themselves, and important for
-outputting MIDI data to a DAW.
+<li class="myli"> Shane: 2015 G&L Tribute Ascari GT-90. I probably have the last one sold
+  "as new" in Australia, the line was discontinued in 2017 amid the CITES
+  debacle. Stunning looks and sound, it's the perfect reggae guitar or the
+  perfect anything-you-want guitar!
+</li>
 
-At one time before the later 3.16.x series of Linux kernels,
+{{< /rawhtml >}}
+
+#### Drum Machines
+
+* **Alesis SR-16 drum machine**: A drum machine from the early '90s that only
+  ceased production in 2003! The reason is the excellent quantiser and the
+  solid sequencing and MIDI output.  You can input effects and audio to spice
+  up the admittedly unexciting kits, and it's got some good panning. The
+  sequencer can be fooled to create different time signatures for different
+  patterns which then can be alternated in song mode. It misses some onboard
+  effects but stimulates creativity.
+
+#### Synthesizers
+
+* **Novation Bass Station II**: A monophonic analog synthesizer, it really ticks
+  all the boxes for basic synthesis for me. I love the aftertouch on the
+  full-size keys, and the filter setup is really intuitive. I do find the
+  arpegiattor and sequencer to be the most odd part of the machine, it takes
+  some getting used to. It's a fantastic little unit for lead lines and silly
+  noises! I'm in the market for a polysynth to deal with pads and some effects
+  and my synthesiser world would be complete.  The other really nice thing is
+  that it's uncomplicated to use as a MIDI synth/controller under several
+  OSes. I've not used it under Windows, but I've been able to successfully
+  read/write patches to/from it in Linux and use Rosegarden without issues.
+  It's quite loud, actually, I have to record carefully in Audacity.
+
+#### Production Gear
+
+* **Steinberg UR22 USB Audio Interface**: Great USB interface usable under Linux
+  as well as windows/mac. The mono inputs can fool you with panning from
+  stereo interfaces, but its clean DACs are amazing. Very useful in MIDI
+  situations where you want to sync between a couple of machines which can't
+  do so directly themselves, and important for outputting MIDI data to a DAW.
+
+  At one time before the later 3.16.x series of Linux kernels,
 `linux/sound/usb/quirks-table.h` had to be modified for the UR22 in a
 similar way to that for the Boss GT-10B, but thankfully it's a standard part
 of the kernel since then. Depending on your setup, if you use pulseaudio, you
@@ -101,23 +142,21 @@ simple practice interface by looping a line in from the computer to one of the
 inputs, and plugging an instrument and headphones in. Some music will suffer
 from the mono input but it does well enough!
 
-#### AKG Perception 220 Condenser Microphone
+* **AKG Perception 220 Condenser Microphone**: Best value Neumann-design based
+   microphone. I don't know what the 2nd version/usb version are like, I have
+   the XLR version. Perfect for vocals and simple accoustic instrument
+   recordings.
 
-Best value Neumann-design based microphone. I don't know what the 2nd
-version/usb version are like, I have the XLR version. Perfect for vocals and
-simple accoustic instrument recordings.
+* **Boss GT-10B Bass effects processor**: Although superseded by later models,
+  this is an amazing deal if you like your Boss effects. There is a
+  [utility][1] to be able to reprogram it from a PC.  Linux users have to get
+  their hands dirty with a patch to the ALSA usb driver in quirks-table.h.
+  This file is a moving target: in recent kernels the entries for the Boss GT
+  models has been removed. The catch-all entry won't work because the usb
+  interface has a couple of specific modes, but don't be frightened, it's not
+  that difficult a patch:
 
-#### Boss GT-10B Bass effects processor
-
-Although superseded by later models, this is an amazing deal if you like
-your Boss effects. There is a [utility][1] to be able to reprogram it from a PC.
-Linux users have to get their hands dirty with a patch to the ALSA usb driver
-in quirks-table.h. This file is a moving target: in recent kernels the entries
-for the Boss GT models has been removed. The catch-all entry won't work
-because the usb interface has a couple of specific modes, but don't be
-frightened, it's not that difficult a patch:
-
-First find `linux/sound/usb/quirks-table.h` and make a backup file
+  First find `linux/sound/usb/quirks-table.h` and make a backup file
 first! Then open the original in an editor and search for the Roland section
 either by name or by vendor id `0x0582`. The file is sorted in
 ascending order by device id, so we want to put our patch after ids
