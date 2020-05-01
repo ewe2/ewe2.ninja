@@ -1,6 +1,7 @@
 ---
-title: COVIDsafe is security theatre
-date: 2020-05-02
+title: "COVIDsafe is security theatre"
+date: "2020-05-02"
+toc: true
 tags:
  - blogs
  - security
