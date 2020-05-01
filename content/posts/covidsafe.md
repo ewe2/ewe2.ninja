@@ -95,24 +95,24 @@ harm in presenting a "feel good" facade to a serious situation.
 
 ### Some Further Reading
 
-[15 minutes is arbitrary] (https://www.ecdc.europa.eu/sites/default/files/documents/covid-19-public-health-management-contact-novel-coronavirus-cases-EU.pdf)
+[15 minutes is arbitrary](https://www.ecdc.europa.eu/sites/default/files/documents/covid-19-public-health-management-contact-novel-coronavirus-cases-EU.pdf)
 
-[App doesn't work on iPhone] (https://www.abc.net.au/news/2020-04-26/coronavirus-tracing-app-covidsafe-apple-iphone-covid-19/12187448)
+[App doesn't work on iPhone](https://www.abc.net.au/news/2020-04-26/coronavirus-tracing-app-covidsafe-apple-iphone-covid-19/12187448)
 
-[iPhone market share] (https://www.gizmodo.com.au/2020/01/apples-iphone-australian-market-share-grows-as-huawei-crashes/)
+[iPhone market share](https://www.gizmodo.com.au/2020/01/apples-iphone-australian-market-share-grows-as-huawei-crashes/)
 
-[German & French stand-off over tracing app] (https://appleinsider.com/articles/20/04/24/apple-google-in-a-standoff-with-germany-and-france-over-contact-tracing-privacy)
+[German & French stand-off over tracing app](https://appleinsider.com/articles/20/04/24/apple-google-in-a-standoff-with-germany-and-france-over-contact-tracing-privacy)
 
-[72 hours on a surface] (https://www.cdc.gov/coronavirus/2019-ncov/hcp/disposition-in-home-patients.html)
+[72 hours on a surface](https://www.cdc.gov/coronavirus/2019-ncov/hcp/disposition-in-home-patients.html)
 
-[3 hours in the air] (https://www.foxnews.com/health/coronavirus-live-plastic-stainless-steel-for-up-to-3-days)
+[3 hours in the air](https://www.foxnews.com/health/coronavirus-live-plastic-stainless-steel-for-up-to-3-days)
 
-[Two aisles] (https://www.dailymail.co.uk/news/article-8203189/Coronavirus-simulation-shows-single-cough-spread-germans-two-supermarket-aisles.html)
+[Two aisles](https://www.dailymail.co.uk/news/article-8203189/Coronavirus-simulation-shows-single-cough-spread-germans-two-supermarket-aisles.html)
 
-[60% and the NHS] (https://www.independent.co.uk/news/uk/politics/coronavirus-app-uk-nhs-contact-tracing-phone-smartphone-a9484551.html)
+[60% and the NHS](https://www.independent.co.uk/news/uk/politics/coronavirus-app-uk-nhs-contact-tracing-phone-smartphone-a9484551.html)
 
-[How does CovidSafe app work] (https://www.smh.com.au/politics/federal/how-will-the-coronavirus-app-work-20200421-p54ltg.html)
+[How does CovidSafe app work](https://www.smh.com.au/politics/federal/how-will-the-coronavirus-app-work-20200421-p54ltg.html)
 
-[Fallible human memory and contact tracing] (https://www.bbc.com/future/article/20200415-covid-19-could-bluetooth-contact-tracing-end-lockdown-early)
+[Fallible human memory and contact tracing](https://www.bbc.com/future/article/20200415-covid-19-could-bluetooth-contact-tracing-end-lockdown-early)
 
-[App download & lower restrictions] (https://www.abc.net.au/news/2020-05-01/national-cabinet-coronavirus-restrictions-could-ease-next-week/12205304)
+[App download & lower restrictions](https://www.abc.net.au/news/2020-05-01/national-cabinet-coronavirus-restrictions-could-ease-next-week/12205304)
