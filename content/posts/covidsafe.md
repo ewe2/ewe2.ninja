@@ -21,7 +21,7 @@ responses to it have been many and varied, but of interest to me is the
 Australian governments rollout of the [COVIDsafeapp](https://www.health.gov.au/resources/apps-and-tools/covidsafe-app),
 touted as a non-intrusive tracing application to find infected people faster
 and stop the spread of the virus. The code isn't exactly crystal-clear; it's
-descended from an opensource tracing application that's been rejigged for
+descended from an open-source tracing application that's been re-jigged for
 iPhone and Android via a shared framework by Apple/Google which we are assured
 is an open API and the results of a simple decompilation at least give us the
 app without any worrying obfusticated binary blobs...yet. And that's the
@@ -68,15 +68,15 @@ were in the same vicinity of the person who left it or not.  We know it can
 work through airborne transmission but likely not for much longer than a
 couple of hours. So already we have half the smartphone-using population
 without a working app in proximity to possibly infected areas that the app has
-no idea abput.
+no idea about.
 
-Then there is the problem of takeup. For it to have an appreciable effect they
+Then there is the problem of take-up. For it to have an appreciable effect they
 think it needs 40% installation. 3.5 million people have downloaded it, thats
 only 15%. And remember, a lot of those people are using iPhones. 
 
 Now we come to the "yet". The "yet" is whatever they do to upgrade the phones,
 will they fix the bugs (there are a lot)? Will iPhones work in the same way to
-Android using the framework (hard to see how)? More concerningly, will they
+Android using the framework (hard to see how)? More worryingly, will they
 use it as a default tracker by adding more functionality to add real ID
 information and bury all this in a binary blob that's definitely illegal to
 look at? Maybe not, but we don't exactly trust our government on the basis of
@@ -88,7 +88,7 @@ and how useful is that, really?
 ### Conclusion
 
 At this stage that's all I can conclude from the current state of the app and
-its takeup. But I won't be installing it myself because I can't see any
+its take-up. But I won't be installing it myself because I can't see any
 tangible benefit to me or to anyone around me and I'm worried by the blithe
 assumption that this will be "enough". It's a sales job and it may do great
 harm in presenting a "feel good" facade to a serious situation.
