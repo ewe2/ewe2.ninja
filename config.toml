@@ -24,8 +24,8 @@ paginate = 5
     startLevel = 2
 
 [params]
-    dateform    = "2 Jan 2006"
-    dateformShort = "3 Jan"
+    dateform    = "02 Jan 2006"
+    dateformShort = "03 Jan"
     dateformNum = "2006-01-02"
     dateformNumTime = "2006-01-02 15:04"
     description = "ewe2.ninja"

@@ -1,6 +1,6 @@
 ---
 title: "COVIDsafe is security theatre"
-date: "2020-05-01"
+date: 2020-05-01
 toc: true
 tags:
  - blogs
