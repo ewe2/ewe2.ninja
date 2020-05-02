@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-date: {{ .Date }}
+date: {{ .Date.Format .Site.Params.dateform }}
 draft: false
 comments: false
 toc: true
