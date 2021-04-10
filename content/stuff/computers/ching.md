@@ -1,6 +1,6 @@
 ---
 title: "The strange case of the ching in the unix"
-date: "2020-03-09"
+date: "2021-04-10"
 toc: true
 tags:
  - computers
@@ -115,7 +115,7 @@ because being not stripped, one can see the functions, variables and linked
 library code.  Weirdly, the log file was left as it was and actually survived
 into 3bsd, even though it was redundant!
 
-It should be noted that Unix SYSIII| Unix System III did *not* carry `ching`,
+It should be noted that Unix System III did *not* carry `ching`,
 and it is likely that, if no source was available, most V7-derived games also
 missed the cut besides `ching` from then on, including derivatives even if they
 extended theirs with BSD.
@@ -182,12 +182,21 @@ mystery was finally solved.
 Now we come to another fork in the road, SunOS. This generally tracked CSRG
 releases until they developed their own SPARC architecture which at last
 forced a rewrite. It was reverse-engineered by Tom Lyon who credits Ralph Muha
-as being the original source of `ching`.
+as being the original source of `ching`. 
+
+#### Final Authorship
+
+But Muha may have been the last in a chain of authors; as the manual page
+still states, the algorithm is derived originally from Steve Johnson who
+recently wrote to the TUHS list claiming first ownership of the code but that
+he'd discontinued the effort because he recognised the copyright issue in
+reproducing I Ching texts (at that time, anyway).
 
 
 #### Summary of differences between ching versions
 
-This is not an exhaustive list: many BSD VAX variants carried `ching`(6) without modification from the 3BSD binaries (eg Ultrix).
+This is not an exhaustive list: many BSD VAX variants carried `ching`(6)
+without modification from the 3BSD binaries (eg Ultrix).
 
 {{< rawhtml >}}
 <style>
