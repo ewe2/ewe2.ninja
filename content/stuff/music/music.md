@@ -1,6 +1,6 @@
 ---
 title: "My Musical Journey"
-date: 2020-03-09
+date: 2021-04-10
 toc:  true
 tags:
  - music
@@ -11,26 +11,26 @@ tags:
 During my youth I was in a number of original bands and cover bands, as a
 bassplayer, singer and songwriter.
 
-1984-1989 Thanks for the Fish<br/>
+####1984-1989 Thanks for the Fish
 
 * Originated in Brisbane, Australia. Played many support gigs to great bands
   and I'm proudest of our record of benefit gigs for various causes. Moved to
   Melbourne in early 1988 but did not get much traction and eventually broke
   up. 80's indie punk/pop. Made several demo tapes and a single vinyl release.
 
-1989-1991 Colour Jungle<br/>
+####1989-1991 Colour Jungle
 
 * Melbourne. Formed with some friends, we had the great fortune of enjoying
   the talent of the remarkable John Lee of the Dingos. General rock and roll.
   Released a cassette of various tunes.
 
-1991-1992 Caplights<br/>
+####1991-1992 Caplights
 
 * The Caplights were a Melbourne accoustic/electric band of a similar genre to
   the better-known Things of Stone and Wood. Toured extensively around
   Victoria and put out a CD release and promptly disbanded.
 
-1992 The Great Curve<br/>
+####1992 The Great Curve
 
 * Formed as a pickup after-hours cover band for The Club in Collingwood, the
   Curve were a fearless blend of new wave and trashy pop revisionism. They
@@ -43,24 +43,38 @@ Chiefly bass, also keyboards, guitar, electronic instruments.
 
 #### Basses
 
+* Robbie: 2021 Yamaha 735A 5-string active PJ bass with a dark coffee sunburst
+  body and rosewood fingerboard. I decided I needed a more versatile 5er and a
+  PJ that could do a bit more than the SB-2. The passive tone is just
+  wonderful, particularly on the P side but with the pickup balancer middled,
+  its a great J sound too. Active tone is especially good for slap but also
+  very nice for when you want to play right back on the bridge. You get that
+  trademark Yamaha growl, really takes me back to the 80's, he's dark and
+  smooth just like the the bassplayer I named him for!
+
 * Perky: 2012 G&L SB-2 Tribute with ghs pressurewounds. My very favourite
   instrument.  Although made in Indonesia, it has virtually the same
-  components as the USA_made ones in a standard package. Mine is the white
+  components as the USA-made ones in a standard package. Mine is the white
   with a  black pickguard, occasionally G&L change these colours. Well,
   *formerly white*. Due to what I suspect is a failed polyurethane cap layer,
   Perky is slowly turning pink where regular contact is made on the body. It's
   a form of relicing which isn't so bad unless it starts to crack badly, and
   then I'll need to protect it.
 
-* Boris: The newest bass of the family, Boris is a 2019 Squier Classic Vibe
-    70's Jazz bass. As received it has a very punky/trebly bias which can be
-    tamed somewhat but that's just what I like about him. Very fun to play.
+* Boris: Boris is a 2019 Squier Classic Vibe 70's Jazz bass, black body with a
+  maple neck and fingerboard. As received he has a very punky/trebly bias
+  which can be tamed somewhat but that's just what I like about him. Very fun
+  to play.
 
 * Blacky: 2003 Black Washburn XB125 5-string active bass. DR Rainbow Neons.
   Great 5-string for the price, and DR's give it a lovely warmth. Also made in
   Indonesia and is also a fantastic budget bass. As you can see by now,
   Indonesian-made basses, particularly from the Cort factory, are really good
-  value and there's no reason to turn your nose up at them.
+  value and there's no reason to turn your nose up at them. However Blacky is
+  a little bit of a one-trick pony, great for reggae but difficult to brighten
+  up sufficiently for anything else. He is also unfortunately very dependent
+  on his active preamp, the passive mode is very weak, basically useless. But
+  in the right context, he's great.
 
 * Bluey: Red Metallic Riverhead Headless longscale. This odd bass is a
   Riverhead version of the classic Steinberger shape but in wood! This bass is
@@ -92,15 +106,22 @@ li.myli {
 }
 </style>
 
-<li class="myli"> Shane: 2015 G&L Tribute Ascari GT-90. I probably have the last one sold
-  "as new" in Australia, the line was discontinued in 2017 amid the CITES
-  debacle. Stunning looks and sound, it's the perfect reggae guitar or the
-  perfect anything-you-want guitar!
+<li class="myli"> 
 </li>
-
 {{< /rawhtml >}}
 
-#### Drum Machines
+* Siobhan: 2015 G&L Tribute Ascari GT-90. I probably have the last one sold
+  "as new" in Australia, the line was discontinued in 2017 amid the CITES
+  debacle. Stunning looks and sound, it's the perfect reggae guitar or the
+  perfect anything-you-want guitar! Built almost like an LP except wholly out
+  of mahogany, it certainly has that strong midrangey neck feel.
+
+* Joanna: 2018 Cort Gold OM 06 Acoustic. This is from Cort's Chinese factory,
+  and it's the top of the line, yet I paid under $A1k for it, an all-solid
+  mahogany guitar with a sitka spruce top. It's a ridiculously good guitar,
+  warm, articulate, the most morish acoustic I've ever owned.
+
+#### Drum Machines and Groove Boxen
 
 * **Alesis SR-16 drum machine**: A drum machine from the early '90s that only
   ceased production in 2003! The reason is the excellent quantiser and the
@@ -110,7 +131,28 @@ li.myli {
   patterns which then can be alternated in song mode. It misses some onboard
   effects but stimulates creativity.
 
+* **Maschine Mk3** I needed something better than the SR-16 and more hands-on
+  than just softsynths so after a lot of questing I settled on Maschine and
+  its ecosystem, mainly because its impossible to ignore Kontakt these days
+  and I had to get it. I do want another drum machine thingy though. Maschine
+  is great in its own way though, and when I can get all the synths talking to
+  each other, the synergy between the modx and maschine will I hope be
+  fruitful. Until then, its going to be my beatbox.
+
 #### Synthesizers
+
+* **Yamaha Modx88** Polyphonic digital 88-key synthesizer. This was a very big
+  purchase. I decided to merge two aims, a polyphonic synthesiser with a piano
+  and Yamaha obviously targeted someone like me with this synth. It's
+  basically a cut-down Montage but still has a LOT of sound-design capability
+  in there if you want to dig into it, but if not, it's very targeted towards
+  live performance needs. For most people, the smaller keyboards will suffice
+  but for someone who wants the better keyboard, you can't avoid the 88 to get
+  the weighted keys, but there's no aftertouch. It's a fully complient MIDI
+  controller which will be handy later to control other things. The learning
+  curve has been quite steep and there's a lot of stuff I've not bothered with
+  yet but it can be quite useful as a sketchpad for ideas and once you're up
+  to speed you can get a lot done, particularly connected to a DAW.
 
 * **Novation Bass Station II**: A monophonic analog synthesizer, it really ticks
   all the boxes for basic synthesis for me. I love the aftertouch on the
@@ -142,10 +184,33 @@ simple practice interface by looping a line in from the computer to one of the
 inputs, and plugging an instrument and headphones in. Some music will suffer
 from the mono input but it does well enough!
 
+* **Behringer XR16 Air Mixer** This is my new mixer that I have just got and
+  haven't yet fully integrated my studio into yet, I need a bunch of cables
+  first! It's basically a box on the floor that you plug cables from your
+  machines into and the interface is an app that connects either by
+  wifi/ethernet and your output ideally is via USB although if you're doing
+  live stuff of course you have LR main outputs too. The mixer is needed so
+  that the non-electronic instruments I have, have an interface with enough
+  inputs that can do stereo, like my bass DI interface and stereo pedals as
+  well as things like mid-side recording, my H4n Pro, audio from the modx,
+  bs2, SR-16,Maschine, etc. It should enable me to cut down the confusion for
+  my DAW, where I have to literally unplug usbs so it doesn't have the modx
+  fighting the mixer or the maschine or the bs2 for dominance (ie i can force
+  the modex to just be an audio and standard midi device through the mixer and
+  not through its own USB). Well, that's the plan. I have to also get a MIDI
+  box to make this happen too!
+
 * **AKG Perception 220 Condenser Microphone**: Best value Neumann-design based
    microphone. I don't know what the 2nd version/usb version are like, I have
    the XLR version. Perfect for vocals and simple accoustic instrument
    recordings.
+
+* **Zoom H4N Pro** These nifty little things are so useful in so many
+  contexts, everyone should have them. I could have held out for a 6, but I
+  couldn't really justify it, it was overkill for me, the H4n Pro was updated
+  to backport some of the better features of the 5, like the mid-side encoder
+  and effects, and a bunch of improvements. I got one of the nice black ones,
+  the quality of the recording is great, records my acoustic guitar very well.
 
 * **Boss GT-10B Bass effects processor**: Although superseded by later models,
   this is an amazing deal if you like your Boss effects. There is a
@@ -218,13 +283,16 @@ remember all those settings for that awesome patch you made.
 
 ### Current work
 
-I've been writing semi-instrumental electronic music for some years, some of it is on <a
-href="http://soundcloud.com/penguinmusic">Soundcloud</a> and <a
-href="http://tindeck.com/users/ewe2">tindeck</a>. Currently saving for a nice
-electric guitar to complete my basic instrumental needs.
+I've been writing semi-instrumental electronic music for some years, some of it is on
+[Soundcloud](http://soundcloud.com/penguinmusic) and I did a lot on tindeck
+before that went down, that is now archived
+[here](https://drive.google.com/drive/u/0/folders/1rxk5i-I5P4le81P28c2XqSyNAJUzpku1).
+Most of it is parody songs, some are originals, quality varies greatly!
 
-Recently I've been delving into parody songs and it's been a good learning
-experience for recording in my limited setup. 
+
+See also my [penguinmusic.bandcamp.com](penguinmusic.bandcamp.com), for which
+I hope to be writing more music in the coming year.
+
 
 ### General fandom stuff
 

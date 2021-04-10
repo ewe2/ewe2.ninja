@@ -91,8 +91,8 @@ track, based on the original demo from *Anthology 3* and claims that Spector has
 mistakes on bass by drowning them out. MacDonald justifies this amazing charge by the claim that
 Lennon and Spector mastered the album without McCartney's consent, thus McCartney was "unable to fix
 it".  When you compare the *Anthology 3* track with the *Let It Be* version and the *Let It Be
-Naked* version, several things become apparent. According to an article on <a
-href="http://mixonline.com/recording/interviews/audio_naked_truth_beatles/">Mixonline</a> the
+Naked* version, several things become apparent. According to an article on
+[Mixonline](http://mixonline.com/recording/interviews/audio_naked_truth_beatles/) the
 *Naked* version is in fact a later take: significantly, Lennon also plays bass on it. MacDonald in
 his fulminations never directly refers to this 31st January take (the day after the famous rooftop
 concert), so it is unclear whether his argument is really about preferring a worse version, as the
@@ -104,15 +104,14 @@ much more in evidence on Beatles records as a stand-in bass player), and that th
 within the context of the long Get Back sessions. And beyond that, MacDonald's charge ignores the
 wide selection of mistakes, dodgy edits and adlibs throughout the Beatles recorded history, to
 which he refers more than once. A brief trawl through the excellent resource offered by
-<a href="http://wgo.signal11.org.uk/wgo.htm">The Beatles Anomalies List</a> is evidence enough, but
+[The Beatles Anomalies List](http://wgo.signal11.org.uk/wgo.htm) is evidence enough, but
 Emerick's memoir confirms that playing with "duff" notes on a session was a Beatles *game*, not a
 crime.
 
 So, a take never meant to be released and possibly preferred to a superior take was instead released
 with extra production and that is sabotage according to MacDonald. And all of this beside the simple
 fact that *all Beatles approved the mix*. To quote Peter Doggett, author of *You Never Give Me Your
-Money* from his <a
-href="http://peterdoggettbeatles.blogspot.com/2010/09/phil-spector-and-let-it-be.html"> blog</a>:
+Money* from his [blog](http://peterdoggettbeatles.blogspot.com/2010/09/phil-spector-and-let-it-be.html):
 
 >And it was Klein who suggested that Phil Spector, who had just produced John
 >Lennon's 'Instant Karma' single in magnificent style, should be asked to go back through the January

@@ -1,6 +1,6 @@
 ---
 title: "Computers"
-date: "2020-03-09"
+date: "2021-04-10"
 toc: true
 tags:
  - computers
