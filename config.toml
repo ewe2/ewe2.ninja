@@ -55,6 +55,9 @@ paginate = 5
     [[params.social]]
         name = "twitter"
         url = "https://twitter.com/ewe2"
+    [[params.social]]
+        name = "instagram"
+        url = "https://www.instagram.com/pengguinmusic"
 
 # here's where we can break off and add stuff via menu entries.
 
