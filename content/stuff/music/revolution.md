@@ -1,12 +1,13 @@
 ---
-title: "Revolution In The Head: An appraisal of Ian MacDonald's *Revolution in
-the Heart*"
-date: "2018-08-10"
+title: "Revolution In The Head: An appraisal of Ian MacDonald's *Revolution in the Heart*"
+revision: 3
+date: '2018-08-10'
 toc: true
-tags:
+tags: 
  - music
  - criticism
  - essays
+
 ---
 
 ### We all wanna change the world
@@ -14,10 +15,11 @@ tags:
 Reading Ian MacDonald's *Revolution In The Head* is like reading a history of Beatles musical
 criticism. It has been the most up-to-date synthesis of many Beatles critical sources, particularly
 Lewisohn's exhaustive recording history and has a unique comparative cultural timeline of their
-impact, but it is beginning to date. This aspect of the book is probably most useful to a non-fan.
-The great problem of making any appraisal of the Beatles, either as musicians or as cultural
+impact. This aspect of the book is probably most useful to a non-fan.
+
+The great problem of making any appraisal of the Beatles however, either as musicians or as cultural
 participants, is how to be properly objective.  McDonald is bluntly honest, beginning with the
-premise that objectivity is impossible until possibly a century into the future. He undoes his
+premise that objectivity is impossible until possibly a century into the future. But he then undoes this
 premise by attempting to obscure his own biases. As any Beatles fan will tell you, there are good
 Beatles songs and (because fans are loathe to say the word bad) *not-so-good* Beatles songs.  Which
 songs fall into the *not-so-good* category says as much about the fan as the band; this is, after
@@ -39,7 +41,9 @@ with the present taints his analysis of the past.
 
 As time passes, more memoirs are written. Probably the most important is Geoff Emerick's *Here, There
 and Everywhere* (2006). Of course he adds his own interpretations, but it's no less valuable in
-light of some of MacDonald's pronouncements.
+light of some of MacDonald's pronouncements. The principal traps of projecting a hindsight view onto 
+moments of history combined with parasocial (in MacDonald's case) assumptions of personal interactions
+combine into some very unfortunate and damaging conclusions.
 
 ### You tell me it's the institution
 
