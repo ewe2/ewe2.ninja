@@ -1,36 +1,36 @@
 ---
 title: "My Musical Journey"
-date: 2021-04-10
+date: 2021-10-05
 toc:  true
 tags:
  - music
 ---
 
-### Bands
+## Bands
 
 During my youth I was in a number of original bands and cover bands, as a
 bassplayer, singer and songwriter.
 
-#### 1984-1989 Thanks for the Fish
+### 1984-1989 Thanks for the Fish
 
 * Originated in Brisbane, Australia. Played many support gigs to great bands
   and I'm proudest of our record of benefit gigs for various causes. Moved to
   Melbourne in early 1988 but did not get much traction and eventually broke
   up. 80's indie punk/pop. Made several demo tapes and a single vinyl release.
 
-#### 1989-1991 Colour Jungle
+### 1989-1991 Colour Jungle
 
 * Melbourne. Formed with some friends, we had the great fortune of enjoying
   the talent of the remarkable John Lee of the Dingos. General rock and roll.
   Released a cassette of various tunes.
 
-#### 1991-1992 Caplights
+### 1991-1992 Caplights
 
 * The Caplights were a Melbourne accoustic/electric band of a similar genre to
   the better-known Things of Stone and Wood. Toured extensively around
   Victoria and put out a CD release and promptly disbanded.
 
-#### 1992 The Great Curve
+### 1992 The Great Curve
 
 * Formed as a pickup after-hours cover band for The Club in Collingwood, the
   Curve were a fearless blend of new wave and trashy pop revisionism. They
@@ -41,7 +41,7 @@ bassplayer, singer and songwriter.
 
 Chiefly bass, also keyboards, guitar, electronic instruments.
 
-#### Basses
+### Basses
 
 * Robbie: 2021 Yamaha 735A 5-string active PJ bass with a dark coffee sunburst
   body and rosewood fingerboard. I decided I needed a more versatile 5er and a
@@ -81,7 +81,7 @@ Chiefly bass, also keyboards, guitar, electronic instruments.
   very old and battered, having gigged a lot and is retired pending a miracle
   of reworking!
 
-#### Guitars
+### Guitars
 
 * Shona: Epiphone SG G400-Pro. A classic  vintage tone, not like your brasher
   Gibson style, but a much more mid-60's sound. Really fast and easy to play,
@@ -121,7 +121,7 @@ li.myli {
   mahogany guitar with a sitka spruce top. It's a ridiculously good guitar,
   warm, articulate, the most morish acoustic I've ever owned.
 
-#### Drum Machines and Groove Boxen
+### Drum Machines and Groove Boxen
 
 * **Alesis SR-16 drum machine**: A drum machine from the early '90s that only
   ceased production in 2003! The reason is the excellent quantiser and the
@@ -139,7 +139,7 @@ li.myli {
   each other, the synergy between the modx and maschine will I hope be
   fruitful. Until then, its going to be my beatbox.
 
-#### Synthesizers
+### Synthesizers
 
 * **Yamaha Modx88** Polyphonic digital 88-key synthesizer. This was a very big
   purchase. I decided to merge two aims, a polyphonic synthesiser with a piano
@@ -166,7 +166,7 @@ li.myli {
   read/write patches to/from it in Linux and use Rosegarden without issues.
   It's quite loud, actually, I have to record carefully in Audacity.
 
-#### Production Gear
+### Production Gear
 
 * **Steinberg UR22 USB Audio Interface**: Great USB interface usable under Linux
   as well as windows/mac. The mono inputs can fool you with panning from
@@ -281,7 +281,7 @@ remember all those settings for that awesome patch you made.
 
 [1]: http://fxfloorboard.sourceforge.net/info.php?model=gt-10b "fxfloorboard"
 
-### Current work
+## Current work
 
 I've been writing semi-instrumental electronic music for some years, some of it is on
 [Soundcloud](http://soundcloud.com/penguinmusic) and I did a lot on tindeck
@@ -294,7 +294,7 @@ See also my [penguinmusic.bandcamp.com](penguinmusic.bandcamp.com), for which
 I hope to be writing more music in the coming year.
 
 
-### General fandom stuff
+## General fandom stuff
 
 The Beatles were my first great fandom which continues. I would probably count Talking Heads as my
 next big interest but I was just as interested in Split Enz, the Police, the Cure, Eno, and a number
