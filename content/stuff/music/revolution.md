@@ -45,6 +45,13 @@ light of some of MacDonald's pronouncements. The principal traps of projecting a
 moments of history combined with parasocial (in MacDonald's case) assumptions of personal interactions
 combine into some very unfortunate and damaging conclusions.
 
+And now, most recently, has come the amazing documentary *Get Back* by Peter Jackson, a sprawling 8 hour
+reexamination of the available source material of the original Let It Be movie sources, brought back to
+life with modern video and audio techniques to give us not only a completely new picture of the sessions,
+but actually a truer one than the original. As Jackson observed, the original was so invested with the
+break-up that the Beatles themselves believed several of the myths surrounding the sessions themselves
+and the surviving Beatles (and also Yoko) are as surprised as we are how wrong we were about this.
+
 ### You tell me it's the institution
 
 According to his obituaries, MacDonald was a pivotal figure in the musical criticism of the 1970's.
@@ -64,7 +71,7 @@ music succeeds because it recognizes it's own inherent prejudice and presents
 itself with the irreverence and humour that such a recognition involves.'
 </blockquote>
 
-which is a nice way of saying that McDonald is not only biased, but humourless about it. MacDonald
+Which is a nice way of saying that McDonald is not only biased, but humourless about it. MacDonald
 makes his remarks applicable within the strictly chronological sequence of recordings, allowing him
 to cover, for instance, the direction of an albums sessions, or (as we'll see) continue a series of
 pronouncements on a Beatles character. The problems begin with his musical analysis; meant to help
@@ -89,66 +96,95 @@ that his disappointment with Lennon the solo artist gets 'worked back' into Beat
 review for [123] *Across The Universe* has been noted by many as a failure to grasp the nature of
 the song (he praises the drone of [77] *Tomorrow Never Knows* yet *Across The Universe* has the same
 pedigree) and ends with a curt dismissal of this 'boring' song, in a manner that implies that Lennon
-was frequently boring post-Beatles. In my opinion the nadir of the book is [165] *The Long and
-Winding Road*. In full swing against Lennon, MacDonald actually accuses him of sabotaging the basic
-track, based on the original demo from *Anthology 3* and claims that Spector has covered up Lennon's
-mistakes on bass by drowning them out. MacDonald justifies this amazing charge by the claim that
-Lennon and Spector mastered the album without McCartney's consent, thus McCartney was "unable to fix
-it".  When you compare the *Anthology 3* track with the *Let It Be* version and the *Let It Be
-Naked* version, several things become apparent. According to an article on
-[Mixonline](http://mixonline.com/recording/interviews/audio_naked_truth_beatles/) the
-*Naked* version is in fact a later take: significantly, Lennon also plays bass on it. MacDonald in
-his fulminations never directly refers to this 31st January take (the day after the famous rooftop
-concert), so it is unclear whether his argument is really about preferring a worse version, as the
-comparison between the *Anthology* version and the *Naked* version (which can now be done by anyone)
-reveals not much difference at all. So it's odd, then, that he never applies it to *Let It Be*
-itself, on which Lennon also played bass *on the same Jan 31 session* to which MacDonald refers, nor
-does MacDonald acknowledge how relatively rare it was for Lennon to play bass at all (Harrison is
-much more in evidence on Beatles records as a stand-in bass player), and that these demos were made
-within the context of the long Get Back sessions. And beyond that, MacDonald's charge ignores the
-wide selection of mistakes, dodgy edits and adlibs throughout the Beatles recorded history, to
-which he refers more than once. A brief trawl through the excellent resource offered by
-[The Beatles Anomalies List](http://wgo.signal11.org.uk/wgo.htm) is evidence enough, but
-Emerick's memoir confirms that playing with "duff" notes on a session was a Beatles *game*, not a
-crime.
+was frequently boring post-Beatles. 
+
+In my opinion the nadir of the book is [165] *The Long and Winding Road*. In full swing against Lennon,
+MacDonald actually accuses him of sabotaging the basic track, based on the original demo from *Anthology
+3* and claims that Spector has covered up Lennon's mistakes on bass by drowning them out. MacDonald
+justifies this amazing charge by the claim that Lennon and Spector mastered the album without McCartney's
+consent, thus McCartney was "unable to fix it".  When you compare the *Anthology 3* track with the *Let
+It Be* version and the *Let It Be Naked* version, several things become apparent. According to an article
+on [Mixonline](http://mixonline.com/recording/interviews/audio_naked_truth_beatles/) the *Naked* version
+is in fact a later take: significantly, Lennon also plays bass on it. MacDonald in his fulminations never
+directly refers to this 31st January take (the day after the famous rooftop concert), so it is unclear
+whether his argument is really about preferring a worse version, as the comparison between the
+*Anthology* version and the *Naked* version (which can now be done by anyone) reveals not much difference
+at all. So it's odd, then, that he never applies it to *Let It Be* itself, on which Lennon also played
+bass *on the same Jan 31 session* to which MacDonald refers, nor does MacDonald acknowledge how
+relatively rare it was for Lennon to play bass at all (Harrison is much more in evidence on Beatles
+records as a stand-in bass player), and that these demos were made within the context of the long Get
+Back sessions. And beyond that, MacDonald's charge ignores the wide selection of mistakes, dodgy edits
+and adlibs throughout the Beatles recorded history, to which he refers more than once. A brief trawl
+through the excellent resource offered by [The Beatles Anomalies
+List](http://wgo.signal11.org.uk/wgo.htm) is evidence enough, but Emerick's memoir confirms that playing
+with "duff" notes on a session was a Beatles *game*, not a crime.
+
+It must be said here, that MacDonald did not at that time of writing have the benefit of even the
+freely-available software we have now that could split sources to demonstrate why he is wrong (and Peter
+Jackson and now Giles Martin has far superior software that absolutely does), was working in a cultural
+context that the rooftop concert was act of a band *in extremis* and not a contractual obligation to at
+least have some kind of concert footage to a deadline they had to make for a movie because they were
+going to lose Glyn Johns for a month anyway, *and* fully believed that John and Paul were at each others
+throats which we have absolute definitive proof that they were *not*. If anything, John was leading the
+band again, and they were all contributing with great energy helped greatly by the presence of Billy
+Preston. Hence they were continuing to record the day after the rooftop concert and that's why we get the
+filmed version of *The Long and Winding Road* and that version of it.
 
 So, a take never meant to be released and possibly preferred to a superior take was instead released
 with extra production and that is sabotage according to MacDonald. And all of this beside the simple
 fact that *all Beatles approved the mix*. To quote Peter Doggett, author of *You Never Give Me Your
 Money* from his [blog](http://peterdoggettbeatles.blogspot.com/2010/09/phil-spector-and-let-it-be.html):
 
->And it was Klein who suggested that Phil Spector, who had just produced John
->Lennon's 'Instant Karma' single in magnificent style, should be asked to go back through the January
->1969 tapes, and assemble a suitable soundtrack album for the movie. Despite what you've read
->elsewhere, all four Beatles authorised that decision.
->
->Spector set to work, mixing here, snipping tape there, and ultimately recruiting both Ringo
->Starr and an orchestra to work on several tracks - including McCartney's song, 'The Long And Winding
->Road'. Why wasn't Paul there at the session? Because both he and John were so sick of the project
->that they had agreed to let George and Ringo supervise what Spector was doing. So it's true that
->Paul McCartney didn't know what Phil Spector was planning to do to 'The Long And Winding Road' (i.e.
->add an orchestra and choir); but only because he had chosen not to get involved.
->
->When Spector's work was done, he rapidly assembled his mix of the Let It Be album, cut four
->acetate copies of the LP, and sent one apiece to each of the Beatles for their approval. The four
->musicians liaised with each other, and approved Spector's work. Only two weeks later, when the
->presses were already rolling, did Paul suddenly wake up and think, "Hang on a minute, I want to make
->some changes". But by then it was too late.
->
+>And it was Klein who suggested that Phil Spector, who had just produced John Lennon's 'Instant Karma'
+>single in magnificent style, should be asked to go back through the January 1969 tapes, and assemble a
+>suitable soundtrack album for the movie. Despite what you've read elsewhere, all four Beatles authorised
+>that decision.
+
+>Spector set to work, mixing here, snipping tape there, and ultimately recruiting both Ringo Starr and an
+>orchestra to work on several tracks - including McCartney's song, 'The Long And Winding Road'. Why
+>wasn't Paul there at the session? Because both he and John were so sick of the project that they had
+>agreed to let George and Ringo supervise what Spector was doing. So it's true that Paul McCartney didn't
+>know what Phil Spector was planning to do to 'The Long And Winding Road' (i.e.  add an orchestra and
+>choir); but only because he had chosen not to get involved.
+
+>When Spector's work was done, he rapidly assembled his mix of the Let It Be album, cut four acetate
+>copies of the LP, and sent one apiece to each of the Beatles for their approval. The four musicians
+>liaised with each other, and approved Spector's work. Only two weeks later, when the presses were
+>already rolling, did Paul suddenly wake up and think, "Hang on a minute, I want to make some changes".
+>But by then it was too late.
+
 >During the research for my book, I came across the original letter that Spector sent to the four
 >Beatles. Rather than the authoritarian rant I was expecting, his note turned out to be extremely
->friendly. *If there is anything you'd like done to the album, let me know and I'll be glad to help*,
->he wrote.  *Naturally little things are easy to change, big things might be a problem. If you wish,
->please call me about anything regarding the album tonight.* That's definitely the voice of
->compromise, rather than a control freak.
+>friendly. "If there is anything you'd like done to the album, let me know and I'll be glad to help", he
+>wrote.  "Naturally little things are easy to change, big things might be a problem. If you wish, please
+>call me about anything regarding the album tonight." That's definitely the voice of compromise, rather
+>than a control freak.
 
 Again, Emerick's memoir bears out this version of Spector's approach. But as a review of *Naked*
-plaintively asked, if the intention was to "fix" the record, why didn't they? Astonishingly, it is
-yet unfinished, as now we have McCartney's version, arguably no less biased than Spector's. The
-original album as prepared by Glyn Johns has never been released, its rejection (again, by all four
-Beatles) the catalyst for Spector's work.  Remember too, it was originally a soundtrack album, (the
-point of having the rooftop concert at all) and ironically many of the preferred takes for *Naked*
-are rooftop performances.
+plaintively asked, if the intention was to "fix" the record, why didn't they? Astonishingly, it is yet
+unfinished, as now we have McCartney's version, arguably no less biased than Spector's. The original
+album as prepared by Glyn Johns was never officially released until recently as part of the 50th
+anniversary (and then only the Japanese version I believe), its rejection (again, by all four Beatles)
+the catalyst for Spector's work.  Remember too, it was originally a soundtrack album, (the point of
+having the rooftop concert at all) and ironically many of the preferred takes for *Naked* are rooftop
+performances.
+
+The big mystery, as Peter Jackson alleges, and he has photographic and some documents as well, is what
+happened in February. Certainly the movie was done. Glyn Johns had gone to work on Steve Miller's album
+but somehow they got him back for a week and he mysteriously hung out at the Apple Studio for undisclosed
+reasons. Jackson believes he has photos from that period and thinks perhaps at least *Old Brown Shoe* may have
+been recorded then (this is very contentious, some believe Paul played the drums, because Ringo was in
+and out during this period on the movie set of *Magic Christian*, the reason why *Let It Be* had its
+deadline), and maybe other things were worked on like *I Want You (She's So Heavy)* which they had been
+working on in the last week of January. 
+
+My reason for including this information is to show that the *Let It Be* project should be seen in its
+proper place as part of a continuum that appears to have blended into the *Abbey Road* album but hadn't
+recognised itself as an entity until later. Having seen *Get Back* we can now recognise that the band
+was wobbling without a real sense of itself any more and actually regained their mojo through the course
+of the project and this is why we have *Abbey Road*. Without this very real victory, *Abbey Road* makes
+much less sense, and isn't that surprising to realize? MacDonald didn't have this luxury, and had to
+accept the emotional illogic of a triumphal final album out of nowhere.
 
 Despite this, *Revolution In The Head* goes some way to redressing the critical balance between
 Lennonism and McCartneyism. Yet MacDonald still fails to be objective because he robs John to pay
@@ -171,7 +207,10 @@ MacDonald characterizes Harrison as obstinate to an absurd degree; he is written
 grumpy third wheel to the Partnership. This is unfortunately in line with most Beatles criticism.
 *Reticent* is probably a more apt description of Harrison; while he freely discussed other aspects
 of the Beatles, his real thoughts on the Partnership were never drawn out to my knowledge outside of
-an understandable competitive envy, but also (often forgotten) a self-deprecating humour. 
+an understandable competitive envy, but also (often forgotten) a self-deprecating humour. Harrison worked
+hard and long on his songs, it took iterations of finding the right notes, which often tested the
+patience of the others but it didn't make him any less talented, he just did it by the hard way not by
+sudden inspiration.
 
 Harrison's recollections (as naturally subjective as they are) are a vital foil to the Partnership
 party line, and I find it significant that MacDonald ignores important contributions in this
@@ -210,24 +249,31 @@ disappointment with the Beatles' direction after Pepper. As he acknowledges, Abb
 terrible place to be creative in, both for its culture and its environment, and Emerick has similar
 issues with it and his personal involvement with the Beatles.
 
+I found both Emerick's and MacDonald's positions at this point rather curious with regard to the White
+Album itself, given most of the songs were written on guitars and fully demoed on guitars and only later
+were fleshed out in band arrangements, which was the difficult stage of proceedings. MacDonald is so
+seized by his formula of *random* he just wants to apply it where it obviously does not. Emerick's
+position is rather easier to understand, he didn't want to remain in a situation where I suspect he was
+being seen as part of the problem. Once Ken Scott came on board, there were no further issues, and I
+think that's telling.
+
 It is almost impossible to avoid making biographical judgements here: perhaps a better approach would
 involve an acknowledgement that the Beatles felt trapped by their fame and the necessity of artistic
-development, keeping in mind that few at this stage of rock history were ever faced with such an
-issue. Together with their belief in their abilities, this might have had an effect on their style
-of songwriting (whatever you think of their quality). MacDonald decides instead to largely blame
-Lennon and to some degree Harrison for this. But in fact, as we know, it is McCartney who begins to
-unravel the bands recording relationship by using Abbey Road as his personal studio from the time of
-*Sgt Pepper* onwards. The band were so huge that live performance was practically impossible and
-they wanted to explore the use of multitracking itself as a compositional method. Much later in the
-book, MacDonald introduces the chronology proper with a rant on modern recording techniques and
-computer-aided composition. It is easy to miss its import until you notice how he preferences
-particular issues of the Beatles recording career in the main chapters. The not-so-subtle inference
-is that by being relatively backward in technology compared to American studios, Beatle records
-gained by other forms of innovation (drum miking, ADT, etc). This may well have some truth in it; on
-the other hand, the Beatles happily changed studios when an 8-track was available, and used new
-technology like the Moog synthesizer. Although they were envious of American studio facilities they
-never seriously considered recording in America, but nevertheless made noises about it.  So this
-argument is merely self-serving, using the Beatles to confirm his bias. 
+development, keeping in mind that few at this stage of rock history were ever faced with such an issue.
+Together with their belief in their abilities, this might have had an effect on their style of
+songwriting (whatever you think of their quality). MacDonald decides instead to largely blame Lennon and
+to some degree Harrison for this. But we know it is McCartney who begins to unravel the bands recording
+relationship by beginning to use Abbey Road as his personal studio from the time of *Sgt Pepper* onwards.
+The band were so huge that live performance was practically impossible and they wanted to explore the use
+of multitracking itself as a compositional method. Much later in the book, MacDonald introduces the
+chronology proper with a rant on modern recording techniques and computer-aided composition. It is easy
+to miss its import until you notice how he preferences particular issues of the Beatles recording career
+in the main chapters. The not-so-subtle inference is that by being relatively backward in technology
+compared to American studios, Beatle records gained by other forms of innovation (drum miking, ADT, etc).
+This may well have some truth in it; on the other hand, the Beatles happily changed studios when an
+8-track was available, and used new technology like the Moog synthesizer. Although they were envious of
+American studio facilities they never seriously considered recording in America, but nevertheless made
+noises about it.  So this argument is merely self-serving, using the Beatles to confirm his bias. 
 
 ### You say you've got a real solution
 
