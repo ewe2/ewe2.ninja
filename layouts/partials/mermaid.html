@@ -1,0 +1,10 @@
+{{ $mermaid := resources.Get "js/mermaid.min.js" }}
+{{ $secureJS := $mermaid | resources.Fingerprint "sha512" }}                                        
+<script crossorigin= "anonymous" defer="defer" type="text/javascript" src="{{ $secureJS.Permalink }}" integrity="{{ $secureJS.Data.Integrity }}"></script>
+<script>
+	var config = {
+		startOnLoad: true,
+		securityLevel: 'loose',
+	};
+	mermaid.initialize(config);
+</script>
