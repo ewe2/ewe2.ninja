@@ -106,37 +106,13 @@ Active task               :active,  des2, 2014-01-09, 3d
 Future task               :         des3, after des2, 5d
 Future task2               :         des4, after des3, 5d
 
-
 {{</mermaid>}}
 
 ## git graph (experimental)
 
 This doesn't work too well within the contraints of my theme, and the computed svg cannot be controlled directly by design so it's not likely to be a popular variant despite there being a use case for it. It's better to generate an actual image in this case instead of on-the-fly-generation.
 
-{{<mermaid>}}
-gitGraph:
-options
-{
-  "nodeSpacing": 150,
-  "nodeRadius": 10,
-  "nodeLabel": {
-    "width":60,
-    "height":60
-  }
-}
-end
-commit
-branch newbranch
-checkout newbranch
-commit
-commit
-checkout master
-commit
-commit
-merge newbranch
-{{</mermaid>}}
-
-
+{{< ip "gitgraph.png" Fit "780x150" gitgraph >}}
 
 {{<rawhtml>}}
 <br>
