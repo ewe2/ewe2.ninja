@@ -1,5 +1,6 @@
 # for development, don't save the output
 public/
+.hugo_build.lock
 # backups
 *~
 *.bak
