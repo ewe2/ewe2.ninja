@@ -13,5 +13,5 @@
 {{ end }}
 {{ $image := .Scratch.Get "image" }}
 <figure style="padding: 0.25rem; margin: 2rem 0; background-color: #cccc">
-	<img alt="{{ $alt }}" style="max-width: 100%; width: auto; height: auto;" src="{{ $image.Permalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
+	<img alt="{{ $alt }}" style="max-width: 100%; width: auto; height: auto;" src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}">
 </figure>  

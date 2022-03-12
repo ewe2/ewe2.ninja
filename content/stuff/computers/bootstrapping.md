@@ -1,10 +1,10 @@
 ---
-title: "Bootstrapping"
-toc: true
 date: "2020-03-09"
 tags:
- - computers
- - computer science
+- computers
+- computer science
+title: Bootstrapping
+toc: true
 ---
 
 ### Introduction

@@ -1,10 +1,10 @@
 ---
-title: "The strange case of the ching in the unix"
 date: "2021-04-10"
-toc: true
 tags:
- - computers
- - unix
+- computers
+- unix
+title: The strange case of the ching in the unix
+toc: true
 ---
 
 

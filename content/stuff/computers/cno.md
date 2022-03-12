@@ -1,10 +1,10 @@
 ---
-title: "An Exploration Of Cno"
 date: "2020-03-09"
-toc: true
 tags:
- - computers
- - unix
+- computers
+- unix
+title: An Exploration Of Cno
+toc: true
 ---
 
 

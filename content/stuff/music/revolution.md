@@ -1,13 +1,13 @@
 ---
-title: "Revolution In The Head: An appraisal of Ian MacDonald's *Revolution in the Heart*"
+date: "2018-08-10"
 revision: 3
-date: '2018-08-10'
+tags:
+- music
+- criticism
+- essays
+title: 'Revolution In The Head: An appraisal of Ian MacDonald''s *Revolution in the
+  Heart*'
 toc: true
-tags: 
- - music
- - criticism
- - essays
-
 ---
 
 ### We all wanna change the world

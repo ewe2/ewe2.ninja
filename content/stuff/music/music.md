@@ -1,9 +1,9 @@
 ---
-title: "My Musical Journey"
-date: 2021-04-10
-toc:  true
+date: "2021-04-10"
 tags:
- - music
+- music
+title: My Musical Journey
+toc: true
 ---
 
 ### Bands

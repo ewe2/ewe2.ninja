@@ -1,10 +1,10 @@
 ---
-title: "Computers"
 date: "2021-04-10"
-toc: true
 tags:
- - computers
- - unix
+- computers
+- unix
+title: Computers
+toc: true
 ---
 
 ### The wonderful world of bits

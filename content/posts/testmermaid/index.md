@@ -1,10 +1,10 @@
 ---
-title: "testing mermaid"
-date: 2022-02-15
-toc: true
+date: "2022-02-15"
 tags:
-   - test
-   - mermaid
+- test
+- mermaid
+title: testing mermaid
+toc: true
 ---
 
 ## Implementation v1
@@ -123,7 +123,7 @@ Future task2               :         des4, after des3, 5d
 
 This doesn't work too well within the contraints of my theme, and the computed svg cannot be controlled directly by design so it's not likely to be a popular variant despite there being a use case for it. It's better to generate an actual image in this case instead of on-the-fly-generation.
 
-{{< ip "gitgraph.png" Fit "780x150" gitgraph >}}
+{{< ip "images/gitgraph.png" Fit "780x150" gitgraph >}}
 
 {{<rawhtml>}}
 

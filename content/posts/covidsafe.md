@@ -1,12 +1,12 @@
 ---
-title: "COVIDsafe is security theatre"
-date: 2020-05-01
-toc: true
+date: "2020-05-01"
 tags:
- - blogs
- - security
- - coronavirus
- - software
+- blogs
+- security
+- coronavirus
+- software
+title: COVIDsafe is security theatre
+toc: true
 ---
 
 ### Executive Summary

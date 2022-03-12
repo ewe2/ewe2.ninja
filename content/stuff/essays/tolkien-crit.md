@@ -1,11 +1,11 @@
 ---
-title: "Tolkien Criticism"
 date: "2018-08-10"
-toc: true
 tags:
- - essays
- - literature
- - criticism
+- essays
+- literature
+- criticism
+title: Tolkien Criticism
+toc: true
 ---
 
 ### The Literary Problem

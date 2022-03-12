@@ -1,10 +1,10 @@
 ---
-title: "SOE vs SIS"
 date: "2020-03-09"
-toc: true
 tags:
-  - essays
-  - history
+- essays
+- history
+title: SOE vs SIS
+toc: true
 ---
 
 

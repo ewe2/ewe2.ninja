@@ -1,8 +1,8 @@
 ---
-title: "Narrative vs Propaganda In Australian Politics"
 date: "2018-08-10"
 tags:
- - politics
+- politics
+title: Narrative vs Propaganda In Australian Politics
 ---
 
 This is a subject that seems as close to group psychology as it is to politics. What may be happening in Australian politics at this moment is that a significant amount of the public is realizing the emptiness of the sales job done by their politicians. It's doubtless not the whole story but what is fascinating is the inability of the political class (by which I mean both politicans and the mainstream media around them) to accept that there is a failure of communication at all in any way.

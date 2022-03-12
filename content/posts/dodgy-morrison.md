@@ -1,10 +1,11 @@
 ---
-title: "A Brief Timeline Of Scott Morrison Dodging Blame & Avoiding Responsibility In 2020"
-date: 2020-08-19
-author: "Cam Tyson"
+author: Cam Tyson
+date: "2020-08-19"
 tags:
- - blogs
- - politics
+- blogs
+- politics
+title: A Brief Timeline Of Scott Morrison Dodging Blame & Avoiding Responsibility
+  In 2020
 ---
  
 Original article [here](https://www.pedestrian.tv/news/scott-morrison-timeline-of-dodging-blame-2020/)  by Cam Tyson 

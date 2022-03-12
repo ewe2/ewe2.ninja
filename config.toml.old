@@ -1,3 +1,4 @@
+MetaDataFormat = "yaml"
 baseURL = "https:/ewe2.ninja/"
 languageCode = "en-au"
 title = "ewe2.ninja"

@@ -1,10 +1,10 @@
 ---
-title: "Beatlemania: A fan's journey"
 date: "2018-08-10"
-toc: true
 tags:
- - music
- - fandom
+- music
+- fandom
+title: 'Beatlemania: A fan''s journey'
+toc: true
 ---
 
 The short version, from an introduction on a forum:
