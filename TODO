@@ -9,3 +9,7 @@ have an imgproc shortcode for managing images for now but I'm very unhappy with 
 In a similar way, whatever taxonomy you decide upon, you're stuck with the resultant slug hierarchy. For me that means stuff/area/topic/index.html also requires directories to be explicitly made for images to be put there. There is a default way of doing this by getting hugo to create them with "hugo new" now, which is done from the base directory of the site.
 
 Any other images will need to be in the static area and referenced directly via the base structured html, the way this theme works. It's probably for the best, now that I understand. However it would still be worth doing some optional processing for image stuff in line with the changes to baseof.html that could/should be done so all that code and mermaid's could be bundled all together and then all image and css assets are sure to be relative to the hierarchy and processed according to the way hugo operates.
+
+- Actual Site notes
+  need to rewrite https://ewe2.ninja/stuff/computers/ching/#vax-ching-unix32v-1979 to https://ewe2.ninja/stuff/computers/ching/#bsd-ching-1979-1990-to properly tell the story of Ultrix-11 or V7M. It is the development of unix immediately after 32v that took the V7 ching binaries onto Vax as part of assembling a new disbribution that included BSD sources with the AT&T originals. 
+
