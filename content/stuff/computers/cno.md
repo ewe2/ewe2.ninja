@@ -1,6 +1,3 @@
-
-[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )
-
 ---
 date: "2020-03-09"
 tags:
@@ -375,3 +372,4 @@ programming to V7.
 
 This essay is a work in progress. 
 
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

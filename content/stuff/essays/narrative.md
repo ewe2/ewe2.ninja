@@ -1,6 +1,3 @@
-
-[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )
-
 ---
 date: "2018-08-10"
 tags:
@@ -111,3 +108,5 @@ pretend they run the economy like a household budget. These and other economic n
 to die if the country is to do positive things as a population. The electorate is tired of
 propaganda-as-narrative, but there seems no one to sell us a good narrative any more.
 Politicians are out of ideas, and so is the MSM. We live in interesting times.
+
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

@@ -1,6 +1,3 @@
-
-[comment]:# ( vim: set ts=4 sw=4 wrap et tw=95: )
-
 ---
 date: "2021-04-10"
 tags:
@@ -370,3 +367,4 @@ altered to remove the log file? Why and how was`cno`altered from the 32v executa
 Was there a reason for`cno`being stripped and `phx` not, or was that just an accident of
 circumstance?
 
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

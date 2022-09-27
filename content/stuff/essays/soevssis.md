@@ -1,6 +1,3 @@
-
-[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )
-
 ---
 date: "2020-03-09"
 tags:
@@ -61,3 +58,5 @@ the claim that Churchill let Coventry be attacked to protect intelligence source
 being *the* account of Ultra, it's flaws betray a definite attempt to minimise Intrepid's
 achievements. No surprise, because Intrepid was liaising with the Americans on SIS' behalf as
 well as SOE and the precursor to the CIA, OSS.
+
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

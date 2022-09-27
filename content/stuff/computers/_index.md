@@ -1,6 +1,3 @@
-
-[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )
-
 ---
 date: "2021-04-10"
 tags:
@@ -41,3 +38,6 @@ Past devices include:
 I became interested in computer history as a means of understanding the many layers of computer
 technology. When understood as an accretion of technologies, computers become more interesting
 and fun to learn about!
+
+
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

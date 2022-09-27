@@ -1,6 +1,4 @@
 
-[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )
-
 ---
 date: "2021-04-10"
 tags:
@@ -280,3 +278,4 @@ the 2000's I've actually had to go backwards in time to catch up with all the am
 in the electronic dance genres, to the point where I am now which is not having any idea but
 just going with what sounds good!
 
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

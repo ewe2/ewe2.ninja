@@ -1,6 +1,3 @@
-
-[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )
-
 ---
 date: "2018-08-10"
 tags:
@@ -328,3 +325,5 @@ or regurgitate the same dot-points over and over. What a bore.
 [^5]: Turner "Reasons for Liking Tolkien". Jenny Turner. LRB Ltd. Copyright © 2002
 
 [^6]: Jenkyns "Bored of the Rings". Richard Jenkyns. <a href="http://www.newrepublic.com">http://www.newrepublic.com</a> Copyright © 2002.
+
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

@@ -1,6 +1,4 @@
 
-[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )
-
 ---
 date: "2018-08-10"
 revision: 3
@@ -346,5 +344,4 @@ as opposed to the sincerity with which they covered rock 'n roll. That they chos
 own voice, however casual and simple it appears, is the mark of their originality as much as
 Dylan or Bowie or other contemporaries that MacDonald approves.
 
-
-
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

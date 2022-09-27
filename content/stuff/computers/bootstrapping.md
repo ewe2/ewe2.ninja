@@ -1,6 +1,3 @@
-
-[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )
-
 ---
 date: "2020-03-09"
 tags:
@@ -129,3 +126,5 @@ compiler consist of non-Turing-complete systems such as finite state machines.
 These concepts are vital to grasping the essential nature of computing: based on a logic-chain
 that uses the trick of metalanguage to reencode a larger problem into a more manageable
 problem.
+
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

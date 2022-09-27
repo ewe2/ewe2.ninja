@@ -81,3 +81,6 @@ similar things.
 
 So there's a description and explanation of my Beatlemania, long may it thrive! I hope it informs
 yours too, or may encourage you to explore their impact.
+
+
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )
