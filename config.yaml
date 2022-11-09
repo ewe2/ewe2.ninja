@@ -44,6 +44,8 @@ params:
       url: 'https://twitter.com/ewe2'
     - name: instagram
       url: 'https://www.instagram.com/pengguinmusic'
+    - name: mastodon
+      url: 'https://mastodon.social/@ewe2'
 menu:
   main:
     - name: posts
