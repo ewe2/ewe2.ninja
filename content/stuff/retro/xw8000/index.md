@@ -20,7 +20,7 @@ This is an ex-Defence machine, quietly handed down after decommissioning through
 
 ## Motherboard
 
-{{< ip "images/motherboard.jpg" Resize "375x" >}}
+![motherboard](motherboard.jpg)
 
 ## Specifications
 
@@ -65,8 +65,8 @@ For now I'm using an IDE HDD and not a SATA. I've had issues with the SATA drive
 
 From left to right: Front, back, side detail, motherboard detail
 
-{{< ip "images/IMG_20221127_173849_271.jpg" Resize "320x" >}}
-{{< ip "images/IMG_20221127_173613_360.jpg" Resize "320x" >}}
-{{< ip "images/IMG_20221127_173750_013.jpg" Resize "320x" >}}
-{{< ip "images/IMG_20221127_174324_593.jpg" Resize "320x" >}}
+![front](IMG_20221127_173849_271.jpg)
+![back](IMG_20221127_173613_360.jpg)
+![side detail](IMG_20221127_173750_013.jpg)
+![motherboard detail](IMG_20221127_174324_593.jpg)
 

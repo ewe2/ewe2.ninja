@@ -43,18 +43,18 @@ Ultimately the Valuepoint is a backburner 486 option I feel. I will probably hav
 
 Current inside view of this valuepoint:{{<rawhtml>}}<br/>{{</rawhtml>}}
 
-{{< ip "images/IMG_20221110_123752_103.jpg" Resize "320x" >}}
+![this valuepoint without strut](IMG_20221110_123752_103.jpg)
 View of an intact valuepoint for comparison:{{<rawhtml>}}<br/>{{</rawhtml>}}
 
-{{< ip "images/valuepoint-top.jpg" Resize "320x" >}}
+![intact valuepoint](valuepoint-top.jpg)
 
 Back and front of the valuepoint (front photo is from the ebay listing) :{{<rawhtml>}}<br/>{{</rawhtml>}}
 
-{{< ip "images/IMG_20221110_123841_960.jpg" Resize "320x" >}}
-{{< ip "images/ibm-valuepoint-front.jpg" Resize "320x" >}}
+![back](IMG_20221110_123841_960.jpg)
+![front](ibm-valuepoint-front.jpg)
 
 
 Interesting and useful diagram of important motherboard components on the inside of the cover:{{<rawhtml>}}<br/>{{</rawhtml>}}
 
-{{< ip "images/IMG_20221110_124010_524.jpg" Resize "640x" >}}
+![valuepoint diagram](IMG_20221110_124010_524.jpg)
 

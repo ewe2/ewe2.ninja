@@ -13,7 +13,7 @@ Another HP box, this one dating from June 2012 (the beginning of the warranty). 
 
 ## Motherboard
 
-{{< ip "images/c03348809.jpg" Fit "375x355" >}}
+![motherboard](c03348809.jpg)
 
 * MSI MS-7778 Jasmine Motherboard micro-ATX
 * Chipset: AMD A75 FCH 
@@ -86,7 +86,7 @@ Back I/O Ports:
 
 Back I/O Panel:
 
-{{< ip "images/c03348640.jpg" Fit "400x148" >}}
+![i/o panel](c03348640.jpg)
 
 
 1. USB 2.0: 2
@@ -107,10 +107,10 @@ Back I/O Panel:
 
 From left to right: front, back and internal view, closeup of internal view (viewed right-side up):
 
-{{< ip "images/IMG_20221127_174053_081.jpg"  Resize "320x" >}}
-{{< ip "images/IMG_20221127_174203_087.jpg"  Resize "320x" >}}
-{{< ip "images/IMG_20221127_174117_694.jpg"  Resize "320x" >}}
-{{< ip "images/IMG_20221127_174125_782.jpg"  Resize "320x" >}}
+![front](IMG_20221127_174053_081.jpg)
+![back](IMG_20221127_174203_087.jpg)
+![internal view](IMG_20221127_174117_694.jpg)
+![internal view closeup](IMG_20221127_174125_782.jpg)
 
 HP unit configuration string:{{<rawhtml>}}<br/>{{</rawhtml>}}
-{{< ip "images/IMG_20221128_172434_165.jpg" Resize "1980x"  >}}
+![hpconfiguration string](IMG_20221128_172434_165.jpg)

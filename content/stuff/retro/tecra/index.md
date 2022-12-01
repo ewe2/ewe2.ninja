@@ -33,10 +33,10 @@ The machine was given to me by a friend I met during a work for the dole program
 
 ## Photo Gallery
 
-{{< ip "images/IMG_20221120_164316_357.jpg" Fit "320x240" >}}
-{{< ip "images/IMG_20221120_163641_386.jpg" Fit "320x240" >}}
-{{< ip "images/IMG_20221120_163721_459.jpg" Fit "320x240" >}}
-{{< ip "images/IMG_20221120_163801_138.jpg" Fit "320x240" >}}
-{{< ip "images/IMG_20221120_164039_243.jpg" Fit "320x240" >}}
-{{< ip "images/IMG_20221120_163849_514a.jpg" Fit "320x240" >}}
-{{< ip "images/IMG_20221120_163956_376a.jpg" Fit "320x240" >}}
+![a](IMG_20221120_164316_357.jpg)
+![b](IMG_20221120_163641_386.jpg)
+![c](IMG_20221120_163721_459.jpg)
+![d](IMG_20221120_163801_138.jpg)
+![e](IMG_20221120_164039_243.jpg)
+![f](IMG_20221120_163849_514a.jpg)
+![g](IMG_20221120_163956_376a.jpg)
