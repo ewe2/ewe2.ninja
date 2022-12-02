@@ -1,5 +1,6 @@
 MetaDataFormat: yaml
 baseURL: 'https:/ewe2.ninja/'
+canonifyURLS: true
 languageCode: en-au
 title: ewe2.ninja
 theme: hermit

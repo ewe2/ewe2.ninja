@@ -33,10 +33,17 @@ The machine was given to me by a friend I met during a work for the dole program
 
 ## Photo Gallery
 
-![a](IMG_20221120_164316_357.jpg)
-![b](IMG_20221120_163641_386.jpg)
-![c](IMG_20221120_163721_459.jpg)
-![d](IMG_20221120_163801_138.jpg)
-![e](IMG_20221120_164039_243.jpg)
-![f](IMG_20221120_163849_514a.jpg)
-![g](IMG_20221120_163956_376a.jpg)
+{{< ip4 IMG_20221120_164316_357.jpg Resize "460x" "Tecra in case" >}}
+
+{{< ip4 IMG_20221120_163641_386.jpg Resize "460x" "Top of Tecra" >}}
+
+{{< ip4 IMG_20221120_163721_459.jpg Resize "460x" "Open Tecra" >}}
+
+{{< ip4 IMG_20221120_163801_138.jpg Resize "460x" "Right side PC card bay ">}}
+
+{{< ip4 IMG_20221120_164039_243.jpg Resize "460x" "Front HDD bay" >}}
+
+
+{{< ip4 IMG_20221120_163849_514a.jpg Resize "460x" "Rear IrDA PS/2 Multimeda and I/O Ports" >}}
+
+{{< ip4 IMG_20221120_163956_376a.jpg Resize "460x" >}}

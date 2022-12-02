@@ -9,13 +9,13 @@
 
 {{- /* This shortcode create img tag with lazy loading
 Params:
-- "src" : relative path of image in directory "static/images/"
+- "src" : relative path of image in current directory
 */ -}}
 {{- with .Get "src" }}
 {{- $src := . }}
-{{ with (imageConfig (printf "images/%s" . )) }}
+{{ with (imageConfig (printf "%s" . )) }}
 
-<img class="img-fluid" src="{{ printf " /images/%s" $src | absURL }}" alt="{{ $alt }}" width="{{.Width}}"
+<img class="img-fluid" src="{{ printf " %s" $src | absURL }}" alt="{{ $alt }}" width="{{.Width}}"
   height="{{.Height}}" loading="lazy" decoding="async">
 {{ end }}
 {{- else }}
