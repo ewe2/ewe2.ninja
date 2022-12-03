@@ -78,9 +78,9 @@ In summary, the contemporary critics complaints against the book are: too much t
 analysis, obscure criticism of minor details, and over-strenuous attempts to appear objective
 in order to find fault. As one review puts it: 
 
-<blockquote> What he fails to understand is that the best criticism of pop music succeeds
-because it recognizes it's own inherent prejudice and presents itself with the irreverence and
-humour that such a recognition involves.' </blockquote>
+>What he fails to understand is that the best criticism of pop music succeeds because it
+>recognizes it's own inherent prejudice and presents itself with the irreverence and humour
+>that such a recognition involves.
 
 Which is a nice way of saying that McDonald is not only biased, but humourless about it.
 MacDonald makes his remarks applicable within the strictly chronological sequence of
@@ -214,13 +214,10 @@ for such arguments, given McCartney's own biases. Of course, that dualism ignore
 contributions about which McDonald is often scathing, as mentioned already. In most cases, if
 it's not Indian-influenced, McDonald hates it. [66] *If I Needed Someone* sums up his attitude:
 
-
-<blockquote markdown="1">
-Like so many Harrison songs, *If I Needed Someone* has an
-obstinate quality which, combined with his preferences for aloof sentiments
-and dour progressions, renders it gauche beside McCartney's urbanity and
-anaemic next to the boldness of Lennon.
-</blockquote>
+>Like so many Harrison songs, *If I Needed Someone*  has an
+>obstinate quality which, combined with his preferences for aloof sentiments
+>and dour progressions, renders it gauche beside McCartney's urbanity and
+>anaemic next to the boldness of Lennon.
 
 MacDonald characterizes Harrison as obstinate to an absurd degree; he is written off as a kind
 of grumpy third wheel to the Partnership. This is unfortunately in line with most Beatles
