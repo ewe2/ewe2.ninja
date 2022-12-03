@@ -86,7 +86,7 @@ Back I/O Ports:
 
 Back I/O Panel:
 
-![i/o panel](c03348640.jpg)
+{{< ip4 "c03348640.jpg" Resize "500x" "I/O Panel" >}}
 
 
 1. USB 2.0: 2
@@ -105,12 +105,17 @@ Back I/O Panel:
 
 ## Photo Gallery
 
-From left to right: front, back and internal view, closeup of internal view (viewed right-side up):
+From top to bottom: front, back and internal view, closeup of internal view (viewed right-side up):
 
-![front](IMG_20221127_174053_081.jpg)
-![back](IMG_20221127_174203_087.jpg)
-![internal view](IMG_20221127_174117_694.jpg)
-![internal view closeup](IMG_20221127_174125_782.jpg)
+{{< ip4 "IMG_20221127_174053_081.jpg" Resize "800x" "Front" >}}
+
+{{< ip4 "IMG_20221127_174203_087.jpg" Resize "800x" "Back" >}}
+
+{{< ip4 "IMG_20221127_174117_694.jpg" Resize "x800" "Internal view" >}}
+
+{{< ip4 "IMG_20221127_174125_782.jpg" Resize "x800" "Internal view closeup" >}}
+
 
 HP unit configuration string:{{<rawhtml>}}<br/>{{</rawhtml>}}
-![hpconfiguration string](IMG_20221128_172434_165.jpg)
+
+{{< ip4 "IMG_20221128_172434_165.jpg" Resize "x800" "HP configuration string" >}}

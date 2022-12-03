@@ -3,7 +3,7 @@ date: "2022-11-30"
 tags:
 - computers
 - retro
-title: retro
+title: Retro
 toc: true
 ---
 

@@ -17,24 +17,24 @@ The original board is an MSI MS-6368 Micro-ATX Ver 5 supporting a VIA VT8601T ch
 
 Motherboard diagram:{{<rawhtml>}}<br/>{{</rawhtml>}}
 
-![motherboard diagram](ms-6368-v5-6140ffda53d0b148313610.gif)
+{{< ip4 "ms-6368-v5-6140ffda53d0b148313610.gif" Resize "800x" "Motherboard Diagram" >}}
 
 Original Motherboard:{{<rawhtml>}}<br/>{{</rawhtml>}}
 
-![original motherboard](ms-6368-v5-61ae4c1b69c66682029732.jpg)
+{{< ip4 "ms-6368-v5-61ae4c1b69c66682029732.jpg" Resize "800x" "Original Motherboard" >}}
 
 Replacement Motherboard:{{<rawhtml>}}<br/>{{</rawhtml>}}
 
 If you compare the photos, you'll see the LAN chip next to the main chipset and the taller stack next to the ATX power jack, indicating an RJ45 port.
 {{<rawhtml>}}<br/>{{</rawhtml>}}
 
-![replacement motherboard](msi-ms-6368-622a60f4c4c01862892685.jpg)
+{{< ip4 "msi-ms-6368-622a60f4c4c01862892685.jpg" Resize "800x" "Replacement Motherboard" >}}
 
 ## Processor
 
 Notice that no attempt was made to hide that there was no thermal paste.I suspect this may have been changed from the original. It might explain the lack of thermal paste (obviously previously adhesive paste on it), because there was no adhesive paste damage on the cooler as well. It also explains why they would put a relatively rare Celeron processor, a SL68P Tualatin 1.2 Ghz Celeron (worth far more than the box itself) in there, if they were getting a more expensive processor out (like a p3).:{{<rawhtml>}}<br/>{{</rawhtml>}}
 
-![Celeron](celeron-processor.jpg)
+{{< ip4 "celeron-processor.jpg" Resize "800x" "Celeron Tualatin" >}}
 
 ## Notes
 This board supports the kingly maximum of 1GB! The seller took pains to hide the true amount of RAM (presumably so he could minimize it because cheating customers is common on ebay) but it was just 2x256MB of mismatched brands.  Seller also claimed the psu works but nothing else did and took the heatsink off the processor and didn't reapply thermal paste.  I put in a temporary drive and replaced the RAM with 2x512mb RAM and did a quick POST which seemed to work. I then removed the heatsink and it was just as I suspected, no thermal paste. Unfortunately, in the process, I damaged the motherboard and now it will not POST, I mashed some tiny SMT components which are in a horribly designed place in front of the processor next to the RAM slots. Definitely a "setup outside of the box very carefully" design. Fortunately I can source a replacement motherboard that will have a integrated LAN and working VGA header.
@@ -45,8 +45,11 @@ I have a replacement 600Mhz Celeron coming, which might be better for some games
 
 Original listing photos, from left to right, front, back, internal view.
 
-![front](front.jpg)
-![back](back.jpg)
-![internal view](shit1.jpg)
+{{< ip4 "front.jpg" Resize "800x" "Front" >}}
+
+{{< ip4 "back.jpg" Resize "800x" "Back" >}}
+
+{{< ip4 "shit1.jpg" Resize "800x" "Internal View" >}}
+
 {{<rawhtml>}}<br/>{{</rawhtml>}}
 
