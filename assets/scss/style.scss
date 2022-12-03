@@ -541,6 +541,7 @@ hr.post-end {
   @include aTag;
 
   figure {
+    background-color: grey;
     max-width: 100%;
     height: auto;
     margin: 0;
@@ -568,6 +569,11 @@ hr.post-end {
   figure.big {
     max-width: 100vw;
   }
+
+figcaption {
+  background-color: grey;
+  color: #E8EEF2;
+}
 
   img {
     display: block;

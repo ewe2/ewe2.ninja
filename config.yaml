@@ -1,0 +1,66 @@
+MetaDataFormat: yaml
+baseURL: 'https:/ewe2.ninja/'
+canonifyURLS: true
+languageCode: en-au
+title: ewe2.ninja
+theme: hermit
+pluralizelisttitles: false
+pygmentsCodefences: true
+pygmentsUseClasses: true
+rssLimit: 10
+copyright: >-
+  This work is licensed under a Creative Commons Attribution-NonComercial 4.0
+  Ineternational License.
+enableEmoji: true
+paginate: 5
+author:
+  name: Sean Dwyer
+taxonomies:
+  tag: tags
+  categories: categories
+markup:
+  tableOfContents:
+    endLevel: 4
+    ordered: false
+    startLevel: 2
+params:
+  dateform: 02 Jan 2006
+  dateformShort: 03 Jan
+  dateformNum: '2006-01-02'
+  dateformNumTime: '2006-01-02 15:04'
+  description: ewe2.ninja
+  themeColor: '#494f5c'
+  homeSubtitle: mutant ninja penguin musician
+  footerCopyright: ' &#183; <a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+  bgImg: bg3.jpg
+  justifyContent: false
+  relatedPosts: false
+  code_copy_button: true
+  customCSS:
+    - css/code.css
+  social:
+    - name: github
+      url: 'https://github.com/ewe2'
+    - name: twitter
+      url: 'https://twitter.com/ewe2'
+    - name: instagram
+      url: 'https://www.instagram.com/pengguinmusic'
+    - name: mastodon
+      url: 'https://mastodon.social/@ewe2'
+menu:
+  main:
+    - name: posts
+      url: posts/
+      weight: 10
+    - name: stuff
+      url: stuff/
+      description: >-
+        Most things here are from previous sites and essays I want to keep
+        around
+      weight: 20
+    - name: tags
+      url: tags/
+      weight: 20
+    - name: about
+      url: about/
+      weight: 20

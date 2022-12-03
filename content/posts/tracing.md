@@ -1,14 +1,14 @@
 ---
-title: Tracing apps as a function of Federalism"
-date: 2021-08-13
-toc: true
+date: "2021-08-13"
 revision: 1
 tags:
- - blogs
- - security
- - coronavirus
- - software
- - australian politics
+- blogs
+- security
+- coronavirus
+- software
+- australian politics
+title: Tracing apps as a function of Federalism"
+toc: true
 ---
 
 ### Executive Summary

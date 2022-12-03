@@ -1,10 +1,10 @@
 ---
-title: "Essays and Random Thoughts"
 date: "2020-03-10"
-toc: true
 tags:
- - essays
- - landingpage
+- essays
+- landingpage
+title: Essays and Random Thoughts
+toc: true
 ---
 
 ### Bits and bobs

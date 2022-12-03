@@ -1,5 +1,8 @@
 # for development, don't save the output
+# ignore resources, hugo caching dir that isn't useful for history.
 public/
+resources/
+.hugo_build.lock
 # backups
 *~
 *.bak

@@ -1,10 +1,10 @@
 ---
-title: "Beatlemania: A fan's journey"
 date: "2018-08-10"
-toc: true
 tags:
- - music
- - fandom
+- music
+- fandom
+title: 'Beatlemania: A fan''s journey'
+toc: true
 ---
 
 The short version, from an introduction on a forum:
@@ -81,3 +81,6 @@ similar things.
 
 So there's a description and explanation of my Beatlemania, long may it thrive! I hope it informs
 yours too, or may encourage you to explore their impact.
+
+
+[comment]:# ( vim: set tw=95 ts=4 sw=4 wrap et: )

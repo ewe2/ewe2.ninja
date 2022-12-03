@@ -1,9 +1,9 @@
 ---
-title: "Hello again"
-date: 2020-03-11
-tags: 
-  - blogs
-  - introduction
+date: "2020-03-11"
+tags:
+- blogs
+- introduction
+title: Hello again
 ---
 This is essentially ewe2.ninja v2.0, since the original site was wiped from
 hosting and the original static site generator was sucuumbing to bitrot.
