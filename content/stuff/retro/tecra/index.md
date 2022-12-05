@@ -46,4 +46,4 @@ The machine was given to me by a friend I met during a work for the dole program
 
 {{< ip4 IMG_20221120_163849_514a.jpg Resize "460x" "Rear IrDA PS/2 Multimeda and I/O Ports" >}}
 
-{{< ip4 IMG_20221120_163956_376a.jpg Resize "460x" >}}
+{{< ip4 IMG_20221120_163956_376a.jpg Resize "460x" "Bottom, RAM bay visible and Battery pack">}}
