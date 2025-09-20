@@ -1,6 +1,9 @@
 ewe2.ninja
 ==========
 
+This version of the code on github is now archived and read-only. For new updates, please see
+[the new repository on Codeberg ](https://codeberg.org/ewe2/ewe2.ninja)
+
 Just a backup github repo of ongoing work on my personal site. It might be of
 some interest as a guide. It's basically a project to teach myself newer
 website technologies.
